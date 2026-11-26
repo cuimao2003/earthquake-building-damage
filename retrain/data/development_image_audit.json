@@ -1,0 +1,82 @@
+{
+  "train": {
+    "scenes": 130,
+    "sensor_pairs": {
+      "WORLDVIEW03_VNIR / WORLDVIEW02": 107,
+      "GEOEYE01 / WORLDVIEW02": 23
+    },
+    "metadata_fields": [
+      "gsd_pre",
+      "gsd_post",
+      "off_nadir_pre",
+      "off_nadir_post",
+      "sun_elevation_pre",
+      "sun_elevation_post"
+    ],
+    "sensor_metadata_per_scene_median": [
+      1.3783635,
+      2.6503215,
+      19.687696,
+      34.376244,
+      44.56758,
+      68.674
+    ],
+    "bbox_short_edge_px_percentiles_10_50_90": {
+      "0": [
+        12.258865426165062,
+        25.844470362000038,
+        52.558982226290254
+      ],
+      "1": [
+        15.639213800659588,
+        29.48999999840325,
+        58.246558456187906
+      ],
+      "2": [
+        9.750843958898884,
+        21.688497989615456,
+        49.38982935714103
+      ]
+    }
+  },
+  "val": {
+    "scenes": 27,
+    "sensor_pairs": {
+      "WORLDVIEW03_VNIR / WORLDVIEW02": 24,
+      "GEOEYE01 / WORLDVIEW02": 3
+    },
+    "metadata_fields": [
+      "gsd_pre",
+      "gsd_post",
+      "off_nadir_pre",
+      "off_nadir_post",
+      "sun_elevation_pre",
+      "sun_elevation_post"
+    ],
+    "sensor_metadata_per_scene_median": [
+      1.3783635,
+      2.6503215,
+      19.687696,
+      34.376244,
+      44.56758,
+      68.674
+    ],
+    "bbox_short_edge_px_percentiles_10_50_90": {
+      "0": [
+        13.931023097348156,
+        29.69593905082735,
+        57.43703670803786
+      ],
+      "1": [
+        19.88130276339359,
+        39.40306666019333,
+        56.986177435484926
+      ],
+      "2": [
+        17.788414124107295,
+        30.454626189166156,
+        99.75321966923667
+      ]
+    }
+  }
+}

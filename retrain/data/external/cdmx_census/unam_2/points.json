@@ -1,0 +1,7692 @@
+[
+  {
+    "attributes": {
+      "ObjectId": 1,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -102.77226810599996,
+      "y": 3.0161422970000444
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 2,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15417813399995,
+      "y": 19.40029629000003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 3,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.10420899999997,
+      "y": 19.247773003000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 4,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15484602699996,
+      "y": 19.376566301000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 5,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15581249999997,
+      "y": 19.380744003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 6,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15533999999997,
+      "y": 19.380663003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 7,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.11402999999996,
+      "y": 19.290152208000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 8,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 9,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15530399999994,
+      "y": 19.38060000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 10,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.11402999999996,
+      "y": 19.290152208000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 11,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15422550399995,
+      "y": 19.381844068000078
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 12,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15602399999995,
+      "y": 19.382166003000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 13,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15530399999994,
+      "y": 19.38060000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 14,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15431109899998,
+      "y": 19.38164540200006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 15,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15686999999997,
+      "y": 19.381878003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 16,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15605099999999,
+      "y": 19.38202200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 17,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15523199999996,
+      "y": 19.380636003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 18,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15426083399996,
+      "y": 19.381759524000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 19,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15424029199994,
+      "y": 19.381676264000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 20,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15430734699999,
+      "y": 19.381624146000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 21,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.05857599999996,
+      "y": 19.25068295600005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 22,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15623999999997,
+      "y": 19.38188700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 23,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16493399999996,
+      "y": 19.409898652000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 24,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14102380499997,
+      "y": 19.442073031000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 25,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15608249999997,
+      "y": 19.38188700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 26,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09152999999998,
+      "y": 19.447776003000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 27,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15686999999997,
+      "y": 19.38179700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 28,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15625349999999,
+      "y": 19.38179700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 29,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15689249999997,
+      "y": 19.38170700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 30,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15691049999998,
+      "y": 19.381626003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 31,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15693299999998,
+      "y": 19.381536003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 32,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.17688799999996,
+      "y": 19.411018652000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 33,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15349049999998,
+      "y": 19.381608003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 34,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15362099999999,
+      "y": 19.381554003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 35,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15351299999998,
+      "y": 19.381536003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 36,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16208699999999,
+      "y": 19.44697964900007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 37,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -103.74475049999995,
+      "y": 19.263699003000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 38,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15362999999996,
+      "y": 19.381473003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 39,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15482249999997,
+      "y": 19.38053700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 40,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.13201409899995,
+      "y": 19.416379478000067
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 41,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15474149999994,
+      "y": 19.380573003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 42,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15352199999995,
+      "y": 19.381464003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 43,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15461999999997,
+      "y": 19.38055500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 44,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15365249999996,
+      "y": 19.381383003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 45,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15455249999997,
+      "y": 19.380474003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 46,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15355349999999,
+      "y": 19.38132000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 47,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16248666199999,
+      "y": 19.42299050300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 48,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15366149999994,
+      "y": 19.38132000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 49,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15713283499997,
+      "y": 19.382023180000033
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 50,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15530399999994,
+      "y": 19.382085003000043
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 51,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15356249999996,
+      "y": 19.381248003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 52,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15710399999995,
+      "y": 19.381869003000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 53,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15630878399998,
+      "y": 19.414109241000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 54,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15611399999995,
+      "y": 19.381788003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 55,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16758511899997,
+      "y": 19.371242761000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 56,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15695099999999,
+      "y": 19.381446003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 57,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15367049999998,
+      "y": 19.381239003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 58,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14372299999997,
+      "y": 19.422809003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 59,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15703199999996,
+      "y": 19.381653003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 60,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15564149999994,
+      "y": 19.384353003000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 61,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12925518899999,
+      "y": 19.42197931800007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 62,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15699149999995,
+      "y": 19.38125700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 63,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15357149999994,
+      "y": 19.38118500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 64,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.17090693199998,
+      "y": 19.371733446000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 65,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15626249999997,
+      "y": 19.381716003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 66,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15563249999997,
+      "y": 19.384452003000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 67,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15369299999998,
+      "y": 19.381158003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 68,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13511494499994,
+      "y": 19.410093757000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 69,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15720299999998,
+      "y": 19.38170700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 70,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15706349999999,
+      "y": 19.381545003000042
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 71,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15358049999998,
+      "y": 19.381104003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 72,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15613199999996,
+      "y": 19.381680003000042
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 73,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15545249999997,
+      "y": 19.381905003000043
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 74,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15740099999994,
+      "y": 19.381356003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 75,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15712199999996,
+      "y": 19.38130200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 76,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13236282799994,
+      "y": 19.419843119000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 77,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15370199999995,
+      "y": 19.38107700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 78,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15532199999996,
+      "y": 19.381995003000043
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 79,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15701399999995,
+      "y": 19.381176003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 80,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15630299999998,
+      "y": 19.381608003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 81,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15740099999994,
+      "y": 19.381356003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 82,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15533099999999,
+      "y": 19.38188700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 83,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.17026199999998,
+      "y": 19.37117700300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 84,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17180749899995,
+      "y": 19.37205689700005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 85,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.13375275199996,
+      "y": 19.413112096000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 86,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15706349999999,
+      "y": 19.38107700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 87,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15614999999997,
+      "y": 19.381590003000042
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 88,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15405500599996,
+      "y": 19.400012059000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 89,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15981188199999,
+      "y": 19.378340559000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 90,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16541099999995,
+      "y": 19.39428900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 91,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15713999999997,
+      "y": 19.381086003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 92,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15632099999999,
+      "y": 19.38152700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 93,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15301802199997,
+      "y": 19.38160578800006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 94,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15436052399997,
+      "y": 19.399780187000033
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 95,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16672493899995,
+      "y": 19.370126137000057
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 96,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15708149999995,
+      "y": 19.38098700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 97,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15548399999994,
+      "y": 19.381770003000042
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 98,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15360299999998,
+      "y": 19.38103200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 99,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15720299999998,
+      "y": 19.38096000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 100,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15433906599998,
+      "y": 19.398636657000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 101,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16564049999994,
+      "y": 19.39464900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 102,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17460035299996,
+      "y": 19.37430456100003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 103,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15310349999999,
+      "y": 19.38152700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 104,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15536249999997,
+      "y": 19.381743003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 105,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15422104899994,
+      "y": 19.398909891000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 106,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15310349999999,
+      "y": 19.38152700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 107,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15371099999999,
+      "y": 19.380996003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 108,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15632999999997,
+      "y": 19.381428003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 109,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15551999999997,
+      "y": 19.381689003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 110,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15312149999994,
+      "y": 19.381428003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 111,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15361199999995,
+      "y": 19.380969003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 112,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15538049999998,
+      "y": 19.381653003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 113,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15373349999999,
+      "y": 19.380906003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 114,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15439271099996,
+      "y": 19.400498683000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 115,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15313049999997,
+      "y": 19.38134700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 116,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15362999999996,
+      "y": 19.380888003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 117,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15618149999995,
+      "y": 19.381500003000042
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 118,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15933149999995,
+      "y": 19.39288500300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 119,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15552101699996,
+      "y": 19.381573124000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 120,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15317099999999,
+      "y": 19.38116700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 121,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15373728799995,
+      "y": 19.38083739900003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 122,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 123,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15540299999998,
+      "y": 19.381563003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 124,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15620399999995,
+      "y": 19.38139200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 125,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15358804799996,
+      "y": 19.39960815200004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 126,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15996149999995,
+      "y": 19.391904003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 127,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15364349999999,
+      "y": 19.380816003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 128,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15321149999994,
+      "y": 19.381068003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 129,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15542099999999,
+      "y": 19.38148200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 130,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15936299999998,
+      "y": 19.39236300300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 131,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15622199999996,
+      "y": 19.381293003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 132,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15376049999998,
+      "y": 19.380744003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 133,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15936299999998,
+      "y": 19.39207500300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 134,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15321149999994,
+      "y": 19.380924003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 135,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15554249999997,
+      "y": 19.381464003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 136,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15365249999996,
+      "y": 19.380744003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 137,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15359877699996,
+      "y": 19.398717615000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 138,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15323399999994,
+      "y": 19.380978003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 139,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15544349999999,
+      "y": 19.38139200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 140,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15377399999994,
+      "y": 19.380663003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 141,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15638399999995,
+      "y": 19.381293003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 142,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15366149999994,
+      "y": 19.38067200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 143,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15326099999999,
+      "y": 19.38089700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 144,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15556049999998,
+      "y": 19.381374003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 145,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15341638699994,
+      "y": 19.398343184000055
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 146,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15624948099997,
+      "y": 19.381206160000033
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 147,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15328349999999,
+      "y": 19.38064500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 148,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15548399999994,
+      "y": 19.381284003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 149,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15443562599995,
+      "y": 19.39867713600006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 150,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15644249999997,
+      "y": 19.381104003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 151,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15332399999994,
+      "y": 19.38051000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 152,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15548399999994,
+      "y": 19.38121200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 153,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15445708399994,
+      "y": 19.398429202000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 154,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15335099999999,
+      "y": 19.38037500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 155,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15559199999996,
+      "y": 19.381284003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 156,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16001099999994,
+      "y": 19.391364003000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 157,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15627149999995,
+      "y": 19.38109500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 158,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15560999999997,
+      "y": 19.381176003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 159,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15378299999998,
+      "y": 19.38058200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 160,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15450293399994,
+      "y": 19.40015879400005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 161,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14638899999994,
+      "y": 19.415701651000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 162,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15550199999996,
+      "y": 19.38112200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 163,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15937199999996,
+      "y": 19.39198500300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 164,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15368399999994,
+      "y": 19.380609003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 165,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15650099999999,
+      "y": 19.38082500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 166,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15938099999994,
+      "y": 19.391787003000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 167,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15551099999999,
+      "y": 19.38103200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 168,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15380099999999,
+      "y": 19.38051000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 169,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15554249999997,
+      "y": 19.38094200300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 170,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15466093199996,
+      "y": 19.398444382000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 171,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15569099999999,
+      "y": 19.380798003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 172,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15369299999998,
+      "y": 19.38053700300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 173,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15631199999996,
+      "y": 19.38096000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 174,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15940349999994,
+      "y": 19.391544003000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 175,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15382349999999,
+      "y": 19.380384003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 176,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15634418699995,
+      "y": 19.38081831100004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 177,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15555149999994,
+      "y": 19.38087000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 178,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13377399999996,
+      "y": 19.34535000300008
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 179,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15557399999994,
+      "y": 19.38078000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 180,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15370199999995,
+      "y": 19.380456003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 181,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11553745499998,
+      "y": 19.26395078200005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 182,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15559735799997,
+      "y": 19.38077110100005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 183,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15448926999994,
+      "y": 19.398484861000043
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 184,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15572249999997,
+      "y": 19.38069000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 185,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15371999999996,
+      "y": 19.38039300300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 186,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.17539367899997,
+      "y": 19.417926410000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 187,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15368460699995,
+      "y": 19.398586058000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 188,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15454291399999,
+      "y": 19.39838366300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 189,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15495951399998,
+      "y": 19.401051020000068
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 190,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15924149999995,
+      "y": 19.39365900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 191,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15485222499996,
+      "y": 19.40052479900004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 192,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15486295399995,
+      "y": 19.400443842000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 193,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15503461499998,
+      "y": 19.399877140000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 194,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15988049999999,
+      "y": 19.392966003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 195,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15499169999998,
+      "y": 19.39952295100005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 196,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15518481899994,
+      "y": 19.398500857000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 197,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15525992099998,
+      "y": 19.400190850000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 198,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15553484699996,
+      "y": 19.400145312000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 199,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15551741299998,
+      "y": 19.400302167000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 200,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15977249999997,
+      "y": 19.39295700300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 201,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08320499999996,
+      "y": 19.24585600300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 202,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15974099999994,
+      "y": 19.391337003000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 203,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14157999999998,
+      "y": 19.440699650000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 204,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.08320599999996,
+      "y": 19.24590000300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 205,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12602599999997,
+      "y": 19.24827500300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 206,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09006499999998,
+      "y": 19.249460003000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 207,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16051049999999,
+      "y": 19.39146300300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 208,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16160778799997,
+      "y": 19.454355986000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 209,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.17343095499996,
+      "y": 19.37384855700003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 210,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.17343095499996,
+      "y": 19.37384855700003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 211,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16639199999997,
+      "y": 19.39449600300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 212,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.17343095499996,
+      "y": 19.37384855700003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 213,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.21117999999996,
+      "y": 19.33236693300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 214,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.21117999999996,
+      "y": 19.33236693300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 215,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.21117999999996,
+      "y": 19.33236693300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 216,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -90.59283576799999,
+      "y": 14.499754989000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 217,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17846099999997,
+      "y": 19.381104003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 218,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -90.59283576799999,
+      "y": 14.499754989000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 219,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16694326499999,
+      "y": 19.398900207000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 220,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.22508834599995,
+      "y": 21.34405272300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 221,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16912349999996,
+      "y": 19.37260800300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 222,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.09050651699994,
+      "y": 19.25848046300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 223,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12158999999997,
+      "y": 19.430658003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 224,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.09050651699994,
+      "y": 19.25848046300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 225,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -103.74631358699997,
+      "y": 19.26664192000004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 226,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -103.74628477599998,
+      "y": 19.266626778000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 227,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.10544007499999,
+      "y": 19.31541976500006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 228,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.11422899999997,
+      "y": 19.258184003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 229,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12920399999996,
+      "y": 19.25656900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 230,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08491899999996,
+      "y": 19.245162003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 231,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16426299899996,
+      "y": 19.392873003000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 232,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15851499999997,
+      "y": 19.415302651000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 233,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16579349999995,
+      "y": 19.39467600300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 234,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16595999999998,
+      "y": 19.394712003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 235,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.09893099999994,
+      "y": 19.232508003000078
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 236,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16613099999995,
+      "y": 19.394757003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 237,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09152999999998,
+      "y": 19.447776003000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 238,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07905348499997,
+      "y": 19.26109105100005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 239,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08993499999997,
+      "y": 19.246723003000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 240,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08454499999999,
+      "y": 19.24493900300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 241,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16629299999994,
+      "y": 19.39478400300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 242,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16648893599995,
+      "y": 19.393142432000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 243,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12887393399996,
+      "y": 19.261417386000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 244,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.07748439299996,
+      "y": 19.25921920600007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 245,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.07759168099994,
+      "y": 19.258799509000028
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 246,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16644149999996,
+      "y": 19.39469400300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 247,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16634249999998,
+      "y": 19.394298003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 248,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.08491699999996,
+      "y": 19.245175003000043
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 249,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16631099999995,
+      "y": 19.394145003000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 250,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16984349999996,
+      "y": 19.420497003000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 251,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16901984499998,
+      "y": 19.419622728000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 252,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09022699999997,
+      "y": 19.249163003000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 253,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13113399999997,
+      "y": 19.259136703000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 254,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12112904599996,
+      "y": 19.301970614000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 255,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12112904599996,
+      "y": 19.301970614000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 256,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16536149999996,
+      "y": 19.39300200300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 257,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16502399999996,
+      "y": 19.392939003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 258,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16494299999994,
+      "y": 19.39291200300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 259,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13097579999999,
+      "y": 19.256876460000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 260,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16469999999998,
+      "y": 19.39286700300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 261,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16525098299996,
+      "y": 19.393005867000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 262,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16527149999996,
+      "y": 19.392984003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 263,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.07845384999996,
+      "y": 19.260298342000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 264,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12379699999997,
+      "y": 19.249257003000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 265,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12171099999995,
+      "y": 19.249894003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 266,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07899715899998,
+      "y": 19.260106072000042
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 267,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15520598499995,
+      "y": 19.434834112000033
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 268,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08556899999996,
+      "y": 19.244866003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 269,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07879331099997,
+      "y": 19.260035173000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 270,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07897033599994,
+      "y": 19.25885521600003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 271,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08544099999995,
+      "y": 19.244536003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 272,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.07885768399996,
+      "y": 19.260379537000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 273,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12747999999999,
+      "y": 19.257091003000028
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 274,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16447049999994,
+      "y": 19.392834363000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 275,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16062299999999,
+      "y": 19.39241700300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 276,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16462349999995,
+      "y": 19.392849003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 277,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16455149999996,
+      "y": 19.39282200300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 278,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12840599999998,
+      "y": 19.261079003000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 279,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16545149999996,
+      "y": 19.393029003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 280,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.08509299999997,
+      "y": 19.246350003000032
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 281,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14072699999997,
+      "y": 19.44077765000003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 282,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.10599099999996,
+      "y": 19.25006900300008
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 283,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 284,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14076299999994,
+      "y": 19.440578650000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 285,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 286,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.10651199999995,
+      "y": 19.248183003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 287,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13453999999996,
+      "y": 19.444290077000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 288,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14030399999996,
+      "y": 19.44086365000004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 289,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08565299999998,
+      "y": 19.412892003000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 290,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14629299999996,
+      "y": 19.416065651000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 291,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.09686249999999,
+      "y": 19.415979003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 292,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08855099999994,
+      "y": 19.413072003000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 293,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14850499999994,
+      "y": 19.414416652000057
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 294,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14896349999998,
+      "y": 19.37863800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 295,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15226297799995,
+      "y": 19.379537970000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 296,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14890049999997,
+      "y": 19.378917003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 297,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15242697399998,
+      "y": 19.37933704900007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 298,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16420049999994,
+      "y": 19.373499003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 299,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16706249999999,
+      "y": 19.374579003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 300,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16703999999999,
+      "y": 19.37470500300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 301,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.18498149999999,
+      "y": 19.35082800300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 302,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12703049999999,
+      "y": 19.401435003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 303,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.18281771199997,
+      "y": 19.411485182000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 304,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13490216899999,
+      "y": 19.37838394000005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 305,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12374799999998,
+      "y": 19.327307658000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 306,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.13303349999995,
+      "y": 19.38663000300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 307,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12341249999997,
+      "y": 19.380996003000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 308,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.06037366199996,
+      "y": 19.392718285000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 309,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14691999999997,
+      "y": 19.354095003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 310,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.07457399999998,
+      "y": 19.40126400300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 311,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13058099999995,
+      "y": 19.395972003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 312,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12270142599999,
+      "y": 19.346724007000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 313,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12690842399996,
+      "y": 19.395513254000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 314,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.06820199999999,
+      "y": 19.40946300300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 315,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12270303499997,
+      "y": 19.346634465000022
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 316,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13868992299996,
+      "y": 19.32422734000005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 317,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13874356699995,
+      "y": 19.324247589000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 318,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17201670599997,
+      "y": 19.30701375900003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 319,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14162962399996,
+      "y": 19.317261615000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 320,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14162962399996,
+      "y": 19.317261615000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 321,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.14162962399996,
+      "y": 19.317261615000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 322,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.14162962399996,
+      "y": 19.317261615000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 323,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17876675899998,
+      "y": 19.305489712000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 324,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12109274999995,
+      "y": 19.402537503000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 325,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.14162962399996,
+      "y": 19.317261615000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 326,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.14143650499994,
+      "y": 19.317221115000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 327,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12739999999997,
+      "y": 19.39969030700007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 328,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12739999999997,
+      "y": 19.39969030700007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 329,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16861331499996,
+      "y": 19.307901883000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 330,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12739999999997,
+      "y": 19.39969030700007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 331,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12739999999997,
+      "y": 19.39969030700007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 332,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14171545499994,
+      "y": 19.317200866000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 333,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14171545499994,
+      "y": 19.317200866000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 334,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12739999999997,
+      "y": 19.39969030700007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 335,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12109274999995,
+      "y": 19.402537503000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 336,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14155452199998,
+      "y": 19.317322364000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 337,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12109274999995,
+      "y": 19.402537503000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 338,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16882227799994,
+      "y": 19.308285563000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 339,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.26771652999997,
+      "y": 19.324144113000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 340,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12739999999997,
+      "y": 19.39969030700007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 341,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14145796299994,
+      "y": 19.317251490000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 342,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17672931199996,
+      "y": 19.305770815000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 343,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14158670899997,
+      "y": 19.317271739000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 344,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12739999999997,
+      "y": 19.39969030700007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 345,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14154379399997,
+      "y": 19.317251490000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 346,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14154379399997,
+      "y": 19.317251490000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 347,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12359249999997,
+      "y": 19.370718003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 348,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13552125099994,
+      "y": 19.37423639900004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 349,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.11436509999999,
+      "y": 19.380278110000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 350,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.09132999999997,
+      "y": 19.35920679000003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 351,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.18032204799994,
+      "y": 19.372825286000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 352,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13743674999995,
+      "y": 19.358685003000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 353,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13655249999994,
+      "y": 19.368927003000067
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 354,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.11924042699997,
+      "y": 19.315856275000044
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 355,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16823918499995,
+      "y": 19.37128947800005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 356,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.02028149999995,
+      "y": 19.366605003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 357,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.11884882499999,
+      "y": 19.31674171900005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 358,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13878394399995,
+      "y": 19.436758113000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 359,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12194099999999,
+      "y": 19.379979003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 360,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07977676799999,
+      "y": 19.259103371000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 361,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08025956599994,
+      "y": 19.259249555000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 362,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08132171999995,
+      "y": 19.259224234000044
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 363,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.07897941399995,
+      "y": 19.26013957400005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 364,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12109274999995,
+      "y": 19.402537503000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 365,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12109274999995,
+      "y": 19.402537503000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 366,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12109274999995,
+      "y": 19.402537503000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 367,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16557299999994,
+      "y": 19.393596003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 368,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15681618199994,
+      "y": 19.42904732200003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 369,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15681618199994,
+      "y": 19.42904732200003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 370,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12464999999997,
+      "y": 19.41364800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 371,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09126099999997,
+      "y": 19.260434003000057
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 372,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12437999999997,
+      "y": 19.414287003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 373,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 374,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 375,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 376,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 377,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 378,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15454497799999,
+      "y": 19.439800473000048
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 379,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 380,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 381,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14141504799994,
+      "y": 19.317190741000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 382,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14113609799995,
+      "y": 19.315125264000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 383,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14994854599996,
+      "y": 19.31234978300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 384,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15052795399998,
+      "y": 19.30513888300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 385,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12153451399996,
+      "y": 19.327487360000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 386,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12153451399996,
+      "y": 19.327487360000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 387,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12167224899997,
+      "y": 19.32498806500007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 388,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14894099999998,
+      "y": 19.37876400300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 389,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.14888249999996,
+      "y": 19.379034003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 390,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08248049999997,
+      "y": 19.247058003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 391,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17425073099997,
+      "y": 19.40223703500004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 392,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.02249102099995,
+      "y": 19.192298352000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 393,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08248049999997,
+      "y": 19.247058003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 394,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.18301499099994,
+      "y": 19.303683668000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 395,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08248049999997,
+      "y": 19.247058003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 396,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08248049999997,
+      "y": 19.247058003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 397,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08248049999997,
+      "y": 19.247058003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 398,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08225519399997,
+      "y": 19.16908550900007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 399,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.11010656399998,
+      "y": 19.322153225000022
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 400,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11628637299998,
+      "y": 19.325372789000028
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 401,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11628637299998,
+      "y": 19.325372789000028
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 402,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16084431199994,
+      "y": 19.290247195000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 403,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.17729113199994,
+      "y": 19.437960976000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 404,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.06503892599994,
+      "y": 19.286310327000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 405,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15723623999997,
+      "y": 19.386558207000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 406,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07772369399999,
+      "y": 19.24812859700006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 407,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.06381099999999,
+      "y": 19.28960700300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 408,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.17295299999995,
+      "y": 19.40076900300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 409,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.05328099999997,
+      "y": 19.30937500300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 410,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.05579999999998,
+      "y": 19.298800003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 411,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.04307999999997,
+      "y": 19.30136400300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 412,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.04507699999999,
+      "y": 19.30109800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 413,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.06467899999996,
+      "y": 19.262573003000057
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 414,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.00942069999996,
+      "y": 19.25350220300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 415,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14670017199995,
+      "y": 19.32891524300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 416,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.01762499999995,
+      "y": 19.246398003000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 417,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14670017199995,
+      "y": 19.312088131000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 418,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.01412599999998,
+      "y": 19.257920003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 419,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12202366799994,
+      "y": 19.31504936300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 420,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04700613099999,
+      "y": 19.348297494000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 421,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04315049999997,
+      "y": 19.342080003000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 422,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12586699999997,
+      "y": 19.31933000300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 423,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12489699999998,
+      "y": 19.315284003000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 424,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12734999999998,
+      "y": 19.30602000300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 425,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13415699999996,
+      "y": 19.312909003000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 426,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.10960219999998,
+      "y": 19.316897803000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 427,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.04578711899995,
+      "y": 19.342636741000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 428,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12569999999994,
+      "y": 19.30858000300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 429,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12624899999997,
+      "y": 19.309568003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 430,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12624399999999,
+      "y": 19.309568003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 431,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12624899999997,
+      "y": 19.309568003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 432,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12282902099997,
+      "y": 19.343905094000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 433,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12172958999997,
+      "y": 19.34826946900006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 434,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13697456199998,
+      "y": 19.454660707000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 435,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12285520399996,
+      "y": 19.34320053600004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 436,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17329049999995,
+      "y": 19.402065003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 437,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17344349999996,
+      "y": 19.402749003000054
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 438,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17329049999995,
+      "y": 19.402065003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 439,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13593899999995,
+      "y": 19.450809003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 440,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12800899999996,
+      "y": 19.45749800300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 441,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12642399999999,
+      "y": 19.30891800300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 442,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08017999999998,
+      "y": 19.385870003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 443,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.07422999999994,
+      "y": 19.336586003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 444,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.05178199999995,
+      "y": 19.29117300300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 445,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.01672299999996,
+      "y": 19.193675003000067
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 446,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15077733799995,
+      "y": 19.37980020400005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 447,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14912099999998,
+      "y": 19.377963003000048
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 448,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.14687699999996,
+      "y": 19.454659003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 449,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14879249999996,
+      "y": 19.37890800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 450,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14879249999996,
+      "y": 19.37890800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 451,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13105819999998,
+      "y": 19.421755903000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 452,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14876099999998,
+      "y": 19.379034003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 453,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14888249999996,
+      "y": 19.379034003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 454,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14885099999998,
+      "y": 19.37863800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 455,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14885099999998,
+      "y": 19.37863800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 456,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14890049999997,
+      "y": 19.378917003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 457,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09741955799996,
+      "y": 19.38642420000002
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 458,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.09578529999999,
+      "y": 19.43505900300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 459,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.18177371799999,
+      "y": 19.39005247600005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 460,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09678498999995,
+      "y": 19.38703696600004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 461,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15095249999996,
+      "y": 19.37974500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 462,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04385249999996,
+      "y": 19.342098003000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 463,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15061049999997,
+      "y": 19.379682003000028
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 464,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15040349999998,
+      "y": 19.37964600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 465,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08847909699995,
+      "y": 19.44014276400003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 466,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14969249999996,
+      "y": 19.37952000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 467,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15227171599997,
+      "y": 19.380017159000033
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 468,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14929199999995,
+      "y": 19.379439003000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 469,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14989999999995,
+      "y": 19.379640077000033
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 470,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15052049999997,
+      "y": 19.37967300300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 471,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14853149999999,
+      "y": 19.379277003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 472,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14915249999996,
+      "y": 19.379394003000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 473,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.04462155699997,
+      "y": 19.33663510200006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 474,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15317099999999,
+      "y": 19.394667003000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 475,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14931345799994,
+      "y": 19.379459245000078
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 476,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17291249999994,
+      "y": 19.403037003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 477,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.18200005999995,
+      "y": 19.331369426000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 478,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14969249999996,
+      "y": 19.378125003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 479,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15000299999997,
+      "y": 19.378098003000048
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 480,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14898149999999,
+      "y": 19.379367003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 481,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14969249999996,
+      "y": 19.378125003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 482,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14969249999996,
+      "y": 19.37952000300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 483,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 484,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04558088099998,
+      "y": 19.38734424200004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 485,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15248121199994,
+      "y": 19.379102500000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 486,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08099299999998,
+      "y": 19.25823900300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 487,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08608799999996,
+      "y": 19.247120003000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 488,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15247722199996,
+      "y": 19.379118808000044
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 489,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08046699999994,
+      "y": 19.258670003000077
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 490,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05156099999999,
+      "y": 19.34310600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 491,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15245327899999,
+      "y": 19.379216658000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 492,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16623869399996,
+      "y": 19.393875440000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 493,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14987249999996,
+      "y": 19.378827003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 494,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08038599999998,
+      "y": 19.258897003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 495,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14867999999996,
+      "y": 19.378602003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 496,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15085349999998,
+      "y": 19.379736003000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 497,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.05331149999995,
+      "y": 19.343997003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 498,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15079049999997,
+      "y": 19.37971800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 499,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14936399999999,
+      "y": 19.378737003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 500,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15070049999997,
+      "y": 19.37971800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 501,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14878349999998,
+      "y": 19.37862900300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 502,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.05200199999996,
+      "y": 19.347552003000033
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 503,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14936399999999,
+      "y": 19.378737003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 504,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05570099999994,
+      "y": 19.253970003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 505,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 506,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05570099999994,
+      "y": 19.253970003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 507,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08063899999996,
+      "y": 19.258862003000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 508,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05570099999994,
+      "y": 19.253970003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 509,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05570099999994,
+      "y": 19.253970003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 510,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15175349999998,
+      "y": 19.386486003000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 511,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05165099999994,
+      "y": 19.34859600300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 512,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04674149999994,
+      "y": 19.348056003000067
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 513,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08025299999997,
+      "y": 19.25919000300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 514,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14997149999999,
+      "y": 19.378845003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 515,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.04665149999994,
+      "y": 19.348038003000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 516,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14969249999996,
+      "y": 19.378800003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 517,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14960249999996,
+      "y": 19.37877300300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 518,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15076349999998,
+      "y": 19.37899800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 519,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14858099999998,
+      "y": 19.37858400300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 520,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08025299999997,
+      "y": 19.25919000300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 521,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14860349999998,
+      "y": 19.37847600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 522,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16763399999996,
+      "y": 19.39509900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 523,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04534199999995,
+      "y": 19.34380800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 524,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15047099999998,
+      "y": 19.378944003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 525,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15056999999996,
+      "y": 19.378962003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 526,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15067349999998,
+      "y": 19.378980003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 527,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17949778899998,
+      "y": 19.47929375600006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 528,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14890049999997,
+      "y": 19.379389487000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 529,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04531049999997,
+      "y": 19.34344800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 530,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14875199999994,
+      "y": 19.37850300300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 531,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08119833899997,
+      "y": 19.25943693000005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 532,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15091897899998,
+      "y": 19.378091479000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 533,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15091897899998,
+      "y": 19.378091479000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 534,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14894099999998,
+      "y": 19.37876400300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 535,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15091897899998,
+      "y": 19.378091479000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 536,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.04544099999998,
+      "y": 19.35180000300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 537,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15091897899998,
+      "y": 19.378091479000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 538,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08017699999999,
+      "y": 19.258877003000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 539,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08017699999999,
+      "y": 19.258877003000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 540,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08017699999999,
+      "y": 19.258877003000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 541,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15091897899998,
+      "y": 19.378091479000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 542,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08017699999999,
+      "y": 19.258877003000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 543,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15119099999998,
+      "y": 19.37822400300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 544,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15056784399997,
+      "y": 19.379775549000044
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 545,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15107399999994,
+      "y": 19.37820600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 546,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15083999999996,
+      "y": 19.378170003000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 547,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12216149999995,
+      "y": 19.45693800300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 548,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15096149999994,
+      "y": 19.378188003000048
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 549,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15091897899998,
+      "y": 19.378091479000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 550,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14838621899997,
+      "y": 19.37908172500005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 551,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15024149999994,
+      "y": 19.378485003000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 552,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15022349999998,
+      "y": 19.379124003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 553,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14879249999996,
+      "y": 19.37890800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 554,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16621199999997,
+      "y": 19.393758003000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 555,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14830199999994,
+      "y": 19.397646003000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 556,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15018299999997,
+      "y": 19.37929500300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 557,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14970615799996,
+      "y": 19.381066327000042
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 558,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15110099999998,
+      "y": 19.379070003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 559,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14879249999996,
+      "y": 19.37890800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 560,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15035799999998,
+      "y": 19.37827300300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 561,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14899049999997,
+      "y": 19.37793600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 562,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.08142499999997,
+      "y": 19.258511003000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 563,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14894099999998,
+      "y": 19.37820600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 564,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15024999999997,
+      "y": 19.378301003000047
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 565,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.03517306599997,
+      "y": 19.352770650000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 566,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14896349999998,
+      "y": 19.378107003000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 567,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12345754999996,
+      "y": 19.456175218000055
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 568,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14890049999997,
+      "y": 19.378917003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 569,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.07900245099995,
+      "y": 19.260088625000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 570,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14890049999997,
+      "y": 19.37838600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 571,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08129065399999,
+      "y": 19.258124303000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 572,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12340476399999,
+      "y": 19.456068172000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 573,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.02973577599994,
+      "y": 19.35267747300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 574,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12340476399999,
+      "y": 19.456068172000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 575,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14876099999998,
+      "y": 19.379034003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 576,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14903099999998,
+      "y": 19.37838600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 577,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12340476399999,
+      "y": 19.456068172000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 578,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12340476399999,
+      "y": 19.456068172000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 579,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15016416899994,
+      "y": 19.379171409000037
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 580,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12340476399999,
+      "y": 19.456068172000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 581,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12340476399999,
+      "y": 19.456068172000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 582,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.08029799999997,
+      "y": 19.256597003000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 583,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05549577599999,
+      "y": 19.34494340400005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 584,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15044499999999,
+      "y": 19.37776400300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 585,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15104249999996,
+      "y": 19.37976300300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 586,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14888249999996,
+      "y": 19.379034003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 587,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.08093727399995,
+      "y": 19.25812510800006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 588,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15010799999999,
+      "y": 19.379445003000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 589,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -105.30124604099996,
+      "y": 25.535719714000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 590,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14905562699994,
+      "y": 19.378334177000056
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 591,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08041010199997,
+      "y": 19.256443322000052
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 592,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15031399999998,
+      "y": 19.378463003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 593,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15085349999998,
+      "y": 19.37901600300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 594,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15025799999995,
+      "y": 19.378747003000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 595,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12338885299994,
+      "y": 19.456074602000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 596,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14897249999996,
+      "y": 19.378017003000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 597,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14912099999998,
+      "y": 19.377963003000048
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 598,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12338885299994,
+      "y": 19.456074602000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 599,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12338885299994,
+      "y": 19.456074602000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 600,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14840999999996,
+      "y": 19.378692003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 601,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12338885299994,
+      "y": 19.456074602000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 602,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14912099999998,
+      "y": 19.377963003000048
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 603,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12338885299994,
+      "y": 19.456074602000058
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 604,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14946741199998,
+      "y": 19.37844908900007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 605,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14896349999998,
+      "y": 19.37863800300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 606,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14916001699999,
+      "y": 19.377760839000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 607,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16618049999994,
+      "y": 19.393623003000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 608,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16633718599996,
+      "y": 19.39376252200003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 609,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12381299999998,
+      "y": 19.432755003000068
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 610,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14883350999997,
+      "y": 19.379060066000022
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 611,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16609049999994,
+      "y": 19.393209003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 612,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16598321199996,
+      "y": 19.393117922000044
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 613,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08127814899996,
+      "y": 19.258914941000057
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 614,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16604099999995,
+      "y": 19.39295700300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 615,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 616,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16601399999996,
+      "y": 19.39284000300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 617,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 618,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16535249999998,
+      "y": 19.39338900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 619,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16528049999994,
+      "y": 19.39336200300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 620,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 621,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 622,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 623,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 624,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 625,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 626,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 627,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 628,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 629,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 630,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 631,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 632,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 633,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.07945490299994,
+      "y": 19.25978344400005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 634,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.99705300899996,
+      "y": 19.361809337000068
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 635,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.99689883499997,
+      "y": 19.362035768000055
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 636,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.99790466399998,
+      "y": 19.36202058500004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 637,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.99720579399997,
+      "y": 19.36223986600004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 638,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.99752374199994,
+      "y": 19.361429557000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 639,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.99893463199999,
+      "y": 19.366555196000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 640,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.99706002699997,
+      "y": 19.36225820800007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 641,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07887997599994,
+      "y": 19.260007974000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 642,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -98.99676971299999,
+      "y": 19.362175729000057
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 643,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.99737966899994,
+      "y": 19.363237774000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 644,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16502399999996,
+      "y": 19.39451400300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 645,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16518149999996,
+      "y": 19.39334400300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 646,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16509149999996,
+      "y": 19.393326003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 647,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16487999999998,
+      "y": 19.39448700300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 648,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16492049999994,
+      "y": 19.39329900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 649,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16476299999994,
+      "y": 19.393254003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 650,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16475399999996,
+      "y": 19.39446900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 651,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16462349999995,
+      "y": 19.394433003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 652,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16429049999994,
+      "y": 19.39437900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 653,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16402049999999,
+      "y": 19.39431600300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 654,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16466399999996,
+      "y": 19.393236003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 655,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16455149999996,
+      "y": 19.393218003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 656,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16445249999998,
+      "y": 19.39320000300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 657,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16426349999995,
+      "y": 19.39315500300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 658,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.10456999999997,
+      "y": 19.32124100300007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 659,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.98372349999994,
+      "y": 19.359927003000053
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 660,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16393319099996,
+      "y": 19.394249153000032
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 661,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16393319099996,
+      "y": 19.394249153000032
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 662,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15578059199999,
+      "y": 19.39629553800006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 663,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16087648499996,
+      "y": 19.290181999000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 664,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.13646536599998,
+      "y": 19.44605638400003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 665,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16393319099996,
+      "y": 19.394249153000032
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 666,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16395184799995,
+      "y": 19.394171028000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 667,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16400781699997,
+      "y": 19.39393665600005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 668,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16411975699998,
+      "y": 19.393467910000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 669,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16410109999998,
+      "y": 19.393546035000043
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 670,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14956022699994,
+      "y": 19.37872082900003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 671,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16426349999995,
+      "y": 19.393236003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 672,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16433099999995,
+      "y": 19.39324500300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 673,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16444349999995,
+      "y": 19.393263003000072
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 674,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16454249999998,
+      "y": 19.39329000300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 675,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15031799999997,
+      "y": 19.37846500300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 676,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14888586899997,
+      "y": 19.378602580000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 677,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15025499999996,
+      "y": 19.378012003000038
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 678,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15011099999998,
+      "y": 19.378919003000078
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 679,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13453997199997,
+      "y": 19.452526318000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 680,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15153999999995,
+      "y": 19.37825500300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 681,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 682,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 683,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15043599999996,
+      "y": 19.37834900300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 684,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 685,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 686,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14573743199998,
+      "y": 19.45494390500005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 687,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 688,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 689,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14519546299994,
+      "y": 19.45334622400003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 690,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.09436049999994,
+      "y": 19.441413003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 691,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43200065600007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 692,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43200065600007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 693,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14167251299995,
+      "y": 19.45273855000005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 694,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15024999999997,
+      "y": 19.378610003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 695,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 696,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14166659099999,
+      "y": 19.452966596000067
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 697,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.14363563399996,
+      "y": 19.45492778700003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 698,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13437956099995,
+      "y": 19.452755145000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 699,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 700,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 701,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 702,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.11770199999995,
+      "y": 19.43426700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 703,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.10443399999997,
+      "y": 19.441792003000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 704,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12419099999994,
+      "y": 19.43595900300005
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 705,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.12206249999997,
+      "y": 19.457208003000062
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 706,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12180536399995,
+      "y": 19.458114629000022
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 707,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.10052099999996,
+      "y": 19.446615003000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 708,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.10047149999997,
+      "y": 19.44441000300003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 709,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.09383399999996,
+      "y": 19.442610003000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 710,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.10505249999994,
+      "y": 19.438452003000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 711,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08903249999997,
+      "y": 19.445229003000065
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 712,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.05749300899998,
+      "y": 19.338631844000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 713,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 714,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16872785599998,
+      "y": 19.445178644000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 715,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13198544799997,
+      "y": 19.445613474000027
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 716,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13197149999996,
+      "y": 19.445616003000055
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 717,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.03209599999997,
+      "y": 19.28761600300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 718,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16523999999998,
+      "y": 19.418643003000057
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 719,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16581149999996,
+      "y": 19.409877003000076
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 720,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.16125838699998,
+      "y": 19.379439089000073
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 721,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.13639049999995,
+      "y": 19.43543700300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 722,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15620227499994,
+      "y": 19.395131056000025
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 723,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15623099999999,
+      "y": 19.39279500300006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 724,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.15627149999995,
+      "y": 19.392426003000026
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 725,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.15564149999994,
+      "y": 19.391049003000035
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 726,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 727,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 728,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 729,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 730,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 731,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 732,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.15277184100006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 733,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 734,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 16.89562796000007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 735,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16226289999997,
+      "y": 19.36471890300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 736,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.14111119999995,
+      "y": 19.364729003000036
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 737,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16226289999997,
+      "y": 19.36471890300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 738,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.16226289999997,
+      "y": 19.36471890300004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 739,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.16262281899998,
+      "y": 19.33386987500006
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 740,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 741,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.12003753899995,
+      "y": 19.435831946000064
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 742,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.08944413899997,
+      "y": 19.487531941000043
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 743,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.11137426299996,
+      "y": 19.439793692000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 744,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08601124599994,
+      "y": 19.493933662000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 745,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08601124599994,
+      "y": 19.49398423100007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 746,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08601124599994,
+      "y": 19.49398423100007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 747,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08601124599994,
+      "y": 19.49398423100007
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 748,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.08600051699995,
+      "y": 19.493923548000055
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 749,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.07150096499998,
+      "y": 19.185378368000045
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 750,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.15446064999998,
+      "y": 19.417053702000032
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 751,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14020153399997,
+      "y": 19.41556481600003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 752,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14020153399997,
+      "y": 19.41556481600003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 753,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.14020153399997,
+      "y": 19.41556481600003
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 754,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -98.83916263799995,
+      "y": 18.985912306000046
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 755,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13688999999994,
+      "y": 19.444014003000063
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 756,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.12867660099994,
+      "y": 19.44799753800004
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 757,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.13678888199996,
+      "y": 19.445691897000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 758,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.18527399999994,
+      "y": 19.464633003000074
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 759,
+      "field_25": "choice1"
+    },
+    "geometry": {
+      "x": -99.17691074999999,
+      "y": 19.430163003000075
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 760,
+      "field_25": "choice2"
+    },
+    "geometry": {
+      "x": -99.04600349999998,
+      "y": 19.489509003000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 761,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04480199999995,
+      "y": 19.489689003000024
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 762,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04612049999997,
+      "y": 19.489239003000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 763,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04662014799999,
+      "y": 19.489812964000066
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 764,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04398299999997,
+      "y": 19.489212003000034
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 765,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04624967899997,
+      "y": 19.489151681000067
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 766,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04517999999996,
+      "y": 19.489059003000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 767,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04487399999994,
+      "y": 19.489554003000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 768,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04163248199995,
+      "y": 19.488185088000023
+    }
+  },
+  {
+    "attributes": {
+      "ObjectId": 769,
+      "field_25": "choice0"
+    },
+    "geometry": {
+      "x": -99.04561199999995,
+      "y": 19.489779003000024
+    }
+  }
+]

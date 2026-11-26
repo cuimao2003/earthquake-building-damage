@@ -1,0 +1,63 @@
+{
+  "selected": {
+    "texture_weight": 0.0,
+    "thresholds": [
+      0.5789307177066786,
+      0.3998962402343752
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5345,
+          104,
+          50
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9642985935809593,
+      "macro_f1": 0.3475245850819501,
+      "damaged_macro_f1": 0.030379456608964808,
+      "balanced_accuracy": 0.3753496540730583,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9918352198923733,
+          "recall": 0.9719949081651209,
+          "f1": 0.9818148420279207,
+          "support": 5499,
+          "predicted": 5389
+        },
+        "minor": {
+          "precision": 0.018867924528301886,
+          "recall": 0.05405405405405406,
+          "f1": 0.027972027972027972,
+          "support": 37,
+          "predicted": 106
+        },
+        "major_or_destroyed": {
+          "precision": 0.0196078431372549,
+          "recall": 0.1,
+          "f1": 0.03278688524590164,
+          "support": 10,
+          "predicted": 51
+        }
+      }
+    }
+  },
+  "registration": "phase",
+  "transferred_encoder": true,
+  "encoder_checkpoint": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\mexico_morocco_finetune\\mexico_vit.pt"
+}

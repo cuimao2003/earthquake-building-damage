@@ -1,0 +1,20 @@
+{
+  "attempted": 24,
+  "accepted": 20,
+  "skipped": {
+    "no_catalog_pair": 4
+  },
+  "source_labels": "https://mapping.emergency.copernicus.eu/activations/EMSR695/",
+  "imagery": "Maxar Open Data ARD",
+  "counts_by_grade": {
+    "Destroyed": 10,
+    "Damaged": 10
+  },
+  "counts_by_aoi": {
+    "aoi01": 3,
+    "aoi02": 2,
+    "aoi03": 2,
+    "aoi07": 13
+  },
+  "roi": "centered_pilot24"
+}

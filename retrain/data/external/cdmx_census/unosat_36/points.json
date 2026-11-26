@@ -1,0 +1,872 @@
+[
+  {
+    "attributes": {
+      "OBJECTID": 1,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01642292165849,
+      "y": 19.257504477959344
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 2,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01441654461935,
+      "y": 19.258373810414163
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 3,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.012870952784,
+      "y": 19.258623282910946
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 4,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01154298652627,
+      "y": 19.257187236735724
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 5,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01079239834066,
+      "y": 19.256596043711593
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 6,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0129949191694,
+      "y": 19.257627699753204
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 7,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01170027393094,
+      "y": 19.254554743142698
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 8,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00974375638553,
+      "y": 19.252780650806645
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 9,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01280394972432,
+      "y": 19.253742948390148
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 10,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01238437143472,
+      "y": 19.253451067160213
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 11,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01107090436835,
+      "y": 19.25417164924542
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 12,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01178236539087,
+      "y": 19.255380219943735
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 13,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01274010124408,
+      "y": 19.252548058137506
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 14,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01153609002864,
+      "y": 19.253004122836824
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 15,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01667486810442,
+      "y": 19.249714626671167
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 16,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01587626517563,
+      "y": 19.250041338816132
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 17,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01542562606444,
+      "y": 19.24962128007506
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 18,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0144368797424,
+      "y": 19.250188538768203
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 19,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00892652441249,
+      "y": 19.249761300331887
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 20,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00823630430293,
+      "y": 19.24813670256786
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 21,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00802904724112,
+      "y": 19.248323398222922
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 22,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00802714569764,
+      "y": 19.248081053869797
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 23,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00744910952632,
+      "y": 19.24881526564266
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 24,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00762594283314,
+      "y": 19.248495732373378
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 25,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00715628917662,
+      "y": 19.248000271765473
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 26,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0072475579685,
+      "y": 19.248240822295234
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 27,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00700987928727,
+      "y": 19.247271442010458
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 28,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00783129802457,
+      "y": 19.247357608738792
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 29,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00775143836032,
+      "y": 19.247818962752227
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 30,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00819066853708,
+      "y": 19.247504812050018
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 31,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01318383497642,
+      "y": 19.247856660784596
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 32,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01317813081234,
+      "y": 19.24716911785077
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 33,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01380560384955,
+      "y": 19.247777673776998
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 34,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01448251390464,
+      "y": 19.247571231573275
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 35,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01472399579679,
+      "y": 19.247605340397943
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 36,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0153666810292,
+      "y": 19.247418643580268
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 37,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01762368279573,
+      "y": 19.24740069331321
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 38,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01720536787516,
+      "y": 19.246047142796026
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 39,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01644289302965,
+      "y": 19.246476186915615
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 40,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01598845028128,
+      "y": 19.246172804944457
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 41,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01470498233142,
+      "y": 19.246047142980952
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 42,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01404898744497,
+      "y": 19.24569170031243
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 43,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01308495978368,
+      "y": 19.246056119060295
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 44,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01310017238798,
+      "y": 19.245943024297606
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 45,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.013117285264,
+      "y": 19.24581915676227
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 46,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01316482117227,
+      "y": 19.245682724085984
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 47,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01312298866667,
+      "y": 19.245555266585477
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 48,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01246128996405,
+      "y": 19.24593045716066
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 49,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.012274949078,
+      "y": 19.24619075628255
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 50,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00895314372414,
+      "y": 19.24568631430581
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 51,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00899877914388,
+      "y": 19.24562168801142
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 52,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00895314367062,
+      "y": 19.24517648492261
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 53,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00876490153588,
+      "y": 19.245558856585408
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 54,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00641663108817,
+      "y": 19.24585146986052
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 55,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00893412952476,
+      "y": 19.24451047401304
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 56,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00949695389106,
+      "y": 19.244435076086244
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 57,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01061309637176,
+      "y": 19.244106556923146
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 58,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01279594236324,
+      "y": 19.24473487137571
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 59,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01278453409351,
+      "y": 19.24467922139047
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 60,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01332834378961,
+      "y": 19.244801292945407
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 61,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01568992478677,
+      "y": 19.244442256780918
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 62,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0158192217137,
+      "y": 19.24470973867816
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 63,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01712550821696,
+      "y": 19.245084930847785
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 64,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01744875069627,
+      "y": 19.24338488986319
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 65,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0173004400577,
+      "y": 19.243417203776406
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 66,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01437983743023,
+      "y": 19.24416220809511
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 67,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01477343361393,
+      "y": 19.24425376222623
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 68,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01405469163352,
+      "y": 19.244225039083492
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 69,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01412124159354,
+      "y": 19.243512349072812
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 70,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01392159078499,
+      "y": 19.24356081863797
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 71,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0139330003689,
+      "y": 19.243481831389087
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 72,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00897786316328,
+      "y": 19.24323229767933
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 73,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00756129493251,
+      "y": 19.243900109707756
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 74,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.0092611767323,
+      "y": 19.242643473077546
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 75,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.00955019428757,
+      "y": 19.24270989521507
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 76,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01227304752989,
+      "y": 19.243433360390267
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 77,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -99.01562907858093,
+      "y": 19.24319100855603
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 78,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99665231038843,
+      "y": 19.234199903149612
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 79,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99674335772515,
+      "y": 19.23384459267842
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 80,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99663454486273,
+      "y": 19.23344709083162
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 81,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99788478992794,
+      "y": 19.232654305833382
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 82,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99639915199973,
+      "y": 19.232145769291538
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 83,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99564967513496,
+      "y": 19.231865276406467
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 84,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99822321983481,
+      "y": 19.228394247013455
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 85,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99435072906383,
+      "y": 19.226649671603717
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 86,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.9956859138266,
+      "y": 19.23102554822022
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 87,
+      "Grouped_Da": "Damaged Buildings"
+    },
+    "geometry": {
+      "x": -98.99587956697978,
+      "y": 19.2314909935679
+    }
+  }
+]

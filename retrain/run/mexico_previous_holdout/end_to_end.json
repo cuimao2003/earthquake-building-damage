@@ -1,0 +1,70 @@
+{
+  "scenes": 34,
+  "localizer": "previous_regions",
+  "detection_iou_threshold": 0.5,
+  "box_f1": 0.2143431905049286,
+  "detection_precision": 0.17621764657239725,
+  "detection_recall": 0.2735207290463355,
+  "detection_counts": [
+    2131,
+    12093,
+    7791
+  ],
+  "classification": {
+    "matrix": [
+      [
+        2015,
+        3,
+        97
+      ],
+      [
+        12,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "unmatched_truth": [
+      5619,
+      13,
+      3
+    ],
+    "accuracy": 0.25946433170229205,
+    "macro_f1": 0.07134763826924438,
+    "damaged_macro_f1": 0.0,
+    "balanced_accuracy": 0.08684596155503836,
+    "classes": {
+      "no_damage": {
+        "precision": 0.18162970975301965,
+        "recall": 0.26053788466511507,
+        "f1": 0.21404291480773316,
+        "support": 7734,
+        "predicted": 11094
+      },
+      "minor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 27,
+        "predicted": 24
+      },
+      "major_or_destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5,
+        "predicted": 975
+      }
+    },
+    "unmatched_predictions": [
+      9065,
+      21,
+      876
+    ]
+  },
+  "example": "mexico-earthquake_00000091"
+}

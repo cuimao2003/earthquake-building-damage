@@ -1,0 +1,17 @@
+# 原实验环境：Python 3.8 + PyTorch 1.12.1 + CUDA 11.3（单卡）
+# 第一代与第二代流水线共用以下依赖
+
+numpy
+opencv-python
+Pillow
+shapely
+scikit-learn
+scipy
+joblib
+pyproj
+torch>=1.12
+torchvision>=0.13
+
+# 可选：部分数据准备 / 普查图层脚本使用 GDAL（osgeo）
+# pip 安装失败时可用 conda install -c conda-forge gdal
+# gdal

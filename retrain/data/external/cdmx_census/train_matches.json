@@ -1,0 +1,184 @@
+[
+  {
+    "chip": "mexico-earthquake_00000140",
+    "uid": "4a724607-dbbb-4303-a489-b87651f57244",
+    "bounds": [
+      641.3859532822255,
+      760.7865813062574,
+      670.6037336218319,
+      824.1078481025987
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "high_risk",
+    "census_id": 59
+  },
+  {
+    "chip": "mexico-earthquake_00000112",
+    "uid": "100d0ae0-2f06-46af-b20b-e917a2f04fdc",
+    "bounds": [
+      148.1746798559148,
+      134.7222310881843,
+      261.7539780616429,
+      240.9025047827069
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 158
+  },
+  {
+    "chip": "mexico-earthquake_00000112",
+    "uid": "bdd6fe09-9cb9-4c9f-9641-81c5c0b8075f",
+    "bounds": [
+      246.5021172356118,
+      871.1040698189701,
+      309.9468439756409,
+      932.0959023501388
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 161
+  },
+  {
+    "chip": "mexico-earthquake_00000128",
+    "uid": "f8e11a8b-86e4-4737-93b2-53e66f3fa010",
+    "bounds": [
+      180.6956980912988,
+      499.9086467604363,
+      239.7170625248209,
+      539.2562230493803
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 252
+  },
+  {
+    "chip": "mexico-earthquake_00000120",
+    "uid": "c9c5e7a8-5e23-4991-8e38-082a860beb38",
+    "bounds": [
+      245.5500000010682,
+      155.5163893134616,
+      288.7487410860577,
+      220.5658420103265
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 255
+  },
+  {
+    "chip": "mexico-earthquake_00000138",
+    "uid": "f19c9fe7-f6cb-47d4-8241-061af25c93b3",
+    "bounds": [
+      777.5364493438658,
+      654.1945227838744,
+      819.1886151212849,
+      706.7959028666767
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 623
+  },
+  {
+    "chip": "mexico-earthquake_00000129",
+    "uid": "0a698ce8-2d17-4f7d-8786-b186a80d7a28",
+    "bounds": [
+      27.41855137241436,
+      911.8688206241048,
+      191.9669767324129,
+      1022.977655534859
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 686
+  },
+  {
+    "chip": "mexico-earthquake_00000139",
+    "uid": "2e57f8b4-5060-48a1-9c2b-6e53964ab0e7",
+    "bounds": [
+      503.2452922743637,
+      748.2777887361495,
+      589.8427666352069,
+      777.7434228690973
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 724
+  },
+  {
+    "chip": "mexico-earthquake_00000129",
+    "uid": "a32a2580-306f-4ecc-ad3b-221f5cdda1b5",
+    "bounds": [
+      926.0000000020875,
+      70.00000000198749,
+      955.9999999990507,
+      151.0000000008656
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 810
+  },
+  {
+    "chip": "mexico-earthquake_00000059",
+    "uid": "e040373e-c221-4c24-a286-c29aeb651d2d",
+    "bounds": [
+      201.2358790250928,
+      55.09884662576358,
+      240.2800000039285,
+      109.9007741157181
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 1418
+  },
+  {
+    "chip": "mexico-earthquake_00000189",
+    "uid": "b70c0fd3-13fb-4dcd-aa12-b5054c76a367",
+    "bounds": [
+      197.1754628581588,
+      275.1105994080372,
+      240.4899999995248,
+      348.4099999999933
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 1423
+  },
+  {
+    "chip": "mexico-earthquake_00000189",
+    "uid": "0e2add37-330b-4693-9772-5bab696e3b8d",
+    "bounds": [
+      678.2817154121328,
+      736.588677051682,
+      798.6040959648298,
+      820.6148467995692
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 1541
+  },
+  {
+    "chip": "mexico-earthquake_00000078",
+    "uid": "edb3646e-7b64-4ae8-a7a8-18d5c2ac47f8",
+    "bounds": [
+      -7.214358336502274e-10,
+      721.3100000000112,
+      52.69000000078958,
+      796.5644733863077
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "medium_risk",
+    "census_id": 1585
+  },
+  {
+    "chip": "mexico-earthquake_00000078",
+    "uid": "f084cfe4-6ae1-41f3-9946-575644eadeca",
+    "bounds": [
+      82.4329740211943,
+      775.9070705559334,
+      169.2699999988286,
+      889.6461521632463
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "low_risk",
+    "census_id": 1592
+  }
+]

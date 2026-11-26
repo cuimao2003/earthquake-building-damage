@@ -1,0 +1,63 @@
+{
+  "thresholds": [
+    1.8934384121894907,
+    -2.3508989105224614
+  ],
+  "localizer": "swin_mix",
+  "validation": {
+    "matrix": [
+      [
+        3161,
+        6,
+        18
+      ],
+      [
+        26,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        2
+      ]
+    ],
+    "unmatched_truth": [
+      2314,
+      10,
+      5
+    ],
+    "accuracy": 0.570501262170934,
+    "macro_f1": 0.22412364197167053,
+    "damaged_macro_f1": 0.0625531914893617,
+    "balanced_accuracy": 0.2672862715415907,
+    "classes": {
+      "no_damage": {
+        "precision": 0.5222203865851643,
+        "recall": 0.574831787597745,
+        "f1": 0.5472645429362881,
+        "support": 5499,
+        "predicted": 6053
+      },
+      "minor": {
+        "precision": 0.07692307692307693,
+        "recall": 0.02702702702702703,
+        "f1": 0.04,
+        "support": 37,
+        "predicted": 13
+      },
+      "major_or_destroyed": {
+        "precision": 0.05405405405405406,
+        "recall": 0.2,
+        "f1": 0.0851063829787234,
+        "support": 10,
+        "predicted": 37
+      }
+    },
+    "unmatched_predictions": [
+      2863,
+      6,
+      17
+    ]
+  }
+}

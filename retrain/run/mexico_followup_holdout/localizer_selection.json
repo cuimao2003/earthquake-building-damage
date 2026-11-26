@@ -1,0 +1,29 @@
+{
+  "selected": "swin_mix",
+  "validation": {
+    "center": {
+      "matches": 2631,
+      "predicted": 7744,
+      "annotated": 5547,
+      "box_f1_iou_50": 0.39590700474004964
+    },
+    "footprint": {
+      "matches": 2020,
+      "predicted": 8889,
+      "annotated": 5547,
+      "box_f1_iou_50": 0.2798559157661402
+    },
+    "swin": {
+      "matches": 3238,
+      "predicted": 6482,
+      "annotated": 5547,
+      "box_f1_iou_50": 0.5383656164269681
+    },
+    "swin_mix": {
+      "matches": 3218,
+      "predicted": 6104,
+      "annotated": 5547,
+      "box_f1_iou_50": 0.5523989357136726
+    }
+  }
+}

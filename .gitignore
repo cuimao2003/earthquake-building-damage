@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 数据集、缓存与大文件（不随仓库发布）
+cache/
+*.npy
+*.npz
+*.tif
+*.tiff
+*.pth
+retrain/weights/
+retrain/tmp/
+tmp/
+
+# 数据集原始目录（仅保留清单与审计 JSON）
+retrain/data/original/
+retrain/data/mexico_patches/
+retrain/data/aligned_keypoint/
+retrain/data/center_targets/
+retrain/data/turkey/pre/
+retrain/data/turkey/post/
+retrain/data/turkey/labels/
+
+# 操作系统
+.DS_Store
+Thumbs.db

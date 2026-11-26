@@ -1,0 +1,19 @@
+{
+  "localizer": "swin_mix",
+  "predicted_buildings": 305,
+  "by_class": [
+    301,
+    1,
+    3
+  ],
+  "coordinate_frame": "pre_event",
+  "display_registration": [
+    0.0,
+    0.0,
+    0.11944602182484232
+  ],
+  "shape": [
+    1024,
+    1024
+  ]
+}

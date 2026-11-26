@@ -1,0 +1,77 @@
+{
+  "thresholds": [
+    0.6178734302520753,
+    0.46143805980683117
+  ],
+  "classification": {
+    "matrix": [
+      [
+        431,
+        39,
+        4
+      ],
+      [
+        64,
+        67,
+        17
+      ],
+      [
+        31,
+        31,
+        491
+      ]
+    ],
+    "unmatched_truth": [
+      103,
+      36,
+      118
+    ],
+    "accuracy": 0.6906424581005587,
+    "macro_f1": 0.5835721966968037,
+    "damaged_macro_f1": 0.5362552265951662,
+    "balanced_accuracy": 0.6142803906698989,
+    "classes": {
+      "A_no_visible_upper_damage": {
+        "precision": 0.6210374639769453,
+        "recall": 0.7469670710571924,
+        "f1": 0.6782061369000787,
+        "support": 577,
+        "predicted": 694
+      },
+      "B_partial": {
+        "precision": 0.3087557603686636,
+        "recall": 0.3641304347826087,
+        "f1": 0.3341645885286783,
+        "support": 184,
+        "predicted": 217
+      },
+      "C_collapsed": {
+        "precision": 0.7450682852807283,
+        "recall": 0.7317436661698957,
+        "f1": 0.7383458646616541,
+        "support": 671,
+        "predicted": 659
+      }
+    },
+    "unmatched_predictions": [
+      168,
+      80,
+      147
+    ]
+  },
+  "localization": {
+    "threshold": 0.24,
+    "scales": [
+      0.18
+    ],
+    "box_f1": 0.8273456574816882,
+    "matched": 1186,
+    "predicted": 1446,
+    "annotated": 1421
+  },
+  "box_f1": 0.7828114590273151,
+  "matched": 1175,
+  "predicted": 1570,
+  "annotated": 1432,
+  "scenes": 11
+}

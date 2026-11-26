@@ -1,0 +1,591 @@
+{
+  "thresholds": [
+    0.6178734302520753,
+    0.46143805980683117
+  ],
+  "validation": {
+    "matrix": [
+      [
+        479,
+        43,
+        5
+      ],
+      [
+        41,
+        96,
+        17
+      ],
+      [
+        21,
+        42,
+        442
+      ]
+    ],
+    "unmatched_truth": [
+      80,
+      35,
+      120
+    ],
+    "accuracy": 0.7156931738212526,
+    "macro_f1": 0.6541859141100795,
+    "damaged_macro_f1": 0.5993011997137637,
+    "balanced_accuracy": 0.6680877871045912,
+    "classes": {
+      "A_no_visible_upper_damage": {
+        "precision": 0.740340030911901,
+        "recall": 0.7891268533772653,
+        "f1": 0.7639553429027113,
+        "support": 607,
+        "predicted": 647
+      },
+      "B_partial": {
+        "precision": 0.41739130434782606,
+        "recall": 0.5079365079365079,
+        "f1": 0.45823389021479716,
+        "support": 189,
+        "predicted": 230
+      },
+      "C_collapsed": {
+        "precision": 0.7768014059753954,
+        "recall": 0.7072,
+        "f1": 0.7403685092127303,
+        "support": 625,
+        "predicted": 569
+      }
+    },
+    "unmatched_predictions": [
+      106,
+      49,
+      105
+    ]
+  },
+  "localization": {
+    "threshold": 0.24,
+    "scales": [
+      0.18
+    ],
+    "box_f1": 0.8273456574816882,
+    "matched": 1186,
+    "predicted": 1446,
+    "annotated": 1421
+  },
+  "localization_candidates": [
+    {
+      "threshold": 0.24,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.8273456574816882,
+      "matched": 1186,
+      "predicted": 1446,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.26,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.8263767099263416,
+      "matched": 1178,
+      "predicted": 1430,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.32,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.8247126436781609,
+      "matched": 1148,
+      "predicted": 1363,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.38,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.8247723132969035,
+      "matched": 1132,
+      "predicted": 1324,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.44,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.8222304011777696,
+      "matched": 1117,
+      "predicted": 1296,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.5,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.8148425787106447,
+      "matched": 1087,
+      "predicted": 1247,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.56,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.807151007987828,
+      "matched": 1061,
+      "predicted": 1208,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.62,
+      "scales": [
+        0.18
+      ],
+      "box_f1": 0.7995347033734005,
+      "matched": 1031,
+      "predicted": 1158,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.24,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.8020014295925662,
+      "matched": 1122,
+      "predicted": 1377,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.26,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.8041983351429606,
+      "matched": 1111,
+      "predicted": 1342,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.32,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.8040238450074516,
+      "matched": 1079,
+      "predicted": 1263,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.38,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.7977229601518027,
+      "matched": 1051,
+      "predicted": 1214,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.44,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.7933565083043647,
+      "matched": 1027,
+      "predicted": 1168,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.5,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.7812745869394178,
+      "matched": 993,
+      "predicted": 1121,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.56,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.7722534081796311,
+      "matched": 963,
+      "predicted": 1073,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.62,
+      "scales": [
+        0.14
+      ],
+      "box_f1": 0.7552275522755227,
+      "matched": 921,
+      "predicted": 1018,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.24,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.7823218997361477,
+      "matched": 1186,
+      "predicted": 1611,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.26,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.7846921797004992,
+      "matched": 1179,
+      "predicted": 1584,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.32,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.7902074124447467,
+      "matched": 1162,
+      "predicted": 1520,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.38,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.7942916811695092,
+      "matched": 1141,
+      "predicted": 1452,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.44,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.796891557753444,
+      "matched": 1128,
+      "predicted": 1410,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.5,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.7941386704789135,
+      "matched": 1111,
+      "predicted": 1377,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.56,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.7953639985512495,
+      "matched": 1098,
+      "predicted": 1340,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.62,
+      "scales": [
+        0.23
+      ],
+      "box_f1": 0.7947019867549668,
+      "matched": 1080,
+      "predicted": 1297,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.24,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.8079601990049752,
+      "matched": 1218,
+      "predicted": 1594,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.26,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.811371237458194,
+      "matched": 1213,
+      "predicted": 1569,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.32,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.8176795580110497,
+      "matched": 1184,
+      "predicted": 1475,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.38,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.8223314606741573,
+      "matched": 1171,
+      "predicted": 1427,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.44,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.8219373219373219,
+      "matched": 1154,
+      "predicted": 1387,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.5,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.8189717595944968,
+      "matched": 1131,
+      "predicted": 1341,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.56,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.8166421207658321,
+      "matched": 1109,
+      "predicted": 1295,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.62,
+      "scales": [
+        0.18,
+        0.14
+      ],
+      "box_f1": 0.8109733183013904,
+      "matched": 1079,
+      "predicted": 1240,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.24,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.7873015873015873,
+      "matched": 1240,
+      "predicted": 1729,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.26,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.78976,
+      "matched": 1234,
+      "predicted": 1704,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.32,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.7993431855500821,
+      "matched": 1217,
+      "predicted": 1624,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.38,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.8042967438737831,
+      "matched": 1198,
+      "predicted": 1558,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.44,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.80858310626703,
+      "matched": 1187,
+      "predicted": 1515,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.5,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.8078920041536864,
+      "matched": 1167,
+      "predicted": 1468,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.56,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.8081517919887562,
+      "matched": 1150,
+      "predicted": 1425,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.62,
+      "scales": [
+        0.18,
+        0.23
+      ],
+      "box_f1": 0.8095748481600572,
+      "matched": 1133,
+      "predicted": 1378,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.24,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.7722954336500153,
+      "matched": 1260,
+      "predicted": 1842,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.26,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.777330442861567,
+      "matched": 1255,
+      "predicted": 1808,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.32,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.7925617184995191,
+      "matched": 1236,
+      "predicted": 1698,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.38,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.800524934383202,
+      "matched": 1220,
+      "predicted": 1627,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.44,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.8069356452150717,
+      "matched": 1210,
+      "predicted": 1578,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.5,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.8074576271186441,
+      "matched": 1191,
+      "predicted": 1529,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.56,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.8088336783988958,
+      "matched": 1172,
+      "predicted": 1477,
+      "annotated": 1421
+    },
+    {
+      "threshold": 0.62,
+      "scales": [
+        0.18,
+        0.14,
+        0.23
+      ],
+      "box_f1": 0.8115128115128115,
+      "matched": 1156,
+      "predicted": 1428,
+      "annotated": 1421
+    }
+  ],
+  "box_f1": 0.8273456574816882,
+  "matched": 1186,
+  "predicted": 1446,
+  "annotated": 1421,
+  "scenes": 10
+}

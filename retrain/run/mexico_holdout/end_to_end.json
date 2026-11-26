@@ -1,0 +1,121 @@
+{
+  "scenes": 34,
+  "localizer": "center",
+  "detection_iou_threshold": 0.5,
+  "box_f1": 0.348551637279597,
+  "detection_precision": 0.2948069241011984,
+  "detection_recall": 0.4262610704659222,
+  "detection_counts": [
+    3321,
+    11265,
+    7791
+  ],
+  "classification": {
+    "matrix": [
+      [
+        3192,
+        92,
+        12
+      ],
+      [
+        12,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "unmatched_truth": [
+      4438,
+      14,
+      3
+    ],
+    "accuracy": 0.41115117177440125,
+    "macro_f1": 0.11624554323852009,
+    "damaged_macro_f1": 0.002967359050445104,
+    "balanced_accuracy": 0.14992002605139404,
+    "classes": {
+      "no_damage": {
+        "precision": 0.2931398659197355,
+        "recall": 0.4127230411171451,
+        "f1": 0.34280191161467005,
+        "support": 7734,
+        "predicted": 10889
+      },
+      "minor": {
+        "precision": 0.0032258064516129032,
+        "recall": 0.037037037037037035,
+        "f1": 0.005934718100890208,
+        "support": 27,
+        "predicted": 310
+      },
+      "major_or_destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5,
+        "predicted": 56
+      }
+    },
+    "unmatched_predictions": [
+      7683,
+      217,
+      44
+    ]
+  },
+  "example": "mexico-earthquake_00000091",
+  "given_human_boxes_diagnostic": {
+    "matrix": [
+      [
+        7662,
+        37,
+        35
+      ],
+      [
+        26,
+        0,
+        1
+      ],
+      [
+        5,
+        0,
+        0
+      ]
+    ],
+    "unmatched_truth": [
+      0,
+      0,
+      0
+    ],
+    "accuracy": 0.9866082925573011,
+    "macro_f1": 0.33110779801646467,
+    "damaged_macro_f1": 0.0,
+    "balanced_accuracy": 0.33023015257305405,
+    "classes": {
+      "no_damage": {
+        "precision": 0.9959703626673599,
+        "recall": 0.9906904577191621,
+        "f1": 0.993323394049394,
+        "support": 7734,
+        "predicted": 7693
+      },
+      "minor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 27,
+        "predicted": 37
+      },
+      "major_or_destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5,
+        "predicted": 36
+      }
+    }
+  }
+}

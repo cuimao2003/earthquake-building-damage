@@ -1,0 +1,355 @@
+{
+  "selected": {
+    "texture_weight": 0.0,
+    "thresholds": [
+      0.3215490827256738,
+      -2.2680729065517986
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5476,
+          8,
+          15
+        ],
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9877389109267941,
+      "macro_f1": 0.37892557876222455,
+      "damaged_macro_f1": 0.07142857142857142,
+      "balanced_accuracy": 0.3986058071164454,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9920289855072464,
+          "recall": 0.9958174213493363,
+          "f1": 0.9939195934295308,
+          "support": 5499,
+          "predicted": 5520
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 8
+        },
+        "major_or_destroyed": {
+          "precision": 0.1111111111111111,
+          "recall": 0.2,
+          "f1": 0.14285714285714285,
+          "support": 10,
+          "predicted": 18
+        }
+      }
+    }
+  },
+  "candidates": [
+    {
+      "texture_weight": 0.0,
+      "thresholds": [
+        0.3215490827256738,
+        -2.2680729065517986
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5476,
+            8,
+            15
+          ],
+          [
+            36,
+            0,
+            1
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9877389109267941,
+        "macro_f1": 0.37892557876222455,
+        "damaged_macro_f1": 0.07142857142857142,
+        "balanced_accuracy": 0.3986058071164454,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9920289855072464,
+            "recall": 0.9958174213493363,
+            "f1": 0.9939195934295308,
+            "support": 5499,
+            "predicted": 5520
+          },
+          "minor": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 37,
+            "predicted": 8
+          },
+          "major_or_destroyed": {
+            "precision": 0.1111111111111111,
+            "recall": 0.2,
+            "f1": 0.14285714285714285,
+            "support": 10,
+            "predicted": 18
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 0.2,
+      "thresholds": [
+        -0.3661553977565326,
+        -2.5472179401761577
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5473,
+            10,
+            16
+          ],
+          [
+            36,
+            0,
+            1
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9871979805265055,
+        "macro_f1": 0.3771922136244877,
+        "damaged_macro_f1": 0.06896551724137931,
+        "balanced_accuracy": 0.39842395587076435,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9920246510784847,
+            "recall": 0.9952718676122931,
+            "f1": 0.9936456063907044,
+            "support": 5499,
+            "predicted": 5517
+          },
+          "minor": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 37,
+            "predicted": 10
+          },
+          "major_or_destroyed": {
+            "precision": 0.10526315789473684,
+            "recall": 0.2,
+            "f1": 0.13793103448275862,
+            "support": 10,
+            "predicted": 19
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 0.4,
+      "thresholds": [
+        0.14756959371165998,
+        -2.517440856850067
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5474,
+            6,
+            19
+          ],
+          [
+            36,
+            0,
+            1
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9873782906599351,
+        "macro_f1": 0.3729123173277662,
+        "damaged_macro_f1": 0.0625,
+        "balanced_accuracy": 0.39848457295265804,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9920260964117433,
+            "recall": 0.9954537188579742,
+            "f1": 0.9937369519832986,
+            "support": 5499,
+            "predicted": 5518
+          },
+          "minor": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 37,
+            "predicted": 6
+          },
+          "major_or_destroyed": {
+            "precision": 0.09090909090909091,
+            "recall": 0.2,
+            "f1": 0.125,
+            "support": 10,
+            "predicted": 22
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 0.65,
+      "thresholds": [
+        -1.3148170349092634,
+        -3.6605030592906513
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5368,
+            28,
+            103
+          ],
+          [
+            34,
+            1,
+            2
+          ],
+          [
+            6,
+            0,
+            4
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9688063469166968,
+        "macro_f1": 0.3606173053694613,
+        "damaged_macro_f1": 0.04876496052966641,
+        "balanced_accuracy": 0.46773483794760384,
+        "classes": {
+          "no_damage": {
+            "precision": 0.992603550295858,
+            "recall": 0.9761774868157846,
+            "f1": 0.984321995049051,
+            "support": 5499,
+            "predicted": 5408
+          },
+          "minor": {
+            "precision": 0.034482758620689655,
+            "recall": 0.02702702702702703,
+            "f1": 0.030303030303030304,
+            "support": 37,
+            "predicted": 29
+          },
+          "major_or_destroyed": {
+            "precision": 0.03669724770642202,
+            "recall": 0.4,
+            "f1": 0.06722689075630252,
+            "support": 10,
+            "predicted": 109
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 1.0,
+      "thresholds": [
+        -0.7555922718760647,
+        -3.596737370760212
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5371,
+            20,
+            108
+          ],
+          [
+            35,
+            1,
+            1
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9689866570501262,
+        "macro_f1": 0.35062374157445547,
+        "damaged_macro_f1": 0.03377030493017954,
+        "balanced_accuracy": 0.40125002252661823,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9920576283708903,
+            "recall": 0.9767230405528278,
+            "f1": 0.9843306148630074,
+            "support": 5499,
+            "predicted": 5414
+          },
+          "minor": {
+            "precision": 0.047619047619047616,
+            "recall": 0.02702702702702703,
+            "f1": 0.034482758620689655,
+            "support": 37,
+            "predicted": 21
+          },
+          "major_or_destroyed": {
+            "precision": 0.018018018018018018,
+            "recall": 0.2,
+            "f1": 0.03305785123966942,
+            "support": 10,
+            "predicted": 111
+          }
+        }
+      }
+    }
+  ],
+  "scene_context": false,
+  "registration": "keypoint",
+  "transferred_encoder": true
+}

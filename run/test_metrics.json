@@ -1,0 +1,268 @@
+{
+  "tiles": 38,
+  "epoch": 1,
+  "thresholds": {
+    "footprint": 0.5,
+    "minor": 0.7,
+    "severe": 0.12
+  },
+  "inference": {
+    "views": 4,
+    "sigma": 5.0,
+    "normalize": true
+  },
+  "seconds": 39.8,
+  "pixel": {
+    "confusion": [
+      [
+        26234651,
+        2173442,
+        18531,
+        175953
+      ],
+      [
+        2445491,
+        8076130,
+        32679,
+        544974
+      ],
+      [
+        16900,
+        60239,
+        0,
+        7383
+      ],
+      [
+        16274,
+        30626,
+        0,
+        3209
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.9136754180534217,
+        "recall": 0.9172128441433791,
+        "f1": 0.9154407137999229,
+        "iou": 0.8440670099348024,
+        "support": 28602577,
+        "predicted": 28713316
+      },
+      "no-damage": {
+        "precision": 0.781024051498017,
+        "recall": 0.7276268700096962,
+        "f1": 0.7533804909963572,
+        "iou": 0.604338762192559,
+        "support": 11099274,
+        "predicted": 10340437
+      },
+      "minor-damage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 84522,
+        "predicted": 51210
+      },
+      "major-or-destroyed": {
+        "precision": 0.004386762339734169,
+        "recall": 0.06404039194555869,
+        "f1": 0.008211067157266628,
+        "iou": 0.004122458470309692,
+        "support": 50109,
+        "predicted": 731519
+      }
+    },
+    "accuracy": 0.8613709915448859,
+    "kappa": 0.6619898560607421,
+    "footprint": {
+      "f1": 0.783218875137982,
+      "iou": 0.6436809867730308,
+      "precision": 0.7871176246043617,
+      "recall": 0.7793585578656754
+    },
+    "any_damage": {
+      "f1": 0.0230923519665126,
+      "precision": 0.013532142031277748,
+      "recall": 0.0786743023523557
+    },
+    "building_macro_f1": 0.2538638527178746,
+    "damaged_macro_f1": 0.004105533578633314
+  },
+  "annotated_buildings": {
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1475,
+        9161,
+        44,
+        604
+      ],
+      [
+        5,
+        71,
+        0,
+        8
+      ],
+      [
+        3,
+        27,
+        0,
+        2
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 0,
+        "predicted": 1483
+      },
+      "no-damage": {
+        "precision": 0.9894157036397019,
+        "recall": 0.8118574973413684,
+        "f1": 0.8918853137321715,
+        "iou": 0.8048673343876296,
+        "support": 11284,
+        "predicted": 9259
+      },
+      "minor-damage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 84,
+        "predicted": 44
+      },
+      "major-or-destroyed": {
+        "precision": 0.003257328990228013,
+        "recall": 0.0625,
+        "f1": 0.006191950464396285,
+        "iou": 0.003105590062111801,
+        "support": 32,
+        "predicted": 614
+      }
+    },
+    "accuracy": 0.8037719298245614,
+    "kappa": -0.0017165460108966339,
+    "footprint": {
+      "f1": 0.9304311113196041,
+      "iou": 0.8699122807017544,
+      "precision": 1.0,
+      "recall": 0.8699122807017544
+    },
+    "any_damage": {
+      "f1": 0.025839793281653745,
+      "precision": 0.015197568389057751,
+      "recall": 0.08620689655172414
+    },
+    "building_macro_f1": 0.2993590880655226,
+    "damaged_macro_f1": 0.0030959752321981426
+  },
+  "same_footprints_all_intact_baseline": {
+    "confusion": [
+      [
+        26234651,
+        2367926,
+        0,
+        0
+      ],
+      [
+        2445491,
+        8653783,
+        0,
+        0
+      ],
+      [
+        16900,
+        67622,
+        0,
+        0
+      ],
+      [
+        16274,
+        33835,
+        0,
+        0
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.9136754180534217,
+        "recall": 0.9172128441433791,
+        "f1": 0.9154407137999229,
+        "iou": 0.8440670099348024,
+        "support": 28602577,
+        "predicted": 28713316
+      },
+      "no-damage": {
+        "precision": 0.7779963905959868,
+        "recall": 0.7796710847934739,
+        "f1": 0.7788328374381931,
+        "iou": 0.637777415996292,
+        "support": 11099274,
+        "predicted": 11123166
+      },
+      "minor-damage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 84522,
+        "predicted": 0
+      },
+      "major-or-destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 50109,
+        "predicted": 0
+      }
+    },
+    "accuracy": 0.875791039981894,
+    "kappa": 0.693071743430208,
+    "footprint": {
+      "f1": 0.783218875137982,
+      "iou": 0.6436809867730308,
+      "precision": 0.7871176246043617,
+      "recall": 0.7793585578656754
+    },
+    "any_damage": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "building_macro_f1": 0.25961094581273103,
+    "damaged_macro_f1": 0.0
+  },
+  "example_chips": [
+    "mexico-earthquake_00000058",
+    "mexico-earthquake_00000069"
+  ]
+}

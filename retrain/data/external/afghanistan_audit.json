@@ -1,0 +1,15 @@
+{
+  "source": "https://zenodo.org/records/11241134",
+  "tiles": 317,
+  "pixel_codes": {
+    "0": 80040464,
+    "1": 783572,
+    "2": 2275612
+  },
+  "retained_components": {
+    "1": 1059,
+    "2": 2830
+  },
+  "notes": "Only grades 1 and 2 are used as positives. Both dates use intensity because the pre-earthquake images are panchromatic.",
+  "rescale": 0.65
+}

@@ -1,0 +1,19 @@
+{
+  "shape": [
+    1024,
+    1024
+  ],
+  "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\damage_model.pt",
+  "classes": [
+    "background",
+    "no-damage",
+    "minor-damage",
+    "major-or-destroyed"
+  ],
+  "pixels": [
+    789157,
+    245279,
+    997,
+    13143
+  ]
+}

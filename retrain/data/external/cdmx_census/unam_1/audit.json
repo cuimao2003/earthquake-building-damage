@@ -1,0 +1,21 @@
+{
+  "source": "https://rmgir.proyectomesoamerica.org/server/rest/services/Trans_Sept_2018/BrigadasUNAM/MapServer/1",
+  "census_counts": {
+    "structural_damage": 178,
+    "no_structural_damage": 373,
+    "CHOICE2": 61
+  },
+  "match_exclusions": {
+    "no_containment": 549
+  },
+  "matched_roofs": 2,
+  "training_scenes": 2,
+  "survey_risk_by_xbd_class": {
+    "no_structural_damage": {
+      "no-damage": 1
+    },
+    "structural_damage": {
+      "no-damage": 1
+    }
+  }
+}

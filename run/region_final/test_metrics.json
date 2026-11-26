@@ -1,0 +1,277 @@
+{
+  "tiles": 38,
+  "epoch": 1,
+  "thresholds": {
+    "footprint": 0.5,
+    "minor": 0.45,
+    "severe": 0.12
+  },
+  "inference": {
+    "views": 4,
+    "sigma": 5.0,
+    "normalize": true
+  },
+  "seconds": 51.8,
+  "pixel": {
+    "confusion": [
+      [
+        26234651,
+        2148904,
+        20653,
+        198369
+      ],
+      [
+        2445491,
+        7727861,
+        46814,
+        879108
+      ],
+      [
+        16900,
+        58602,
+        52,
+        8968
+      ],
+      [
+        16274,
+        20412,
+        0,
+        13423
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.9136754180534217,
+        "recall": 0.9172128441433791,
+        "f1": 0.9154407137999229,
+        "iou": 0.8440670099348024,
+        "support": 28602577,
+        "predicted": 28713316
+      },
+      "no-damage": {
+        "precision": 0.7762186163433319,
+        "recall": 0.6962492321569861,
+        "f1": 0.7340623649819357,
+        "iou": 0.5798566569762033,
+        "support": 11099274,
+        "predicted": 9955779
+      },
+      "minor-damage": {
+        "precision": 0.0007701535863979028,
+        "recall": 0.0006152244386076998,
+        "f1": 0.0006840260192974263,
+        "iou": 0.00034213002256742265,
+        "support": 84522,
+        "predicted": 67519
+      },
+      "major-or-destroyed": {
+        "precision": 0.012204191775740362,
+        "recall": 0.26787603025404616,
+        "f1": 0.023344814722381403,
+        "iou": 0.011810261544985984,
+        "support": 50109,
+        "predicted": 1099868
+      }
+    },
+    "accuracy": 0.8528862312691166,
+    "kappa": 0.6436288355504715,
+    "footprint": {
+      "f1": 0.783218875137982,
+      "iou": 0.6436809867730308,
+      "precision": 0.7871176246043617,
+      "recall": 0.7793585578656754
+    },
+    "any_damage": {
+      "f1": 0.03447417777634411,
+      "precision": 0.019224987086544566,
+      "recall": 0.16670009136083072
+    },
+    "building_macro_f1": 0.25269706857453816,
+    "damaged_macro_f1": 0.012014420370839414
+  },
+  "annotated_buildings": {
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1475,
+        9006,
+        76,
+        727
+      ],
+      [
+        5,
+        67,
+        0,
+        12
+      ],
+      [
+        3,
+        28,
+        0,
+        1
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 0,
+        "predicted": 1483
+      },
+      "no-damage": {
+        "precision": 0.9895615866388309,
+        "recall": 0.7981212336051046,
+        "f1": 0.8835908756438557,
+        "iou": 0.7914579488531506,
+        "support": 11284,
+        "predicted": 9101
+      },
+      "minor-damage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 84,
+        "predicted": 76
+      },
+      "major-or-destroyed": {
+        "precision": 0.0013513513513513514,
+        "recall": 0.03125,
+        "f1": 0.0025906735751295338,
+        "iou": 0.0012970168612191958,
+        "support": 32,
+        "predicted": 740
+      }
+    },
+    "accuracy": 0.7900877192982456,
+    "kappa": -0.0016871401498379666,
+    "footprint": {
+      "f1": 0.9304311113196041,
+      "iou": 0.8699122807017544,
+      "precision": 1.0,
+      "recall": 0.8699122807017544
+    },
+    "any_damage": {
+      "f1": 0.027896995708154508,
+      "precision": 0.015931372549019607,
+      "recall": 0.11206896551724138
+    },
+    "building_macro_f1": 0.29539384973966176,
+    "damaged_macro_f1": 0.0012953367875647669
+  },
+  "same_footprints_all_intact_baseline": {
+    "confusion": [
+      [
+        26234651,
+        2367926,
+        0,
+        0
+      ],
+      [
+        2445491,
+        8653783,
+        0,
+        0
+      ],
+      [
+        16900,
+        67622,
+        0,
+        0
+      ],
+      [
+        16274,
+        33835,
+        0,
+        0
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.9136754180534217,
+        "recall": 0.9172128441433791,
+        "f1": 0.9154407137999229,
+        "iou": 0.8440670099348024,
+        "support": 28602577,
+        "predicted": 28713316
+      },
+      "no-damage": {
+        "precision": 0.7779963905959868,
+        "recall": 0.7796710847934739,
+        "f1": 0.7788328374381931,
+        "iou": 0.637777415996292,
+        "support": 11099274,
+        "predicted": 11123166
+      },
+      "minor-damage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 84522,
+        "predicted": 0
+      },
+      "major-or-destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 50109,
+        "predicted": 0
+      }
+    },
+    "accuracy": 0.875791039981894,
+    "kappa": 0.693071743430208,
+    "footprint": {
+      "f1": 0.783218875137982,
+      "iou": 0.6436809867730308,
+      "precision": 0.7871176246043617,
+      "recall": 0.7793585578656754
+    },
+    "any_damage": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "building_macro_f1": 0.25961094581273103,
+    "damaged_macro_f1": 0.0
+  },
+  "example_chips": [
+    "mexico-earthquake_00000058",
+    "mexico-earthquake_00000069"
+  ],
+  "dense_thresholds": {
+    "footprint": 0.5,
+    "minor": 0.7,
+    "severe": 0.12
+  },
+  "region_epoch": 1,
+  "region_blend": 0.3,
+  "region_harmonize": false,
+  "region_checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\region_final\\region_model.pt"
+}

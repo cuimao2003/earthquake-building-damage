@@ -1,0 +1,1282 @@
+{
+  "selected": {
+    "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\continued\\damage_best.pt",
+    "epoch": 1,
+    "focused": false,
+    "inference": {
+      "views": 4,
+      "sigma": 5.0,
+      "normalize": true
+    },
+    "thresholds": {
+      "footprint": 0.5,
+      "minor": 0.7,
+      "severe": 0.12
+    },
+    "validation": {
+      "confusion": [
+        [
+          14233434,
+          860149,
+          10607,
+          74163
+        ],
+        [
+          1169228,
+          3310106,
+          13619,
+          218646
+        ],
+        [
+          3301,
+          15044,
+          3609,
+          6446
+        ],
+        [
+          614,
+          2513,
+          0,
+          612
+        ]
+      ],
+      "class_order": [
+        "background",
+        "no-damage",
+        "minor-damage",
+        "major-or-destroyed"
+      ],
+      "classes": {
+        "background": {
+          "precision": 0.9238544032201312,
+          "recall": 0.9377456170639858,
+          "f1": 0.930748182192995,
+          "iou": 0.8704667756393666,
+          "support": 15178353,
+          "predicted": 15406577
+        },
+        "no-damage": {
+          "precision": 0.7904141828716285,
+          "recall": 0.7025440832294938,
+          "f1": 0.7438932756336346,
+          "iou": 0.5922213942520582,
+          "support": 4711599,
+          "predicted": 4187812
+        },
+        "minor-damage": {
+          "precision": 0.12965690677204958,
+          "recall": 0.12707746478873239,
+          "f1": 0.12835422779407843,
+          "iou": 0.06857826929654544,
+          "support": 28400,
+          "predicted": 27835
+        },
+        "major-or-destroyed": {
+          "precision": 0.0020409048011285004,
+          "recall": 0.16368012837657128,
+          "f1": 0.004031540878638762,
+          "iou": 0.002019841977068853,
+          "support": 3739,
+          "predicted": 299867
+        }
+      },
+      "accuracy": 0.8808192372979322,
+      "kappa": 0.6699350769716609,
+      "footprint": {
+        "f1": 0.7712491246593137,
+        "iou": 0.6276692372206656,
+        "precision": 0.7907394374150982,
+        "recall": 0.7526965022098606
+      },
+      "any_damage": {
+        "f1": 0.05928729633365848,
+        "precision": 0.032550915160725294,
+        "recall": 0.3319020504682784
+      },
+      "building_macro_f1": 0.29209301476878397,
+      "damaged_macro_f1": 0.0661928843363586
+    },
+    "selection_score": 0.24245694441709736
+  },
+  "candidates": [
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\damage_best.pt",
+      "epoch": 21,
+      "focused": false,
+      "inference": {
+        "views": 1,
+        "sigma": 0.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.75,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14171674,
+            972130,
+            9971,
+            24578
+          ],
+          [
+            1152652,
+            3454448,
+            21911,
+            82588
+          ],
+          [
+            3899,
+            17821,
+            2040,
+            4640
+          ],
+          [
+            788,
+            2314,
+            0,
+            637
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9245000966467966,
+            "recall": 0.9336766643917163,
+            "f1": 0.9290657213736512,
+            "iou": 0.8675282320455111,
+            "support": 15178353,
+            "predicted": 15329013
+          },
+          "no-damage": {
+            "precision": 0.7768542741571134,
+            "recall": 0.7331795426563253,
+            "f1": 0.7543853059384743,
+            "iou": 0.6056329533803751,
+            "support": 4711599,
+            "predicted": 4446713
+          },
+          "minor-damage": {
+            "precision": 0.060137963563469135,
+            "recall": 0.07183098591549296,
+            "f1": 0.06546644844517185,
+            "iou": 0.0338409475465313,
+            "support": 28400,
+            "predicted": 33922
+          },
+          "major-or-destroyed": {
+            "precision": 0.005665092535773681,
+            "recall": 0.17036640813051618,
+            "f1": 0.010965554044516362,
+            "iou": 0.00551300359167424,
+            "support": 3739,
+            "predicted": 112443
+          }
+        },
+        "accuracy": 0.8848869829979192,
+        "kappa": 0.6811069932155834,
+        "footprint": {
+          "f1": 0.7682274128568026,
+          "iou": 0.6236763351249135,
+          "precision": 0.7808269313083732,
+          "recall": 0.7560280521394731
+        },
+        "any_damage": {
+          "f1": 0.08198135616008605,
+          "precision": 0.04999145970689714,
+          "recall": 0.2276673200784094
+        },
+        "building_macro_f1": 0.2769391028093875,
+        "damaged_macro_f1": 0.03821600124484411
+      },
+      "selection_score": 0.22071885414783374
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\damage_best.pt",
+      "epoch": 21,
+      "focused": false,
+      "inference": {
+        "views": 4,
+        "sigma": 0.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.6,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14213860,
+            921304,
+            12065,
+            31124
+          ],
+          [
+            1157631,
+            3435695,
+            23338,
+            94935
+          ],
+          [
+            4540,
+            17312,
+            2466,
+            4082
+          ],
+          [
+            742,
+            2315,
+            0,
+            682
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9243721033015184,
+            "recall": 0.9364560173294164,
+            "f1": 0.930374824832992,
+            "iou": 0.8698138810053028,
+            "support": 15178353,
+            "predicted": 15376773
+          },
+          "no-damage": {
+            "precision": 0.7850099597269677,
+            "recall": 0.7291993652261154,
+            "f1": 0.7560761314778188,
+            "iou": 0.6078154383966118,
+            "support": 4711599,
+            "predicted": 4376626
+          },
+          "minor-damage": {
+            "precision": 0.06511922680820724,
+            "recall": 0.08683098591549296,
+            "f1": 0.07442393879491165,
+            "iou": 0.03865022020908108,
+            "support": 28400,
+            "predicted": 37869
+          },
+          "major-or-destroyed": {
+            "precision": 0.005213150592785672,
+            "recall": 0.182401711687617,
+            "f1": 0.010136591311068503,
+            "iou": 0.00509411413205856,
+            "support": 3739,
+            "predicted": 130823
+          }
+        },
+        "accuracy": 0.8860868570472848,
+        "kappa": 0.6835587772778364,
+        "footprint": {
+          "f1": 0.7709771584970528,
+          "iou": 0.6273090559930038,
+          "precision": 0.7878051656671766,
+          "recall": 0.7548530294042377
+        },
+        "any_damage": {
+          "f1": 0.07200083652424177,
+          "precision": 0.04285917530173334,
+          "recall": 0.22496032857276207
+        },
+        "building_macro_f1": 0.280212220527933,
+        "damaged_macro_f1": 0.042280265052990075
+      },
+      "selection_score": 0.22445448841400578
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\damage_best.pt",
+      "epoch": 21,
+      "focused": false,
+      "inference": {
+        "views": 4,
+        "sigma": 5.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.6,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14213860,
+            923245,
+            10409,
+            30839
+          ],
+          [
+            1157631,
+            3440256,
+            20105,
+            93607
+          ],
+          [
+            4540,
+            16991,
+            2446,
+            4423
+          ],
+          [
+            742,
+            2256,
+            0,
+            741
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9243721033015184,
+            "recall": 0.9364560173294164,
+            "f1": 0.930374824832992,
+            "iou": 0.8698138810053028,
+            "support": 15178353,
+            "predicted": 15376773
+          },
+          "no-damage": {
+            "precision": 0.7849540972923836,
+            "recall": 0.7301674017674255,
+            "f1": 0.7565702078444995,
+            "iou": 0.6084543032646627,
+            "support": 4711599,
+            "predicted": 4382748
+          },
+          "minor-damage": {
+            "precision": 0.07421116504854369,
+            "recall": 0.08612676056338028,
+            "f1": 0.07972620599739244,
+            "iou": 0.0415181450928472,
+            "support": 28400,
+            "predicted": 32960
+          },
+          "major-or-destroyed": {
+            "precision": 0.005717151454363089,
+            "recall": 0.198181331906927,
+            "f1": 0.01111369414093844,
+            "iou": 0.005587898166023166,
+            "support": 3739,
+            "predicted": 129610
+          }
+        },
+        "accuracy": 0.8863177565045758,
+        "kappa": 0.6841367459064716,
+        "footprint": {
+          "f1": 0.7709771584970528,
+          "iou": 0.6273090559930038,
+          "precision": 0.7878051656671766,
+          "recall": 0.7548530294042377
+        },
+        "any_damage": {
+          "f1": 0.07816793265848009,
+          "precision": 0.04681060466260688,
+          "recall": 0.2367839696319114
+        },
+        "building_macro_f1": 0.2824700359942768,
+        "damaged_macro_f1": 0.04541995006916544
+      },
+      "selection_score": 0.2268092521761373
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\damage_best.pt",
+      "epoch": 21,
+      "focused": false,
+      "inference": {
+        "views": 4,
+        "sigma": 5.0,
+        "normalize": true
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.55,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14213860,
+            893177,
+            11146,
+            60170
+          ],
+          [
+            1157631,
+            3342673,
+            19131,
+            192164
+          ],
+          [
+            4540,
+            15552,
+            2736,
+            5572
+          ],
+          [
+            742,
+            2394,
+            0,
+            603
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9243721033015184,
+            "recall": 0.9364560173294164,
+            "f1": 0.930374824832992,
+            "iou": 0.8698138810053028,
+            "support": 15178353,
+            "predicted": 15376773
+          },
+          "no-damage": {
+            "precision": 0.7858094276265246,
+            "recall": 0.7094561740080172,
+            "f1": 0.7456833747983218,
+            "iou": 0.5944937345292902,
+            "support": 4711599,
+            "predicted": 4253796
+          },
+          "minor-damage": {
+            "precision": 0.08287644261351589,
+            "recall": 0.09633802816901409,
+            "f1": 0.0891016560011724,
+            "iou": 0.04662815072345212,
+            "support": 28400,
+            "predicted": 33013
+          },
+          "major-or-destroyed": {
+            "precision": 0.002332607375371844,
+            "recall": 0.16127306766515112,
+            "f1": 0.004598700466733779,
+            "iou": 0.0023046494295706015,
+            "support": 3739,
+            "predicted": 258509
+          }
+        },
+        "accuracy": 0.8814271554125518,
+        "kappa": 0.671942572674476,
+        "footprint": {
+          "f1": 0.7709771584970528,
+          "iou": 0.6273090559930038,
+          "precision": 0.7878051656671766,
+          "recall": 0.7548530294042377
+        },
+        "any_damage": {
+          "f1": 0.055063785874726955,
+          "precision": 0.030567161312010756,
+          "recall": 0.27726438283705157
+        },
+        "building_macro_f1": 0.27979457708874267,
+        "damaged_macro_f1": 0.046850178233953085
+      },
+      "selection_score": 0.227881923299728
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\continued\\damage_best.pt",
+      "epoch": 1,
+      "focused": false,
+      "inference": {
+        "views": 1,
+        "sigma": 0.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.8,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14192083,
+            917134,
+            30528,
+            38608
+          ],
+          [
+            1169807,
+            3378803,
+            51982,
+            111007
+          ],
+          [
+            2991,
+            15064,
+            3978,
+            6367
+          ],
+          [
+            661,
+            2398,
+            0,
+            680
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9236304843656019,
+            "recall": 0.9350212766826546,
+            "f1": 0.9292909761508805,
+            "iou": 0.8679211209130829,
+            "support": 15178353,
+            "predicted": 15365542
+          },
+          "no-damage": {
+            "precision": 0.7833272553733146,
+            "recall": 0.7171244836413285,
+            "f1": 0.7487653736876174,
+            "iou": 0.5984212376653658,
+            "support": 4711599,
+            "predicted": 4313399
+          },
+          "minor-damage": {
+            "precision": 0.04599482009064841,
+            "recall": 0.14007042253521126,
+            "f1": 0.06925005222477543,
+            "iou": 0.03586691912361374,
+            "support": 28400,
+            "predicted": 86488
+          },
+          "major-or-destroyed": {
+            "precision": 0.004340554825037341,
+            "recall": 0.18186680930730142,
+            "f1": 0.008478750132480471,
+            "iou": 0.0042574238828958,
+            "support": 3739,
+            "predicted": 156662
+          }
+        },
+        "accuracy": 0.8822138198244351,
+        "kappa": 0.673865567589002,
+        "footprint": {
+          "f1": 0.7677782416822191,
+          "iou": 0.6230844703881739,
+          "precision": 0.7835489094926884,
+          "recall": 0.7526298880756062
+        },
+        "any_damage": {
+          "f1": 0.0800976428407964,
+          "precision": 0.045342381246144356,
+          "recall": 0.34304116493979275
+        },
+        "building_macro_f1": 0.2754980586816244,
+        "damaged_macro_f1": 0.03886440117862795
+      },
+      "selection_score": 0.22109286130452574
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\continued\\damage_best.pt",
+      "epoch": 1,
+      "focused": false,
+      "inference": {
+        "views": 4,
+        "sigma": 0.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.8,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14233434,
+            884287,
+            16700,
+            43932
+          ],
+          [
+            1169228,
+            3388580,
+            23295,
+            130496
+          ],
+          [
+            3301,
+            15932,
+            3443,
+            5724
+          ],
+          [
+            614,
+            2317,
+            0,
+            808
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9238544032201312,
+            "recall": 0.9377456170639858,
+            "f1": 0.930748182192995,
+            "iou": 0.8704667756393666,
+            "support": 15178353,
+            "predicted": 15406577
+          },
+          "no-damage": {
+            "precision": 0.7896733623607471,
+            "recall": 0.7191995753458645,
+            "f1": 0.7527906859208583,
+            "iou": 0.60358007066093,
+            "support": 4711599,
+            "predicted": 4291116
+          },
+          "minor-damage": {
+            "precision": 0.0792623969796031,
+            "recall": 0.12123239436619718,
+            "f1": 0.09585456165260725,
+            "iou": 0.050339937129907156,
+            "support": 28400,
+            "predicted": 43438
+          },
+          "major-or-destroyed": {
+            "precision": 0.004465075154730327,
+            "recall": 0.21610056164749933,
+            "f1": 0.008749370597566851,
+            "iou": 0.004393907260279187,
+            "support": 3739,
+            "predicted": 180960
+          }
+        },
+        "accuracy": 0.8847597875142724,
+        "kappa": 0.6797605930271285,
+        "footprint": {
+          "f1": 0.7712491246593137,
+          "iou": 0.6276692372206656,
+          "precision": 0.7907394374150982,
+          "recall": 0.7526965022098606
+        },
+        "any_damage": {
+          "f1": 0.07776655998939724,
+          "precision": 0.04445226784552447,
+          "recall": 0.31037057780266963
+        },
+        "building_macro_f1": 0.28579820605701084,
+        "damaged_macro_f1": 0.05230196612508705
+      },
+      "selection_score": 0.23203875575864372
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\continued\\damage_best.pt",
+      "epoch": 1,
+      "focused": false,
+      "inference": {
+        "views": 4,
+        "sigma": 5.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.8,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14233434,
+            885567,
+            15136,
+            44216
+          ],
+          [
+            1169228,
+            3388927,
+            21353,
+            132091
+          ],
+          [
+            3301,
+            15727,
+            3305,
+            6067
+          ],
+          [
+            614,
+            2179,
+            0,
+            946
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9238544032201312,
+            "recall": 0.9377456170639858,
+            "f1": 0.930748182192995,
+            "iou": 0.8704667756393666,
+            "support": 15178353,
+            "predicted": 15406577
+          },
+          "no-damage": {
+            "precision": 0.7895179852763023,
+            "recall": 0.7192732233791543,
+            "f1": 0.7527604123456699,
+            "iou": 0.6035411478249967,
+            "support": 4711599,
+            "predicted": 4292400
+          },
+          "minor-damage": {
+            "precision": 0.08305272151580641,
+            "recall": 0.11637323943661972,
+            "f1": 0.09692934862304602,
+            "iou": 0.05093313196381513,
+            "support": 28400,
+            "predicted": 39794
+          },
+          "major-or-destroyed": {
+            "precision": 0.00516037530002182,
+            "recall": 0.2530088258892752,
+            "f1": 0.010114455866865534,
+            "iou": 0.00508293348664521,
+            "support": 3739,
+            "predicted": 183320
+          }
+        },
+        "accuracy": 0.8847772053646377,
+        "kappa": 0.6797956443051941,
+        "footprint": {
+          "f1": 0.7712491246593137,
+          "iou": 0.6276692372206656,
+          "precision": 0.7907394374150982,
+          "recall": 0.7526965022098606
+        },
+        "any_damage": {
+          "f1": 0.08084527899770032,
+          "precision": 0.046245417141013115,
+          "recall": 0.32104296960079654
+        },
+        "building_macro_f1": 0.2866014056118605,
+        "damaged_macro_f1": 0.053521902244955774
+      },
+      "selection_score": 0.23295370784854524
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\continued\\damage_best.pt",
+      "epoch": 1,
+      "focused": false,
+      "inference": {
+        "views": 4,
+        "sigma": 5.0,
+        "normalize": true
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.7,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14233434,
+            860149,
+            10607,
+            74163
+          ],
+          [
+            1169228,
+            3310106,
+            13619,
+            218646
+          ],
+          [
+            3301,
+            15044,
+            3609,
+            6446
+          ],
+          [
+            614,
+            2513,
+            0,
+            612
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9238544032201312,
+            "recall": 0.9377456170639858,
+            "f1": 0.930748182192995,
+            "iou": 0.8704667756393666,
+            "support": 15178353,
+            "predicted": 15406577
+          },
+          "no-damage": {
+            "precision": 0.7904141828716285,
+            "recall": 0.7025440832294938,
+            "f1": 0.7438932756336346,
+            "iou": 0.5922213942520582,
+            "support": 4711599,
+            "predicted": 4187812
+          },
+          "minor-damage": {
+            "precision": 0.12965690677204958,
+            "recall": 0.12707746478873239,
+            "f1": 0.12835422779407843,
+            "iou": 0.06857826929654544,
+            "support": 28400,
+            "predicted": 27835
+          },
+          "major-or-destroyed": {
+            "precision": 0.0020409048011285004,
+            "recall": 0.16368012837657128,
+            "f1": 0.004031540878638762,
+            "iou": 0.002019841977068853,
+            "support": 3739,
+            "predicted": 299867
+          }
+        },
+        "accuracy": 0.8808192372979322,
+        "kappa": 0.6699350769716609,
+        "footprint": {
+          "f1": 0.7712491246593137,
+          "iou": 0.6276692372206656,
+          "precision": 0.7907394374150982,
+          "recall": 0.7526965022098606
+        },
+        "any_damage": {
+          "f1": 0.05928729633365848,
+          "precision": 0.032550915160725294,
+          "recall": 0.3319020504682784
+        },
+        "building_macro_f1": 0.29209301476878397,
+        "damaged_macro_f1": 0.0661928843363586
+      },
+      "selection_score": 0.24245694441709736
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\focused_refined\\damage_best.pt",
+      "epoch": 36,
+      "focused": true,
+      "inference": {
+        "views": 1,
+        "sigma": 0.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.6,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14281556,
+            828404,
+            40243,
+            28150
+          ],
+          [
+            1245505,
+            3275216,
+            107393,
+            83485
+          ],
+          [
+            4370,
+            15495,
+            4668,
+            3867
+          ],
+          [
+            922,
+            2627,
+            0,
+            190
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9194715057016796,
+            "recall": 0.9409160532766632,
+            "f1": 0.9300701846450551,
+            "iou": 0.8692814905214208,
+            "support": 15178353,
+            "predicted": 15532353
+          },
+          "no-damage": {
+            "precision": 0.7946193623958026,
+            "recall": 0.6951389538880537,
+            "f1": 0.741557696006528,
+            "iou": 0.589266344315754,
+            "support": 4711599,
+            "predicted": 4121742
+          },
+          "minor-damage": {
+            "precision": 0.030649227860069336,
+            "recall": 0.16436619718309858,
+            "f1": 0.05166460067292367,
+            "iou": 0.026517303278874776,
+            "support": 28400,
+            "predicted": 152304
+          },
+          "major-or-destroyed": {
+            "precision": 0.0016422916018393667,
+            "recall": 0.05081572612998128,
+            "f1": 0.0031817534810894992,
+            "iou": 0.0015934116620960912,
+            "support": 3739,
+            "predicted": 115692
+          }
+        },
+        "accuracy": 0.8815153991616643,
+        "kappa": 0.66815671824854,
+        "footprint": {
+          "f1": 0.7648656437045436,
+          "iou": 0.6192570385610585,
+          "precision": 0.7957060307471653,
+          "recall": 0.7363267111294932
+        },
+        "any_damage": {
+          "f1": 0.05814050344011861,
+          "precision": 0.032556456066508456,
+          "recall": 0.2714770216870469
+        },
+        "building_macro_f1": 0.2654680167201804,
+        "damaged_macro_f1": 0.027423177077006585
+      },
+      "selection_score": 0.21178379373389083
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\focused_refined\\damage_best.pt",
+      "epoch": 36,
+      "focused": true,
+      "inference": {
+        "views": 4,
+        "sigma": 0.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.65,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14317964,
+            818819,
+            14494,
+            27076
+          ],
+          [
+            1227916,
+            3346501,
+            42995,
+            94187
+          ],
+          [
+            4805,
+            15751,
+            3471,
+            4373
+          ],
+          [
+            795,
+            2263,
+            0,
+            681
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9206817614786502,
+            "recall": 0.9433147325009505,
+            "f1": 0.9318608402460241,
+            "iou": 0.8724152014618201,
+            "support": 15178353,
+            "predicted": 15551480
+          },
+          "no-damage": {
+            "precision": 0.799960270922666,
+            "recall": 0.7102686370380841,
+            "f1": 0.7524510864781107,
+            "iou": 0.6031435547916961,
+            "support": 4711599,
+            "predicted": 4183334
+          },
+          "minor-damage": {
+            "precision": 0.056938976377952755,
+            "recall": 0.12221830985915492,
+            "f1": 0.0776857654431513,
+            "iou": 0.04041262559815576,
+            "support": 28400,
+            "predicted": 60960
+          },
+          "major-or-destroyed": {
+            "precision": 0.0053911983343492955,
+            "recall": 0.1821342604974592,
+            "f1": 0.01047241188411146,
+            "iou": 0.005263768115942029,
+            "support": 3739,
+            "predicted": 126317
+          }
+        },
+        "accuracy": 0.886885668778443,
+        "kappa": 0.6819000255139666,
+        "footprint": {
+          "f1": 0.7702628020937096,
+          "iou": 0.6263637494296614,
+          "precision": 0.8031421693671663,
+          "recall": 0.7399696188954786
+        },
+        "any_damage": {
+          "f1": 0.07770627483866263,
+          "precision": 0.04552080607869626,
+          "recall": 0.26525405270854724
+        },
+        "building_macro_f1": 0.28020308793512444,
+        "damaged_macro_f1": 0.04407908866363138
+      },
+      "selection_score": 0.22562501702115093
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\focused_refined\\damage_best.pt",
+      "epoch": 36,
+      "focused": true,
+      "inference": {
+        "views": 4,
+        "sigma": 5.0
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.65,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14317964,
+            822897,
+            11811,
+            25681
+          ],
+          [
+            1227916,
+            3355347,
+            35214,
+            93122
+          ],
+          [
+            4805,
+            15741,
+            3380,
+            4474
+          ],
+          [
+            795,
+            2193,
+            0,
+            751
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9206817614786502,
+            "recall": 0.9433147325009505,
+            "f1": 0.9318608402460241,
+            "iou": 0.8724152014618201,
+            "support": 15178353,
+            "predicted": 15551480
+          },
+          "no-damage": {
+            "precision": 0.7996197968722967,
+            "recall": 0.7121461312815458,
+            "f1": 0.7533522673502042,
+            "iou": 0.6043024405530552,
+            "support": 4711599,
+            "predicted": 4196178
+          },
+          "minor-damage": {
+            "precision": 0.0670568395992461,
+            "recall": 0.11901408450704225,
+            "f1": 0.08578135905082165,
+            "iou": 0.04481272787537289,
+            "support": 28400,
+            "predicted": 50405
+          },
+          "major-or-destroyed": {
+            "precision": 0.006055084335795143,
+            "recall": 0.20085584380850494,
+            "f1": 0.011755774182691931,
+            "iou": 0.005912640927127291,
+            "support": 3739,
+            "predicted": 124028
+          }
+        },
+        "accuracy": 0.8873286443677022,
+        "kappa": 0.6830105314376131,
+        "footprint": {
+          "f1": 0.7702628020937096,
+          "iou": 0.6263637494296614,
+          "precision": 0.8031421693671663,
+          "recall": 0.7399696188954786
+        },
+        "any_damage": {
+          "f1": 0.08331235598241775,
+          "precision": 0.0493312618598545,
+          "recall": 0.2677432402999471
+        },
+        "building_macro_f1": 0.28362980019457257,
+        "damaged_macro_f1": 0.04876856661675679
+      },
+      "selection_score": 0.229142125485995
+    },
+    {
+      "checkpoint": "D:\\土坑论文\\earthquake_transformer\\run\\focused_refined\\damage_best.pt",
+      "epoch": 36,
+      "focused": true,
+      "inference": {
+        "views": 4,
+        "sigma": 5.0,
+        "normalize": true
+      },
+      "thresholds": {
+        "footprint": 0.5,
+        "minor": 0.55,
+        "severe": 0.12
+      },
+      "validation": {
+        "confusion": [
+          [
+            14317964,
+            795632,
+            13450,
+            51307
+          ],
+          [
+            1227916,
+            3282688,
+            40034,
+            160961
+          ],
+          [
+            4805,
+            14947,
+            3303,
+            5345
+          ],
+          [
+            795,
+            2169,
+            0,
+            775
+          ]
+        ],
+        "class_order": [
+          "background",
+          "no-damage",
+          "minor-damage",
+          "major-or-destroyed"
+        ],
+        "classes": {
+          "background": {
+            "precision": 0.9206817614786502,
+            "recall": 0.9433147325009505,
+            "f1": 0.9318608402460241,
+            "iou": 0.8724152014618201,
+            "support": 15178353,
+            "predicted": 15551480
+          },
+          "no-damage": {
+            "precision": 0.8015478693843586,
+            "recall": 0.6967248273887485,
+            "f1": 0.7454695025056673,
+            "iou": 0.5942219053220227,
+            "support": 4711599,
+            "predicted": 4095436
+          },
+          "minor-damage": {
+            "precision": 0.05816472079877437,
+            "recall": 0.11630281690140845,
+            "f1": 0.07754704356298496,
+            "iou": 0.04033755068145181,
+            "support": 28400,
+            "predicted": 56787
+          },
+          "major-or-destroyed": {
+            "precision": 0.0035487297836877484,
+            "recall": 0.20727467237229205,
+            "f1": 0.006977990068744457,
+            "iou": 0.003501210741262785,
+            "support": 3739,
+            "predicted": 218388
+          }
+        },
+        "accuracy": 0.8836788266854116,
+        "kappa": 0.673838324668101,
+        "footprint": {
+          "f1": 0.7702628020937096,
+          "iou": 0.6263637494296614,
+          "precision": 0.8031421693671663,
+          "recall": 0.7399696188954786
+        },
+        "any_damage": {
+          "f1": 0.061324898963275344,
+          "precision": 0.03424366312346688,
+          "recall": 0.2931951834220106
+        },
+        "building_macro_f1": 0.2766648453791322,
+        "damaged_macro_f1": 0.04226251681586471
+      },
+      "selection_score": 0.22426258813532593
+    }
+  ]
+}

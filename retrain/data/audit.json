@@ -1,0 +1,56 @@
+{
+  "summary": {
+    "train": {
+      "tiles": 130,
+      "counts": {
+        "no-damage": 36887,
+        "minor-damage": 157,
+        "un-classified": 84,
+        "major-damage": 40,
+        "destroyed": 2
+      }
+    },
+    "val": {
+      "tiles": 27,
+      "counts": {
+        "no-damage": 5499,
+        "minor-damage": 37,
+        "major-damage": 9,
+        "un-classified": 1,
+        "destroyed": 1
+      }
+    },
+    "test": {
+      "tiles": 34,
+      "counts": {
+        "no-damage": 7734,
+        "un-classified": 25,
+        "minor-damage": 27,
+        "major-damage": 5
+      }
+    }
+  },
+  "excluded": [
+    {
+      "chip": "mexico-earthquake_00000191",
+      "origin": "train_original",
+      "hold_chip": "mexico-earthquake_00000050",
+      "overlap": 0.37295587131236674,
+      "matches_id": false,
+      "shared_building_ids": 0
+    },
+    {
+      "chip": "mexico-earthquake_00000188",
+      "origin": "test_previous",
+      "hold_chip": "mexico-earthquake_00000050",
+      "overlap": 0.008338882509876773,
+      "matches_id": false,
+      "shared_building_ids": 0
+    }
+  ],
+  "unavailable_geography": [
+    "mexico-earthquake_00000096",
+    "mexico-earthquake_00000155",
+    "mexico-earthquake_00000099"
+  ]
+}

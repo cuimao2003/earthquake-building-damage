@@ -1,0 +1,355 @@
+{
+  "selected": {
+    "texture_weight": 0.0,
+    "thresholds": [
+      0.5013818850828367,
+      -1.506659740277279
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5403,
+          50,
+          46
+        ],
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9745762711864406,
+      "macro_f1": 0.35202842535980566,
+      "damaged_macro_f1": 0.034482758620689655,
+      "balanced_accuracy": 0.39418076013820696,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9917400881057269,
+          "recall": 0.9825422804146209,
+          "f1": 0.9871197588380378,
+          "support": 5499,
+          "predicted": 5448
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 50
+        },
+        "major_or_destroyed": {
+          "precision": 0.041666666666666664,
+          "recall": 0.2,
+          "f1": 0.06896551724137931,
+          "support": 10,
+          "predicted": 48
+        }
+      }
+    }
+  },
+  "candidates": [
+    {
+      "texture_weight": 0.0,
+      "thresholds": [
+        0.5013818850828367,
+        -1.506659740277279
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5403,
+            50,
+            46
+          ],
+          [
+            37,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9745762711864406,
+        "macro_f1": 0.35202842535980566,
+        "damaged_macro_f1": 0.034482758620689655,
+        "balanced_accuracy": 0.39418076013820696,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9917400881057269,
+            "recall": 0.9825422804146209,
+            "f1": 0.9871197588380378,
+            "support": 5499,
+            "predicted": 5448
+          },
+          "minor": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 37,
+            "predicted": 50
+          },
+          "major_or_destroyed": {
+            "precision": 0.041666666666666664,
+            "recall": 0.2,
+            "f1": 0.06896551724137931,
+            "support": 10,
+            "predicted": 48
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 0.2,
+      "thresholds": [
+        16.0,
+        -1.9012995501133518
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5445,
+            0,
+            54
+          ],
+          [
+            37,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9821492967904796,
+        "macro_f1": 0.35053235053235055,
+        "damaged_macro_f1": 0.030303030303030304,
+        "balanced_accuracy": 0.3967266775777414,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9918032786885246,
+            "recall": 0.9901800327332242,
+            "f1": 0.990990990990991,
+            "support": 5499,
+            "predicted": 5490
+          },
+          "minor": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 37,
+            "predicted": 0
+          },
+          "major_or_destroyed": {
+            "precision": 0.03571428571428571,
+            "recall": 0.2,
+            "f1": 0.06060606060606061,
+            "support": 10,
+            "predicted": 56
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 0.4,
+      "thresholds": [
+        16.0,
+        -2.1786862183648203
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5445,
+            0,
+            54
+          ],
+          [
+            37,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9821492967904796,
+        "macro_f1": 0.35053235053235055,
+        "damaged_macro_f1": 0.030303030303030304,
+        "balanced_accuracy": 0.3967266775777414,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9918032786885246,
+            "recall": 0.9901800327332242,
+            "f1": 0.990990990990991,
+            "support": 5499,
+            "predicted": 5490
+          },
+          "minor": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 37,
+            "predicted": 0
+          },
+          "major_or_destroyed": {
+            "precision": 0.03571428571428571,
+            "recall": 0.2,
+            "f1": 0.06060606060606061,
+            "support": 10,
+            "predicted": 56
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 0.65,
+      "thresholds": [
+        -1.4922248121848207,
+        -3.4440678001183964
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5206,
+            141,
+            152
+          ],
+          [
+            32,
+            3,
+            2
+          ],
+          [
+            7,
+            0,
+            3
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9397764154345474,
+        "macro_f1": 0.34605878233372117,
+        "damaged_macro_f1": 0.03453865749164654,
+        "balanced_accuracy": 0.4425995553655128,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9925643469971401,
+            "recall": 0.9467175850154573,
+            "f1": 0.9690990320178704,
+            "support": 5499,
+            "predicted": 5245
+          },
+          "minor": {
+            "precision": 0.020833333333333332,
+            "recall": 0.08108108108108109,
+            "f1": 0.03314917127071823,
+            "support": 37,
+            "predicted": 144
+          },
+          "major_or_destroyed": {
+            "precision": 0.01910828025477707,
+            "recall": 0.3,
+            "f1": 0.03592814371257485,
+            "support": 10,
+            "predicted": 157
+          }
+        }
+      }
+    },
+    {
+      "texture_weight": 1.0,
+      "thresholds": [
+        -0.8409376657527897,
+        -4.14512942606311
+      ],
+      "validation": {
+        "matrix": [
+          [
+            5310,
+            29,
+            160
+          ],
+          [
+            33,
+            1,
+            3
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.9579877389109268,
+        "macro_f1": 0.34383657748125734,
+        "damaged_macro_f1": 0.026353944562899786,
+        "balanced_accuracy": 0.3975523805311039,
+        "classes": {
+          "no_damage": {
+            "precision": 0.9923378807699496,
+            "recall": 0.9656301145662848,
+            "f1": 0.9788018433179724,
+            "support": 5499,
+            "predicted": 5351
+          },
+          "minor": {
+            "precision": 0.03333333333333333,
+            "recall": 0.02702702702702703,
+            "f1": 0.029850746268656716,
+            "support": 37,
+            "predicted": 30
+          },
+          "major_or_destroyed": {
+            "precision": 0.012121212121212121,
+            "recall": 0.2,
+            "f1": 0.022857142857142857,
+            "support": 10,
+            "predicted": 165
+          }
+        }
+      }
+    }
+  ],
+  "scene_context": false,
+  "registration": "phase",
+  "transferred_encoder": false
+}

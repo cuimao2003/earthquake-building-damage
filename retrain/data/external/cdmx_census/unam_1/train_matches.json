@@ -1,0 +1,28 @@
+[
+  {
+    "chip": "mexico-earthquake_00000139",
+    "uid": "49d56501-0059-4d9d-a861-39d74870b6ae",
+    "bounds": [
+      716.7556444426423,
+      129.3251049750361,
+      856.7467755216583,
+      339.222916200988
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "no_structural_damage",
+    "census_id": 181
+  },
+  {
+    "chip": "mexico-earthquake_00000052",
+    "uid": "7a7f8203-4b21-49b3-9b77-d6b5d29276d7",
+    "bounds": [
+      74.2786584638288,
+      483.1853824223054,
+      119.0711635281584,
+      493.0310779797217
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "structural_damage",
+    "census_id": 234
+  }
+]

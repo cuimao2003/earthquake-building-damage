@@ -1,0 +1,678 @@
+{
+  "selected": {
+    "models": [
+      {
+        "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_vit\\turkey_vit.pt",
+        "tta": true,
+        "weight": 0.5,
+        "epoch": 8
+      },
+      {
+        "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_partial\\turkey_vit.pt",
+        "tta": true,
+        "weight": 0.5,
+        "epoch": 1
+      }
+    ],
+    "thresholds": [
+      0.4770019054412845,
+      0.6898748874664334
+    ],
+    "validation": {
+      "matrix": [
+        [
+          534,
+          67,
+          6
+        ],
+        [
+          45,
+          128,
+          16
+        ],
+        [
+          35,
+          69,
+          521
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.8325123152709359,
+      "macro_f1": 0.7773125250558799,
+      "damaged_macro_f1": 0.7286223502373824,
+      "balanced_accuracy": 0.7968616952717996,
+      "classes": {
+        "no_damage": {
+          "precision": 0.8697068403908795,
+          "recall": 0.8797364085667215,
+          "f1": 0.8746928746928747,
+          "support": 607,
+          "predicted": 614
+        },
+        "minor": {
+          "precision": 0.48484848484848486,
+          "recall": 0.6772486772486772,
+          "f1": 0.565121412803532,
+          "support": 189,
+          "predicted": 264
+        },
+        "major_or_destroyed": {
+          "precision": 0.9594843462246777,
+          "recall": 0.8336,
+          "f1": 0.8921232876712328,
+          "support": 625,
+          "predicted": 543
+        }
+      }
+    }
+  },
+  "candidates": [
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_vit\\turkey_vit.pt",
+          "tta": false,
+          "weight": 1.0,
+          "epoch": 8
+        }
+      ],
+      "thresholds": [
+        1.64111328125,
+        1.5340576171875009
+      ],
+      "validation": {
+        "matrix": [
+          [
+            537,
+            63,
+            7
+          ],
+          [
+            52,
+            103,
+            34
+          ],
+          [
+            32,
+            48,
+            545
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8339197748064743,
+        "macro_f1": 0.761947221120371,
+        "damaged_macro_f1": 0.7056244147424457,
+        "balanced_accuracy": 0.7672174309714123,
+        "classes": {
+          "no_damage": {
+            "precision": 0.8647342995169082,
+            "recall": 0.8846787479406919,
+            "f1": 0.8745928338762216,
+            "support": 607,
+            "predicted": 621
+          },
+          "minor": {
+            "precision": 0.48130841121495327,
+            "recall": 0.544973544973545,
+            "f1": 0.511166253101737,
+            "support": 189,
+            "predicted": 214
+          },
+          "major_or_destroyed": {
+            "precision": 0.9300341296928327,
+            "recall": 0.872,
+            "f1": 0.9000825763831544,
+            "support": 625,
+            "predicted": 586
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_vit\\turkey_vit.pt",
+          "tta": true,
+          "weight": 1.0,
+          "epoch": 8
+        }
+      ],
+      "thresholds": [
+        1.6665632724761963,
+        1.5723803043365483
+      ],
+      "validation": {
+        "matrix": [
+          [
+            553,
+            48,
+            6
+          ],
+          [
+            61,
+            93,
+            35
+          ],
+          [
+            37,
+            35,
+            553
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8437719915552427,
+        "macro_f1": 0.7653544661605984,
+        "damaged_macro_f1": 0.7084450537718993,
+        "balanced_accuracy": 0.7626337944440086,
+        "classes": {
+          "no_damage": {
+            "precision": 0.8494623655913979,
+            "recall": 0.9110378912685337,
+            "f1": 0.8791732909379968,
+            "support": 607,
+            "predicted": 651
+          },
+          "minor": {
+            "precision": 0.5284090909090909,
+            "recall": 0.49206349206349204,
+            "f1": 0.5095890410958904,
+            "support": 189,
+            "predicted": 176
+          },
+          "major_or_destroyed": {
+            "precision": 0.930976430976431,
+            "recall": 0.8848,
+            "f1": 0.9073010664479081,
+            "support": 625,
+            "predicted": 594
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_vit\\turkey_vit.pt",
+          "tta": "illumination",
+          "weight": 1.0,
+          "epoch": 8
+        }
+      ],
+      "thresholds": [
+        1.6630756855010986,
+        1.4419016838073748
+      ],
+      "validation": {
+        "matrix": [
+          [
+            536,
+            64,
+            7
+          ],
+          [
+            57,
+            96,
+            36
+          ],
+          [
+            35,
+            43,
+            547
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8296973961998593,
+        "macro_f1": 0.7527412117776918,
+        "damaged_macro_f1": 0.6951037205005459,
+        "balanced_accuracy": 0.7553892698064032,
+        "classes": {
+          "no_damage": {
+            "precision": 0.8535031847133758,
+            "recall": 0.8830313014827018,
+            "f1": 0.8680161943319838,
+            "support": 607,
+            "predicted": 628
+          },
+          "minor": {
+            "precision": 0.4729064039408867,
+            "recall": 0.5079365079365079,
+            "f1": 0.4897959183673469,
+            "support": 189,
+            "predicted": 203
+          },
+          "major_or_destroyed": {
+            "precision": 0.9271186440677966,
+            "recall": 0.8752,
+            "f1": 0.9004115226337449,
+            "support": 625,
+            "predicted": 590
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_partial\\turkey_vit.pt",
+          "tta": false,
+          "weight": 1.0,
+          "epoch": 1
+        }
+      ],
+      "thresholds": [
+        0.13964843750000033,
+        -0.23657226562499498
+      ],
+      "validation": {
+        "matrix": [
+          [
+            529,
+            71,
+            7
+          ],
+          [
+            52,
+            122,
+            15
+          ],
+          [
+            35,
+            73,
+            517
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8219563687543983,
+        "macro_f1": 0.7632219139742468,
+        "damaged_macro_f1": 0.7122899437332426,
+        "balanced_accuracy": 0.7814006072598055,
+        "classes": {
+          "no_damage": {
+            "precision": 0.8587662337662337,
+            "recall": 0.871499176276771,
+            "f1": 0.8650858544562551,
+            "support": 607,
+            "predicted": 616
+          },
+          "minor": {
+            "precision": 0.45864661654135336,
+            "recall": 0.6455026455026455,
+            "f1": 0.5362637362637362,
+            "support": 189,
+            "predicted": 266
+          },
+          "major_or_destroyed": {
+            "precision": 0.9591836734693877,
+            "recall": 0.8272,
+            "f1": 0.8883161512027491,
+            "support": 625,
+            "predicted": 539
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_partial\\turkey_vit.pt",
+          "tta": true,
+          "weight": 1.0,
+          "epoch": 1
+        }
+      ],
+      "thresholds": [
+        0.14501476287841872,
+        -0.27312731742858715
+      ],
+      "validation": {
+        "matrix": [
+          [
+            537,
+            63,
+            7
+          ],
+          [
+            52,
+            120,
+            17
+          ],
+          [
+            35,
+            68,
+            522
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8296973961998593,
+        "macro_f1": 0.7698205487953812,
+        "damaged_macro_f1": 0.7185001164505861,
+        "balanced_accuracy": 0.7849331276204423,
+        "classes": {
+          "no_damage": {
+            "precision": 0.8605769230769231,
+            "recall": 0.8846787479406919,
+            "f1": 0.8724614134849715,
+            "support": 607,
+            "predicted": 624
+          },
+          "minor": {
+            "precision": 0.47808764940239046,
+            "recall": 0.6349206349206349,
+            "f1": 0.5454545454545454,
+            "support": 189,
+            "predicted": 251
+          },
+          "major_or_destroyed": {
+            "precision": 0.9560439560439561,
+            "recall": 0.8352,
+            "f1": 0.8915456874466268,
+            "support": 625,
+            "predicted": 546
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_partial\\turkey_vit.pt",
+          "tta": "illumination",
+          "weight": 1.0,
+          "epoch": 1
+        }
+      ],
+      "thresholds": [
+        0.13726443052291898,
+        -0.1710300445556636
+      ],
+      "validation": {
+        "matrix": [
+          [
+            529,
+            71,
+            7
+          ],
+          [
+            56,
+            119,
+            14
+          ],
+          [
+            35,
+            75,
+            515
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8184377199155525,
+        "macro_f1": 0.7578869998549566,
+        "damaged_macro_f1": 0.7056976554466565,
+        "balanced_accuracy": 0.7750429353021335,
+        "classes": {
+          "no_damage": {
+            "precision": 0.853225806451613,
+            "recall": 0.871499176276771,
+            "f1": 0.8622656886715566,
+            "support": 607,
+            "predicted": 620
+          },
+          "minor": {
+            "precision": 0.4490566037735849,
+            "recall": 0.6296296296296297,
+            "f1": 0.5242290748898678,
+            "support": 189,
+            "predicted": 265
+          },
+          "major_or_destroyed": {
+            "precision": 0.960820895522388,
+            "recall": 0.824,
+            "f1": 0.8871662360034454,
+            "support": 625,
+            "predicted": 536
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_vit\\turkey_vit.pt",
+          "tta": true,
+          "weight": 0.75,
+          "epoch": 8
+        },
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_partial\\turkey_vit.pt",
+          "tta": true,
+          "weight": 0.25,
+          "epoch": 1
+        }
+      ],
+      "thresholds": [
+        0.6707391738891607,
+        1.1160984039306658
+      ],
+      "validation": {
+        "matrix": [
+          [
+            518,
+            83,
+            6
+          ],
+          [
+            42,
+            129,
+            18
+          ],
+          [
+            32,
+            69,
+            524
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8240675580577058,
+        "macro_f1": 0.7688083943837422,
+        "damaged_macro_f1": 0.7211859026681904,
+        "balanced_accuracy": 0.7914389825928541,
+        "classes": {
+          "no_damage": {
+            "precision": 0.875,
+            "recall": 0.8533772652388797,
+            "f1": 0.8640533778148457,
+            "support": 607,
+            "predicted": 592
+          },
+          "minor": {
+            "precision": 0.45907473309608543,
+            "recall": 0.6825396825396826,
+            "f1": 0.548936170212766,
+            "support": 189,
+            "predicted": 281
+          },
+          "major_or_destroyed": {
+            "precision": 0.9562043795620438,
+            "recall": 0.8384,
+            "f1": 0.8934356351236147,
+            "support": 625,
+            "predicted": 548
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_vit\\turkey_vit.pt",
+          "tta": true,
+          "weight": 0.5,
+          "epoch": 8
+        },
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_partial\\turkey_vit.pt",
+          "tta": true,
+          "weight": 0.5,
+          "epoch": 1
+        }
+      ],
+      "thresholds": [
+        0.4770019054412845,
+        0.6898748874664334
+      ],
+      "validation": {
+        "matrix": [
+          [
+            534,
+            67,
+            6
+          ],
+          [
+            45,
+            128,
+            16
+          ],
+          [
+            35,
+            69,
+            521
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8325123152709359,
+        "macro_f1": 0.7773125250558799,
+        "damaged_macro_f1": 0.7286223502373824,
+        "balanced_accuracy": 0.7968616952717996,
+        "classes": {
+          "no_damage": {
+            "precision": 0.8697068403908795,
+            "recall": 0.8797364085667215,
+            "f1": 0.8746928746928747,
+            "support": 607,
+            "predicted": 614
+          },
+          "minor": {
+            "precision": 0.48484848484848486,
+            "recall": 0.6772486772486772,
+            "f1": 0.565121412803532,
+            "support": 189,
+            "predicted": 264
+          },
+          "major_or_destroyed": {
+            "precision": 0.9594843462246777,
+            "recall": 0.8336,
+            "f1": 0.8921232876712328,
+            "support": 625,
+            "predicted": 543
+          }
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_vit\\turkey_vit.pt",
+          "tta": true,
+          "weight": 0.25,
+          "epoch": 8
+        },
+        {
+          "path": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\turkey_partial\\turkey_vit.pt",
+          "tta": true,
+          "weight": 0.75,
+          "epoch": 1
+        }
+      ],
+      "thresholds": [
+        0.311132907867432,
+        0.27029800415039185
+      ],
+      "validation": {
+        "matrix": [
+          [
+            537,
+            63,
+            7
+          ],
+          [
+            50,
+            123,
+            16
+          ],
+          [
+            35,
+            70,
+            520
+          ]
+        ],
+        "unmatched_truth": [
+          0,
+          0,
+          0
+        ],
+        "accuracy": 0.8304011259676284,
+        "macro_f1": 0.772367050633079,
+        "damaged_macro_f1": 0.7216099738340773,
+        "balanced_accuracy": 0.7891574662447809,
+        "classes": {
+          "no_damage": {
+            "precision": 0.8633440514469454,
+            "recall": 0.8846787479406919,
+            "f1": 0.8738812042310822,
+            "support": 607,
+            "predicted": 622
+          },
+          "minor": {
+            "precision": 0.48046875,
+            "recall": 0.6507936507936508,
+            "f1": 0.5528089887640449,
+            "support": 189,
+            "predicted": 256
+          },
+          "major_or_destroyed": {
+            "precision": 0.9576427255985267,
+            "recall": 0.832,
+            "f1": 0.8904109589041096,
+            "support": 625,
+            "predicted": 543
+          }
+        }
+      }
+    }
+  ]
+}

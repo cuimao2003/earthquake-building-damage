@@ -1,0 +1,19 @@
+{
+  "localizer": "center",
+  "predicted_buildings": 424,
+  "by_class": [
+    412,
+    9,
+    3
+  ],
+  "coordinate_frame": "pre_event",
+  "display_registration": [
+    0.0,
+    0.0,
+    0.11944602182484232
+  ],
+  "shape": [
+    1024,
+    1024
+  ]
+}

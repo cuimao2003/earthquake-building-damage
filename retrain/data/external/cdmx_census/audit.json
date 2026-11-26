@@ -1,0 +1,29 @@
+{
+  "source": "https://rmgir.proyectomesoamerica.org/server/rest/services/Trans_Sept_2018/PlataformaCDMX/MapServer/0",
+  "census_counts": {
+    "medium_risk": 1904,
+    "partial_collapse": 4,
+    "low_risk": 2607,
+    "high_risk": 1935,
+    "high_collapse_risk": 159,
+    "total_collapse": 10,
+    "missing": 317
+  },
+  "match_exclusions": {
+    "no_containment": 6598,
+    "conflicting_survey_roof": 3
+  },
+  "matched_roofs": 14,
+  "training_scenes": 10,
+  "survey_risk_by_xbd_class": {
+    "high_risk": {
+      "no-damage": 1
+    },
+    "low_risk": {
+      "no-damage": 12
+    },
+    "medium_risk": {
+      "no-damage": 1
+    }
+  }
+}

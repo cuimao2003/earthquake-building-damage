@@ -1,0 +1,16 @@
+{
+  "source": "https://rmgir.proyectomesoamerica.org/server/rest/services/Trans_Sept_2018/Unitar/MapServer/33",
+  "census_counts": {
+    "DAMAGED BUILDINGS": 201
+  },
+  "match_exclusions": {
+    "no_containment": 199
+  },
+  "matched_roofs": 2,
+  "training_scenes": 1,
+  "survey_risk_by_xbd_class": {
+    "DAMAGED BUILDINGS": {
+      "no-damage": 2
+    }
+  }
+}

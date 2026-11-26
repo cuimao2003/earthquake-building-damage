@@ -1,0 +1,4412 @@
+[
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      -1.9037852632999426,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5449,
+          31,
+          19
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9832311575910566,
+      "macro_f1": 0.39101900662933525,
+      "damaged_macro_f1": 0.09066901408450705,
+      "balanced_accuracy": 0.41498716392333407,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9925318761384335,
+          "recall": 0.9909074377159484,
+          "f1": 0.9917189917189917,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.058823529411764705,
+          "recall": 0.05405405405405406,
+          "f1": 0.056338028169014086,
+          "support": 37,
+          "predicted": 34
+        },
+        "major_or_destroyed": {
+          "precision": 0.09090909090909091,
+          "recall": 0.2,
+          "f1": 0.125,
+          "support": 10,
+          "predicted": 22
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      0.903047533631324,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5448,
+          31,
+          20
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9830508474576272,
+      "macro_f1": 0.3899639899639899,
+      "damaged_macro_f1": 0.08917748917748917,
+      "balanced_accuracy": 0.4149265468414404,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923497267759562,
+          "recall": 0.9907255864702673,
+          "f1": 0.9915369915369915,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.06060606060606061,
+          "recall": 0.05405405405405406,
+          "f1": 0.05714285714285714,
+          "support": 37,
+          "predicted": 33
+        },
+        "major_or_destroyed": {
+          "precision": 0.08695652173913043,
+          "recall": 0.2,
+          "f1": 0.12121212121212122,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      1.6625927305221573,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5440,
+          39,
+          20
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9816083663901911,
+      "macro_f1": 0.3875791881602216,
+      "damaged_macro_f1": 0.08592251630226314,
+      "balanced_accuracy": 0.41444161018629105,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9925196132092684,
+          "recall": 0.9892707765048191,
+          "f1": 0.9908925318761385,
+          "support": 5499,
+          "predicted": 5481
+        },
+        "minor": {
+          "precision": 0.047619047619047616,
+          "recall": 0.05405405405405406,
+          "f1": 0.05063291139240506,
+          "support": 37,
+          "predicted": 42
+        },
+        "major_or_destroyed": {
+          "precision": 0.08695652173913043,
+          "recall": 0.2,
+          "f1": 0.12121212121212122,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.01636071874804453,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      -1.4962628352642393,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5469,
+          11,
+          19
+        ],
+        [
+          35,
+          1,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9866570501262171,
+      "macro_f1": 0.38639553087605033,
+      "damaged_macro_f1": 0.08290816326530612,
+      "balanced_accuracy": 0.40719049655219863,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921988388969522,
+          "recall": 0.994544462629569,
+          "f1": 0.9933702660975389,
+          "support": 5499,
+          "predicted": 5512
+        },
+        "minor": {
+          "precision": 0.08333333333333333,
+          "recall": 0.02702702702702703,
+          "f1": 0.04081632653061224,
+          "support": 37,
+          "predicted": 12
+        },
+        "major_or_destroyed": {
+          "precision": 0.09090909090909091,
+          "recall": 0.2,
+          "f1": 0.125,
+          "support": 10,
+          "predicted": 22
+        }
+      }
+    },
+    "average_precision": [
+      0.010499800957412255,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_herat",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      -1.4941702485084514,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5426,
+          54,
+          19
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9790840245221781,
+      "macro_f1": 0.3858415830744106,
+      "damaged_macro_f1": 0.08400537634408603,
+      "balanced_accuracy": 0.4135929710397796,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923189465983906,
+          "recall": 0.9867248590652846,
+          "f1": 0.9895139965350597,
+          "support": 5499,
+          "predicted": 5468
+        },
+        "minor": {
+          "precision": 0.03571428571428571,
+          "recall": 0.05405405405405406,
+          "f1": 0.043010752688172046,
+          "support": 37,
+          "predicted": 56
+        },
+        "major_or_destroyed": {
+          "precision": 0.09090909090909091,
+          "recall": 0.2,
+          "f1": 0.125,
+          "support": 10,
+          "predicted": 22
+        }
+      }
+    },
+    "average_precision": [
+      0.011400536754843638,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_keypoint",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      -1.0723391533939728,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5425,
+          54,
+          20
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9789037143887487,
+      "macro_f1": 0.38454824108427915,
+      "damaged_macro_f1": 0.08211143695014664,
+      "balanced_accuracy": 0.4135323539578859,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923175416133163,
+          "recall": 0.9865430078196036,
+          "f1": 0.9894218493525442,
+          "support": 5499,
+          "predicted": 5467
+        },
+        "minor": {
+          "precision": 0.03571428571428571,
+          "recall": 0.05405405405405406,
+          "f1": 0.043010752688172046,
+          "support": 37,
+          "predicted": 56
+        },
+        "major_or_destroyed": {
+          "precision": 0.08695652173913043,
+          "recall": 0.2,
+          "f1": 0.12121212121212122,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.013892054944144678,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_joint",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      1.2248123884201088,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5438,
+          41,
+          20
+        ],
+        [
+          35,
+          1,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9810674359899026,
+      "macro_f1": 0.37894352487439287,
+      "damaged_macro_f1": 0.0731060606060606,
+      "balanced_accuracy": 0.4053113670134947,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923357664233576,
+          "recall": 0.988907074013457,
+          "f1": 0.9906184534110575,
+          "support": 5499,
+          "predicted": 5480
+        },
+        "minor": {
+          "precision": 0.023255813953488372,
+          "recall": 0.02702702702702703,
+          "f1": 0.025,
+          "support": 37,
+          "predicted": 43
+        },
+        "major_or_destroyed": {
+          "precision": 0.08695652173913043,
+          "recall": 0.2,
+          "f1": 0.12121212121212122,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.013926570799896227,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      0.321549078225978,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5476,
+          8,
+          15
+        ],
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9877389109267941,
+      "macro_f1": 0.37892557876222455,
+      "damaged_macro_f1": 0.07142857142857142,
+      "balanced_accuracy": 0.3986058071164454,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9920289855072464,
+          "recall": 0.9958174213493363,
+          "f1": 0.9939195934295308,
+          "support": 5499,
+          "predicted": 5520
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 8
+        },
+        "major_or_destroyed": {
+          "precision": 0.1111111111111111,
+          "recall": 0.2,
+          "f1": 0.14285714285714285,
+          "support": 10,
+          "predicted": 18
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_rbf",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      -0.9686035767841223,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5424,
+          55,
+          20
+        ],
+        [
+          35,
+          1,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9785430941218897,
+      "macro_f1": 0.3773189883336789,
+      "damaged_macro_f1": 0.07135874877810362,
+      "balanced_accuracy": 0.4044627278669832,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921346259374428,
+          "recall": 0.9863611565739225,
+          "f1": 0.9892394674448295,
+          "support": 5499,
+          "predicted": 5467
+        },
+        "minor": {
+          "precision": 0.017857142857142856,
+          "recall": 0.02702702702702703,
+          "f1": 0.021505376344086023,
+          "support": 37,
+          "predicted": 56
+        },
+        "major_or_destroyed": {
+          "precision": 0.08695652173913043,
+          "recall": 0.2,
+          "f1": 0.12121212121212122,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.00861291616155742,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_context",
+    "thresholds": [
+      1.6625927305221573,
+      -3.0483545668670993
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5439,
+          38,
+          22
+        ],
+        [
+          34,
+          3,
+          0
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9814280562567617,
+      "macro_f1": 0.3754688933234338,
+      "damaged_macro_f1": 0.06780303030303031,
+      "balanced_accuracy": 0.39005666878007306,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9925182481751825,
+          "recall": 0.989088925259138,
+          "f1": 0.9908006193642408,
+          "support": 5499,
+          "predicted": 5480
+        },
+        "minor": {
+          "precision": 0.06976744186046512,
+          "recall": 0.08108108108108109,
+          "f1": 0.075,
+          "support": 37,
+          "predicted": 43
+        },
+        "major_or_destroyed": {
+          "precision": 0.043478260869565216,
+          "recall": 0.1,
+          "f1": 0.06060606060606061,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.01636072573194735,
+      0.009589509187658692
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_rbf",
+    "thresholds": [
+      1.6625927305221573,
+      -1.2262128298575414
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5437,
+          40,
+          22
+        ],
+        [
+          34,
+          3,
+          0
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9810674359899026,
+      "macro_f1": 0.37479784547156014,
+      "damaged_macro_f1": 0.06688839615668885,
+      "balanced_accuracy": 0.3899354346162857,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9925155166119022,
+          "recall": 0.988725222767776,
+          "f1": 0.9906167441013027,
+          "support": 5499,
+          "predicted": 5478
+        },
+        "minor": {
+          "precision": 0.06666666666666667,
+          "recall": 0.08108108108108109,
+          "f1": 0.07317073170731707,
+          "support": 37,
+          "predicted": 45
+        },
+        "major_or_destroyed": {
+          "precision": 0.043478260869565216,
+          "recall": 0.1,
+          "f1": 0.06060606060606061,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.016360669298204285,
+      0.008090482277460275
+    ]
+  },
+  {
+    "light": "mexico_context",
+    "severe": "mexico_transfer",
+    "thresholds": [
+      -1.9449769584690169,
+      -2.2680728912353634
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5316,
+          165,
+          18
+        ],
+        [
+          35,
+          1,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9590695997115037,
+      "macro_f1": 0.37269010952055764,
+      "damaged_macro_f1": 0.0694422374066423,
+      "balanced_accuracy": 0.397916083022466,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919761149468185,
+          "recall": 0.966721222040371,
+          "f1": 0.9791858537483883,
+          "support": 5499,
+          "predicted": 5359
+        },
+        "minor": {
+          "precision": 0.006024096385542169,
+          "recall": 0.02702702702702703,
+          "f1": 0.009852216748768473,
+          "support": 37,
+          "predicted": 166
+        },
+        "major_or_destroyed": {
+          "precision": 0.09523809523809523,
+          "recall": 0.2,
+          "f1": 0.12903225806451613,
+          "support": 10,
+          "predicted": 21
+        }
+      }
+    },
+    "average_precision": [
+      0.011601521608130114,
+      0.028152327412142332
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_rbf",
+    "thresholds": [
+      0.903047533631324,
+      -1.2262128298575419
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5447,
+          30,
+          22
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9826902271907682,
+      "macro_f1": 0.369947287089353,
+      "damaged_macro_f1": 0.05928853754940712,
+      "balanced_accuracy": 0.38153259642621346,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919868876343106,
+          "recall": 0.9905437352245863,
+          "f1": 0.9912647861692447,
+          "support": 5499,
+          "predicted": 5491
+        },
+        "minor": {
+          "precision": 0.0625,
+          "recall": 0.05405405405405406,
+          "f1": 0.057971014492753624,
+          "support": 37,
+          "predicted": 32
+        },
+        "major_or_destroyed": {
+          "precision": 0.043478260869565216,
+          "recall": 0.1,
+          "f1": 0.06060606060606061,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.008090482277460275
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_rbf",
+    "thresholds": [
+      -1.9037852632999426,
+      -1.2262128298575414
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5447,
+          30,
+          22
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9826902271907682,
+      "macro_f1": 0.36970130303463633,
+      "damaged_macro_f1": 0.05887445887445887,
+      "balanced_accuracy": 0.38153259642621346,
+      "classes": {
+        "no_damage": {
+          "precision": 0.992167577413479,
+          "recall": 0.9905437352245863,
+          "f1": 0.9913549913549914,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.06060606060606061,
+          "recall": 0.05405405405405406,
+          "f1": 0.05714285714285714,
+          "support": 37,
+          "predicted": 33
+        },
+        "major_or_destroyed": {
+          "precision": 0.043478260869565216,
+          "recall": 0.1,
+          "f1": 0.06060606060606061,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.008090482277460275
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_context",
+    "thresholds": [
+      -1.9037852632999426,
+      -3.0483545668670997
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5446,
+          31,
+          22
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9825099170573386,
+      "macro_f1": 0.36940242832970877,
+      "damaged_macro_f1": 0.05847204438753735,
+      "balanced_accuracy": 0.38147197934431976,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921661504827838,
+          "recall": 0.9903618839789052,
+          "f1": 0.9912631962140517,
+          "support": 5499,
+          "predicted": 5489
+        },
+        "minor": {
+          "precision": 0.058823529411764705,
+          "recall": 0.05405405405405406,
+          "f1": 0.056338028169014086,
+          "support": 37,
+          "predicted": 34
+        },
+        "major_or_destroyed": {
+          "precision": 0.043478260869565216,
+          "recall": 0.1,
+          "f1": 0.06060606060606061,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.009589509187658692
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_context",
+    "thresholds": [
+      0.9030475336313238,
+      -3.0483545668670993
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5445,
+          32,
+          22
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9823296069239091,
+      "macro_f1": 0.3693417560811953,
+      "damaged_macro_f1": 0.05847204438753735,
+      "balanced_accuracy": 0.38141136226242606,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919839679358717,
+          "recall": 0.9901800327332242,
+          "f1": 0.9910811794685112,
+          "support": 5499,
+          "predicted": 5489
+        },
+        "minor": {
+          "precision": 0.058823529411764705,
+          "recall": 0.05405405405405406,
+          "f1": 0.056338028169014086,
+          "support": 37,
+          "predicted": 34
+        },
+        "major_or_destroyed": {
+          "precision": 0.043478260869565216,
+          "recall": 0.1,
+          "f1": 0.06060606060606061,
+          "support": 10,
+          "predicted": 23
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.009589509187658692
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_herat",
+    "thresholds": [
+      2.1020617675781077,
+      -1.6984938049316436
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5447,
+          20,
+          32
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9826902271907682,
+      "macro_f1": 0.3682020489930094,
+      "damaged_macro_f1": 0.05662557781201849,
+      "balanced_accuracy": 0.38153259642621346,
+      "classes": {
+        "no_damage": {
+          "precision": 0.992167577413479,
+          "recall": 0.9905437352245863,
+          "f1": 0.9913549913549914,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.09090909090909091,
+          "recall": 0.05405405405405406,
+          "f1": 0.06779661016949153,
+          "support": 37,
+          "predicted": 22
+        },
+        "major_or_destroyed": {
+          "precision": 0.029411764705882353,
+          "recall": 0.1,
+          "f1": 0.045454545454545456,
+          "support": 10,
+          "predicted": 34
+        }
+      }
+    },
+    "average_precision": [
+      0.01636058279508812,
+      0.008839433351160787
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_herat",
+    "thresholds": [
+      -1.9037852632999428,
+      -1.6984938049316436
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5443,
+          29,
+          27
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9819689866570501,
+      "macro_f1": 0.36719676798481987,
+      "damaged_macro_f1": 0.055301296720061024,
+      "balanced_accuracy": 0.3812901280986387,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921618665694495,
+          "recall": 0.9898163302418621,
+          "f1": 0.9909877105143378,
+          "support": 5499,
+          "predicted": 5486
+        },
+        "minor": {
+          "precision": 0.0625,
+          "recall": 0.05405405405405406,
+          "f1": 0.057971014492753624,
+          "support": 37,
+          "predicted": 32
+        },
+        "major_or_destroyed": {
+          "precision": 0.03571428571428571,
+          "recall": 0.1,
+          "f1": 0.05263157894736842,
+          "support": 10,
+          "predicted": 28
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.008839433351160787
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico",
+    "thresholds": [
+      2.1020617675781073,
+      -3.8068309020996094
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5438,
+          19,
+          42
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9810674359899026,
+      "macro_f1": 0.3655102624765334,
+      "damaged_macro_f1": 0.05300127713920817,
+      "balanced_accuracy": 0.3809870426891704,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921547162926473,
+          "recall": 0.988907074013457,
+          "f1": 0.990528233151184,
+          "support": 5499,
+          "predicted": 5481
+        },
+        "minor": {
+          "precision": 0.09523809523809523,
+          "recall": 0.05405405405405406,
+          "f1": 0.06896551724137931,
+          "support": 37,
+          "predicted": 21
+        },
+        "major_or_destroyed": {
+          "precision": 0.022727272727272728,
+          "recall": 0.1,
+          "f1": 0.037037037037037035,
+          "support": 10,
+          "predicted": 44
+        }
+      }
+    },
+    "average_precision": [
+      0.01636073405149955,
+      0.007163787688162769
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_joint",
+    "thresholds": [
+      1.6625927305221573,
+      0.20191124081611705
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5408,
+          40,
+          51
+        ],
+        [
+          34,
+          3,
+          0
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9758384421204471,
+      "macro_f1": 0.3644572665039059,
+      "damaged_macro_f1": 0.05271439811172305,
+      "balanced_accuracy": 0.38817753924136905,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9924756836116718,
+          "recall": 0.983451536643026,
+          "f1": 0.9879430032882718,
+          "support": 5499,
+          "predicted": 5449
+        },
+        "minor": {
+          "precision": 0.06666666666666667,
+          "recall": 0.08108108108108109,
+          "f1": 0.07317073170731707,
+          "support": 37,
+          "predicted": 45
+        },
+        "major_or_destroyed": {
+          "precision": 0.019230769230769232,
+          "recall": 0.1,
+          "f1": 0.03225806451612903,
+          "support": 10,
+          "predicted": 52
+        }
+      }
+    },
+    "average_precision": [
+      0.01636074590141833,
+      0.0072008718972865
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico",
+    "thresholds": [
+      0.9030475336313238,
+      -3.8068309020996094
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5435,
+          26,
+          38
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9805265055896142,
+      "macro_f1": 0.3641723101786085,
+      "damaged_macro_f1": 0.05117739403453689,
+      "balanced_accuracy": 0.38080519144348934,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919693374703413,
+          "recall": 0.9883615202764139,
+          "f1": 0.9901621424667517,
+          "support": 5499,
+          "predicted": 5479
+        },
+        "minor": {
+          "precision": 0.07142857142857142,
+          "recall": 0.05405405405405406,
+          "f1": 0.06153846153846154,
+          "support": 37,
+          "predicted": 28
+        },
+        "major_or_destroyed": {
+          "precision": 0.02564102564102564,
+          "recall": 0.1,
+          "f1": 0.04081632653061224,
+          "support": 10,
+          "predicted": 39
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.007163787688162769
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_herat",
+    "thresholds": [
+      0.6714933919906679,
+      -1.6984938049316436
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5430,
+          39,
+          30
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9796249549224666,
+      "macro_f1": 0.3632548449649405,
+      "damaged_macro_f1": 0.050031269543464665,
+      "balanced_accuracy": 0.38050210603402096,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919620021921812,
+          "recall": 0.9874522640480087,
+          "f1": 0.9897019958078921,
+          "support": 5499,
+          "predicted": 5474
+        },
+        "minor": {
+          "precision": 0.04878048780487805,
+          "recall": 0.05405405405405406,
+          "f1": 0.05128205128205128,
+          "support": 37,
+          "predicted": 41
+        },
+        "major_or_destroyed": {
+          "precision": 0.03225806451612903,
+          "recall": 0.1,
+          "f1": 0.04878048780487805,
+          "support": 10,
+          "predicted": 31
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.008839433351160787
+    ]
+  },
+  {
+    "light": "mexico_herat",
+    "severe": "mexico_herat",
+    "thresholds": [
+      -1.4941702485084514,
+      -1.6984938049316436
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5423,
+          51,
+          25
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9783627839884601,
+      "macro_f1": 0.36301902851237156,
+      "damaged_macro_f1": 0.05,
+      "balanced_accuracy": 0.38007778646076523,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919517102615694,
+          "recall": 0.9861793053282415,
+          "f1": 0.9890570855371147,
+          "support": 5499,
+          "predicted": 5467
+        },
+        "minor": {
+          "precision": 0.03773584905660377,
+          "recall": 0.05405405405405406,
+          "f1": 0.044444444444444446,
+          "support": 37,
+          "predicted": 53
+        },
+        "major_or_destroyed": {
+          "precision": 0.038461538461538464,
+          "recall": 0.1,
+          "f1": 0.05555555555555555,
+          "support": 10,
+          "predicted": 26
+        }
+      }
+    },
+    "average_precision": [
+      0.011400536754843638,
+      0.008839433351160787
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      0.9030475336313241,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5323,
+          18,
+          158
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9606923909123692,
+      "macro_f1": 0.36169436466104515,
+      "damaged_macro_f1": 0.052529579763361894,
+      "balanced_accuracy": 0.44068274493806414,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923564504101416,
+          "recall": 0.9679941807601382,
+          "f1": 0.9800239344564117,
+          "support": 5499,
+          "predicted": 5364
+        },
+        "minor": {
+          "precision": 0.1,
+          "recall": 0.05405405405405406,
+          "f1": 0.07017543859649122,
+          "support": 37,
+          "predicted": 20
+        },
+        "major_or_destroyed": {
+          "precision": 0.018518518518518517,
+          "recall": 0.3,
+          "f1": 0.03488372093023256,
+          "support": 10,
+          "predicted": 162
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      2.1020617675781073,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5318,
+          20,
+          161
+        ],
+        [
+          33,
+          2,
+          2
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9597908402452218,
+      "macro_f1": 0.3605106627555239,
+      "damaged_macro_f1": 0.05094375963020031,
+      "balanced_accuracy": 0.44037965952859576,
+      "classes": {
+        "no_damage": {
+          "precision": 0.992534527808884,
+          "recall": 0.967084924531733,
+          "f1": 0.9796444690061711,
+          "support": 5499,
+          "predicted": 5358
+        },
+        "minor": {
+          "precision": 0.09090909090909091,
+          "recall": 0.05405405405405406,
+          "f1": 0.06779661016949153,
+          "support": 37,
+          "predicted": 22
+        },
+        "major_or_destroyed": {
+          "precision": 0.018072289156626505,
+          "recall": 0.3,
+          "f1": 0.03409090909090909,
+          "support": 10,
+          "predicted": 166
+        }
+      }
+    },
+    "average_precision": [
+      0.01636085948471075,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico",
+    "severe": "mexico",
+    "thresholds": [
+      -1.496262835264239,
+      -3.8068309020996094
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5456,
+          4,
+          39
+        ],
+        [
+          36,
+          1,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9841327082582041,
+      "macro_f1": 0.3598730158730159,
+      "damaged_macro_f1": 0.04380952380952381,
+      "balanced_accuracy": 0.37306914115424755,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9918196691510635,
+          "recall": 0.9921803964357155,
+          "f1": 0.992,
+          "support": 5499,
+          "predicted": 5501
+        },
+        "minor": {
+          "precision": 0.2,
+          "recall": 0.02702702702702703,
+          "f1": 0.047619047619047616,
+          "support": 37,
+          "predicted": 5
+        },
+        "major_or_destroyed": {
+          "precision": 0.025,
+          "recall": 0.1,
+          "f1": 0.04,
+          "support": 10,
+          "predicted": 40
+        }
+      }
+    },
+    "average_precision": [
+      0.010499800957412255,
+      0.007163787688162769
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_joint",
+    "thresholds": [
+      0.903047533631324,
+      0.20191124081611708
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5417,
+          28,
+          54
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9772809231878832,
+      "macro_f1": 0.3596581243138603,
+      "damaged_macro_f1": 0.045235361653272105,
+      "balanced_accuracy": 0.37971408396940315,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919428676066654,
+          "recall": 0.9850881978541554,
+          "f1": 0.9885036496350365,
+          "support": 5499,
+          "predicted": 5461
+        },
+        "minor": {
+          "precision": 0.06666666666666667,
+          "recall": 0.05405405405405406,
+          "f1": 0.05970149253731343,
+          "support": 37,
+          "predicted": 30
+        },
+        "major_or_destroyed": {
+          "precision": 0.01818181818181818,
+          "recall": 0.1,
+          "f1": 0.03076923076923077,
+          "support": 10,
+          "predicted": 55
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.0072008718972865
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_joint",
+    "thresholds": [
+      -1.9037852632999426,
+      0.20191124081611705
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5415,
+          30,
+          54
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9769203029210242,
+      "macro_f1": 0.358773774672287,
+      "damaged_macro_f1": 0.04395604395604395,
+      "balanced_accuracy": 0.3795928498056158,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921216562843532,
+          "recall": 0.9847244953627933,
+          "f1": 0.9884092361047732,
+          "support": 5499,
+          "predicted": 5458
+        },
+        "minor": {
+          "precision": 0.06060606060606061,
+          "recall": 0.05405405405405406,
+          "f1": 0.05714285714285714,
+          "support": 37,
+          "predicted": 33
+        },
+        "major_or_destroyed": {
+          "precision": 0.01818181818181818,
+          "recall": 0.1,
+          "f1": 0.03076923076923077,
+          "support": 10,
+          "predicted": 55
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.0072008718972865
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      -1.9037852632999426,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5318,
+          26,
+          155
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          6,
+          1,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9597908402452218,
+      "macro_f1": 0.3585844960640378,
+      "damaged_macro_f1": 0.04805450959297113,
+      "balanced_accuracy": 0.44037965952859576,
+      "classes": {
+        "no_damage": {
+          "precision": 0.992534527808884,
+          "recall": 0.967084924531733,
+          "f1": 0.9796444690061711,
+          "support": 5499,
+          "predicted": 5358
+        },
+        "minor": {
+          "precision": 0.06896551724137931,
+          "recall": 0.05405405405405406,
+          "f1": 0.06060606060606061,
+          "support": 37,
+          "predicted": 29
+        },
+        "major_or_destroyed": {
+          "precision": 0.018867924528301886,
+          "recall": 0.3,
+          "f1": 0.03550295857988166,
+          "support": 10,
+          "predicted": 159
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_keypoint",
+    "thresholds": [
+      1.6625927305221573,
+      -3.731630285620975
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5354,
+          38,
+          107
+        ],
+        [
+          34,
+          3,
+          0
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9661016949152542,
+      "macro_f1": 0.3582918446789245,
+      "damaged_macro_f1": 0.04597457627118644,
+      "balanced_accuracy": 0.3849042168191104,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9924003707136237,
+          "recall": 0.9736315693762502,
+          "f1": 0.9829263814944006,
+          "support": 5499,
+          "predicted": 5395
+        },
+        "minor": {
+          "precision": 0.06976744186046512,
+          "recall": 0.08108108108108109,
+          "f1": 0.075,
+          "support": 37,
+          "predicted": 43
+        },
+        "major_or_destroyed": {
+          "precision": 0.009259259259259259,
+          "recall": 0.1,
+          "f1": 0.01694915254237288,
+          "support": 10,
+          "predicted": 108
+        }
+      }
+    },
+    "average_precision": [
+      0.016360701465620974,
+      0.007456941826649928
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      2.1020617675781073,
+      -3.7415880680084252
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5377,
+          16,
+          106
+        ],
+        [
+          33,
+          2,
+          2
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9700685178507032,
+      "macro_f1": 0.35817097642900686,
+      "damaged_macro_f1": 0.044766997708174175,
+      "balanced_accuracy": 0.3772894006936561,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9922494925262964,
+          "recall": 0.977814148026914,
+          "f1": 0.9849789338706723,
+          "support": 5499,
+          "predicted": 5419
+        },
+        "minor": {
+          "precision": 0.1111111111111111,
+          "recall": 0.05405405405405406,
+          "f1": 0.07272727272727272,
+          "support": 37,
+          "predicted": 18
+        },
+        "major_or_destroyed": {
+          "precision": 0.009174311926605505,
+          "recall": 0.1,
+          "f1": 0.01680672268907563,
+          "support": 10,
+          "predicted": 109
+        }
+      }
+    },
+    "average_precision": [
+      0.016360913910744374,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_keypoint",
+    "thresholds": [
+      -1.9037852632999428,
+      -3.731630285620975
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5361,
+          31,
+          107
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          1,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9673638658492607,
+      "macro_f1": 0.3577502832075678,
+      "damaged_macro_f1": 0.04483568075117371,
+      "balanced_accuracy": 0.4096528607166905,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9924102184376157,
+          "recall": 0.9749045280960175,
+          "f1": 0.9835794881203559,
+          "support": 5499,
+          "predicted": 5402
+        },
+        "minor": {
+          "precision": 0.058823529411764705,
+          "recall": 0.05405405405405406,
+          "f1": 0.056338028169014086,
+          "support": 37,
+          "predicted": 34
+        },
+        "major_or_destroyed": {
+          "precision": 0.01818181818181818,
+          "recall": 0.2,
+          "f1": 0.03333333333333333,
+          "support": 10,
+          "predicted": 110
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.007456941826649928
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_keypoint",
+    "thresholds": [
+      0.903047533631324,
+      -3.731630285620975
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5360,
+          32,
+          107
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9671835557158313,
+      "macro_f1": 0.3576891267387423,
+      "damaged_macro_f1": 0.04483568075117371,
+      "balanced_accuracy": 0.4095922436347968,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9922251018141429,
+          "recall": 0.9747226768503364,
+          "f1": 0.9833960187138795,
+          "support": 5499,
+          "predicted": 5402
+        },
+        "minor": {
+          "precision": 0.058823529411764705,
+          "recall": 0.05405405405405406,
+          "f1": 0.056338028169014086,
+          "support": 37,
+          "predicted": 34
+        },
+        "major_or_destroyed": {
+          "precision": 0.01818181818181818,
+          "recall": 0.2,
+          "f1": 0.03333333333333333,
+          "support": 10,
+          "predicted": 110
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.007456941826649928
+    ]
+  },
+  {
+    "light": "mexico_rbf",
+    "severe": "mexico_rbf",
+    "thresholds": [
+      -0.9686035767841225,
+      -1.2262128298575414
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5423,
+          55,
+          21
+        ],
+        [
+          36,
+          1,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9781824738550307,
+      "macro_f1": 0.35765742568206416,
+      "damaged_macro_f1": 0.042002688172043015,
+      "balanced_accuracy": 0.3710687774517562,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9917702999268471,
+          "recall": 0.9861793053282415,
+          "f1": 0.9889669007021064,
+          "support": 5499,
+          "predicted": 5468
+        },
+        "minor": {
+          "precision": 0.017857142857142856,
+          "recall": 0.02702702702702703,
+          "f1": 0.021505376344086023,
+          "support": 37,
+          "predicted": 56
+        },
+        "major_or_destroyed": {
+          "precision": 0.045454545454545456,
+          "recall": 0.1,
+          "f1": 0.0625,
+          "support": 10,
+          "predicted": 22
+        }
+      }
+    },
+    "average_precision": [
+      0.00861291616155742,
+      0.008090482277460275
+    ]
+  },
+  {
+    "light": "mexico_joint",
+    "severe": "mexico_joint",
+    "thresholds": [
+      1.2248123884201085,
+      0.20191124081611728
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5410,
+          38,
+          51
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9760187522538767,
+      "macro_f1": 0.3571625075548353,
+      "damaged_macro_f1": 0.041770057899090156,
+      "balanced_accuracy": 0.3792897643961474,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921144324225197,
+          "recall": 0.9838152391343881,
+          "f1": 0.9879474068663258,
+          "support": 5499,
+          "predicted": 5453
+        },
+        "minor": {
+          "precision": 0.04878048780487805,
+          "recall": 0.05405405405405406,
+          "f1": 0.05128205128205128,
+          "support": 37,
+          "predicted": 41
+        },
+        "major_or_destroyed": {
+          "precision": 0.019230769230769232,
+          "recall": 0.1,
+          "f1": 0.03225806451612903,
+          "support": 10,
+          "predicted": 52
+        }
+      }
+    },
+    "average_precision": [
+      0.013926570799896227,
+      0.0072008718972865
+    ]
+  },
+  {
+    "light": "mexico_context",
+    "severe": "mexico_context",
+    "thresholds": [
+      -2.398852810383247,
+      -3.0483545668670993
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5212,
+          271,
+          16
+        ],
+        [
+          33,
+          4,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.940677966101695,
+      "macro_f1": 0.3563729956674561,
+      "damaged_macro_f1": 0.04985754985754985,
+      "balanced_accuracy": 0.3853056001992172,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9920060905976399,
+          "recall": 0.9478086924895436,
+          "f1": 0.9694038872872687,
+          "support": 5499,
+          "predicted": 5254
+        },
+        "minor": {
+          "precision": 0.014545454545454545,
+          "recall": 0.10810810810810811,
+          "f1": 0.02564102564102564,
+          "support": 37,
+          "predicted": 275
+        },
+        "major_or_destroyed": {
+          "precision": 0.058823529411764705,
+          "recall": 0.1,
+          "f1": 0.07407407407407407,
+          "support": 10,
+          "predicted": 17
+        }
+      }
+    },
+    "average_precision": [
+      0.011601521608130114,
+      0.009589509187658692
+    ]
+  },
+  {
+    "light": "mexico_direct_finetune",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      1.6625927305221573,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5459,
+          40,
+          0
+        ],
+        [
+          34,
+          3,
+          0
+        ],
+        [
+          8,
+          2,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9848539487919221,
+      "macro_f1": 0.3552387287509238,
+      "damaged_macro_f1": 0.036585365853658534,
+      "balanced_accuracy": 0.3579356770846132,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923650245409925,
+          "recall": 0.9927259501727587,
+          "f1": 0.9925454545454545,
+          "support": 5499,
+          "predicted": 5501
+        },
+        "minor": {
+          "precision": 0.06666666666666667,
+          "recall": 0.08108108108108109,
+          "f1": 0.07317073170731707,
+          "support": 37,
+          "predicted": 45
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.016360826960001764,
+      0.007107217596943346
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_context",
+    "thresholds": [
+      -3.2880076527595525,
+      -3.0483545668670993
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5319,
+          160,
+          20
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9596105301117923,
+      "macro_f1": 0.3546582125314732,
+      "damaged_macro_f1": 0.04220831327234793,
+      "balanced_accuracy": 0.37377360994382275,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921656407386682,
+          "recall": 0.967266775777414,
+          "f1": 0.9795580110497237,
+          "support": 5499,
+          "predicted": 5361
+        },
+        "minor": {
+          "precision": 0.012195121951219513,
+          "recall": 0.05405405405405406,
+          "f1": 0.01990049751243781,
+          "support": 37,
+          "predicted": 164
+        },
+        "major_or_destroyed": {
+          "precision": 0.047619047619047616,
+          "recall": 0.1,
+          "f1": 0.06451612903225806,
+          "support": 10,
+          "predicted": 21
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.009589509187658692
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_rbf",
+    "thresholds": [
+      -3.2880076527595525,
+      -1.2262128298575414
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5317,
+          162,
+          20
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9592499098449333,
+      "macro_f1": 0.35453020408757024,
+      "damaged_macro_f1": 0.042110281264897506,
+      "balanced_accuracy": 0.3736523757800354,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921627169247994,
+          "recall": 0.966903073286052,
+          "f1": 0.9793700497329159,
+          "support": 5499,
+          "predicted": 5359
+        },
+        "minor": {
+          "precision": 0.012048192771084338,
+          "recall": 0.05405405405405406,
+          "f1": 0.019704433497536946,
+          "support": 37,
+          "predicted": 166
+        },
+        "major_or_destroyed": {
+          "precision": 0.047619047619047616,
+          "recall": 0.1,
+          "f1": 0.06451612903225806,
+          "support": 10,
+          "predicted": 21
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.008090482277460275
+    ]
+  },
+  {
+    "light": "mexico_keypoint",
+    "severe": "mexico_keypoint",
+    "thresholds": [
+      -1.0723391533939732,
+      -3.731630285620975
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5344,
+          48,
+          107
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9642985935809593,
+      "macro_f1": 0.35373734813805774,
+      "damaged_macro_f1": 0.0396551724137931,
+      "balanced_accuracy": 0.40862237032449794,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9922020051986632,
+          "recall": 0.9718130569194399,
+          "f1": 0.981901699586587,
+          "support": 5499,
+          "predicted": 5386
+        },
+        "minor": {
+          "precision": 0.04,
+          "recall": 0.05405405405405406,
+          "f1": 0.04597701149425287,
+          "support": 37,
+          "predicted": 50
+        },
+        "major_or_destroyed": {
+          "precision": 0.01818181818181818,
+          "recall": 0.2,
+          "f1": 0.03333333333333333,
+          "support": 10,
+          "predicted": 110
+        }
+      }
+    },
+    "average_precision": [
+      0.013892054944144678,
+      0.007456941826649928
+    ]
+  },
+  {
+    "light": "mexico_herat",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      -1.4941702485084514,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5295,
+          46,
+          158
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9556437071763433,
+      "macro_f1": 0.35311021286633587,
+      "damaged_macro_f1": 0.040971272229822164,
+      "balanced_accuracy": 0.43898546664504107,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923163418290855,
+          "recall": 0.9629023458810693,
+          "f1": 0.9773880941393632,
+          "support": 5499,
+          "predicted": 5336
+        },
+        "minor": {
+          "precision": 0.041666666666666664,
+          "recall": 0.05405405405405406,
+          "f1": 0.047058823529411764,
+          "support": 37,
+          "predicted": 48
+        },
+        "major_or_destroyed": {
+          "precision": 0.018518518518518517,
+          "recall": 0.3,
+          "f1": 0.03488372093023256,
+          "support": 10,
+          "predicted": 162
+        }
+      }
+    },
+    "average_precision": [
+      0.011400536754843638,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      -1.4962628352642393,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5330,
+          9,
+          160
+        ],
+        [
+          35,
+          1,
+          1
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9617742517129463,
+      "macro_f1": 0.3525421707186205,
+      "damaged_macro_f1": 0.038517975055025674,
+      "balanced_accuracy": 0.43209805550231084,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921816827997022,
+          "recall": 0.9692671394799054,
+          "f1": 0.98059056204581,
+          "support": 5499,
+          "predicted": 5372
+        },
+        "minor": {
+          "precision": 0.1,
+          "recall": 0.02702702702702703,
+          "f1": 0.0425531914893617,
+          "support": 37,
+          "predicted": 10
+        },
+        "major_or_destroyed": {
+          "precision": 0.018292682926829267,
+          "recall": 0.3,
+          "f1": 0.034482758620689655,
+          "support": 10,
+          "predicted": 164
+        }
+      }
+    },
+    "average_precision": [
+      0.010499800957412255,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico_keypoint",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      -1.072339153393973,
+      -2.6228286862373382
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5288,
+          50,
+          161
+        ],
+        [
+          33,
+          2,
+          2
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9543815362423368,
+      "macro_f1": 0.3519506485114469,
+      "damaged_macro_f1": 0.039517364657814094,
+      "balanced_accuracy": 0.4385611470717854,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9924924924924925,
+          "recall": 0.9616293871613021,
+          "f1": 0.9768172162187124,
+          "support": 5499,
+          "predicted": 5328
+        },
+        "minor": {
+          "precision": 0.038461538461538464,
+          "recall": 0.05405405405405406,
+          "f1": 0.0449438202247191,
+          "support": 37,
+          "predicted": 52
+        },
+        "major_or_destroyed": {
+          "precision": 0.018072289156626505,
+          "recall": 0.3,
+          "f1": 0.03409090909090909,
+          "support": 10,
+          "predicted": 166
+        }
+      }
+    },
+    "average_precision": [
+      0.013892054944144678,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      0.903047533631324,
+      -2.6119384765625
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5210,
+          23,
+          266
+        ],
+        [
+          33,
+          2,
+          2
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.940317345834836,
+      "macro_f1": 0.3517536479425254,
+      "damaged_macro_f1": 0.042934221099758925,
+      "balanced_accuracy": 0.43383301468407853,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923809523809524,
+          "recall": 0.9474449899981815,
+          "f1": 0.9693925016280585,
+          "support": 5499,
+          "predicted": 5250
+        },
+        "minor": {
+          "precision": 0.08,
+          "recall": 0.05405405405405406,
+          "f1": 0.06451612903225806,
+          "support": 37,
+          "predicted": 25
+        },
+        "major_or_destroyed": {
+          "precision": 0.01107011070110701,
+          "recall": 0.3,
+          "f1": 0.021352313167259787,
+          "support": 10,
+          "predicted": 271
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.007107269639423333
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      -1.9037852632999426,
+      -3.1446414375305114
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5446,
+          25,
+          28
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          1,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9823296069239091,
+      "macro_f1": 0.3509038175704842,
+      "damaged_macro_f1": 0.03076923076923077,
+      "balanced_accuracy": 0.3481386460109864,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919854280510019,
+          "recall": 0.9903618839789052,
+          "f1": 0.9911729911729912,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.07142857142857142,
+          "recall": 0.05405405405405406,
+          "f1": 0.06153846153846154,
+          "support": 37,
+          "predicted": 28
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 28
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico",
+    "thresholds": [
+      -2.2214556980132962,
+      -4.504878401756287
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5224,
+          31,
+          244
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9428416877028489,
+      "macro_f1": 0.35034718492756917,
+      "damaged_macro_f1": 0.04019933554817276,
+      "balanced_accuracy": 0.43468165383059004,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9922127255460589,
+          "recall": 0.949990907437716,
+          "f1": 0.970642883686362,
+          "support": 5499,
+          "predicted": 5265
+        },
+        "minor": {
+          "precision": 0.06060606060606061,
+          "recall": 0.05405405405405406,
+          "f1": 0.05714285714285714,
+          "support": 37,
+          "predicted": 33
+        },
+        "major_or_destroyed": {
+          "precision": 0.012096774193548387,
+          "recall": 0.3,
+          "f1": 0.023255813953488372,
+          "support": 10,
+          "predicted": 248
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.007163787688162769
+    ]
+  },
+  {
+    "light": "mexico_herat_only",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      0.9030475336313237,
+      -2.626125349998479
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5451,
+          29,
+          19
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9832311575910566,
+      "macro_f1": 0.3501217130781371,
+      "damaged_macro_f1": 0.029411764705882353,
+      "balanced_accuracy": 0.3484417314204548,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9918122270742358,
+          "recall": 0.9912711402073104,
+          "f1": 0.9915416098226466,
+          "support": 5499,
+          "predicted": 5496
+        },
+        "minor": {
+          "precision": 0.06451612903225806,
+          "recall": 0.05405405405405406,
+          "f1": 0.058823529411764705,
+          "support": 37,
+          "predicted": 31
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 19
+        }
+      }
+    },
+    "average_precision": [
+      0.011552167981321079,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_hard_negatives",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      -1.903785263299943,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5468,
+          31,
+          0
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          1,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9862964298593581,
+      "macro_f1": 0.3498422192404267,
+      "damaged_macro_f1": 0.028169014084507043,
+      "balanced_accuracy": 0.34947222181264737,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9920174165457184,
+          "recall": 0.9943626113838879,
+          "f1": 0.993188629552266,
+          "support": 5499,
+          "predicted": 5512
+        },
+        "minor": {
+          "precision": 0.058823529411764705,
+          "recall": 0.05405405405405406,
+          "f1": 0.056338028169014086,
+          "support": 37,
+          "predicted": 34
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.010200391079730657,
+      0.007107611275676909
+    ]
+  },
+  {
+    "light": "mexico_joint",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      1.2248123884201088,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5311,
+          30,
+          158
+        ],
+        [
+          34,
+          1,
+          2
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9583483591777858,
+      "macro_f1": 0.3476632666402217,
+      "damaged_macro_f1": 0.03204692281536892,
+      "balanced_accuracy": 0.430946330946331,
+      "classes": {
+        "no_damage": {
+          "precision": 0.992339312406577,
+          "recall": 0.9658119658119658,
+          "f1": 0.9788959542899272,
+          "support": 5499,
+          "predicted": 5352
+        },
+        "minor": {
+          "precision": 0.03225806451612903,
+          "recall": 0.02702702702702703,
+          "f1": 0.029411764705882353,
+          "support": 37,
+          "predicted": 31
+        },
+        "major_or_destroyed": {
+          "precision": 0.018404907975460124,
+          "recall": 0.3,
+          "f1": 0.03468208092485549,
+          "support": 10,
+          "predicted": 163
+        }
+      }
+    },
+    "average_precision": [
+      0.013926570799896227,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico_keypoint",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      -1.0723391533939728,
+      -3.7415880680084252
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5341,
+          51,
+          107
+        ],
+        [
+          33,
+          2,
+          2
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9635773530472412,
+      "macro_f1": 0.3475773788859618,
+      "damaged_macro_f1": 0.030555555555555558,
+      "balanced_accuracy": 0.3751071857454837,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921976592977894,
+          "recall": 0.9712675031823969,
+          "f1": 0.9816210255467744,
+          "support": 5499,
+          "predicted": 5383
+        },
+        "minor": {
+          "precision": 0.03773584905660377,
+          "recall": 0.05405405405405406,
+          "f1": 0.044444444444444446,
+          "support": 37,
+          "predicted": 53
+        },
+        "major_or_destroyed": {
+          "precision": 0.00909090909090909,
+          "recall": 0.1,
+          "f1": 0.016666666666666666,
+          "support": 10,
+          "predicted": 110
+        }
+      }
+    },
+    "average_precision": [
+      0.013892054944144678,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_joint",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      1.2248123884201085,
+      0.9568579643964619
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5452,
+          41,
+          6
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          1,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9834114677244861,
+      "macro_f1": 0.3470354089120195,
+      "damaged_macro_f1": 0.024691358024691357,
+      "balanced_accuracy": 0.34850234850234846,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919941775836972,
+          "recall": 0.9914529914529915,
+          "f1": 0.9917235106866757,
+          "support": 5499,
+          "predicted": 5496
+        },
+        "minor": {
+          "precision": 0.045454545454545456,
+          "recall": 0.05405405405405406,
+          "f1": 0.04938271604938271,
+          "support": 37,
+          "predicted": 44
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 6
+        }
+      }
+    },
+    "average_precision": [
+      0.013926570799896227,
+      0.007107217596943346
+    ]
+  },
+  {
+    "light": "mexico_joint",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      1.2248123884201088,
+      -1.5545861715078373
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5452,
+          41,
+          6
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          9,
+          1,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9834114677244861,
+      "macro_f1": 0.3470354089120195,
+      "damaged_macro_f1": 0.024691358024691357,
+      "balanced_accuracy": 0.34850234850234846,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9919941775836972,
+          "recall": 0.9914529914529915,
+          "f1": 0.9917235106866757,
+          "support": 5499,
+          "predicted": 5496
+        },
+        "minor": {
+          "precision": 0.045454545454545456,
+          "recall": 0.05405405405405406,
+          "f1": 0.04938271604938271,
+          "support": 37,
+          "predicted": 44
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 6
+        }
+      }
+    },
+    "average_precision": [
+      0.013926570799896227,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_herat",
+    "thresholds": [
+      16.0,
+      -1.6984938049316436
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5467,
+          0,
+          32
+        ],
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.985935809592499,
+      "macro_f1": 0.3461538461538462,
+      "damaged_macro_f1": 0.022727272727272728,
+      "balanced_accuracy": 0.364726920046069,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9918359941944848,
+          "recall": 0.994180760138207,
+          "f1": 0.993006993006993,
+          "support": 5499,
+          "predicted": 5512
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 0
+        },
+        "major_or_destroyed": {
+          "precision": 0.029411764705882353,
+          "recall": 0.1,
+          "f1": 0.045454545454545456,
+          "support": 10,
+          "predicted": 34
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.008839433351160787
+    ]
+  },
+  {
+    "light": "mexico_herat",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      -1.4941702485084514,
+      -2.6261253499984796
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5433,
+          47,
+          19
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9799855751893256,
+      "macro_f1": 0.3454665251445412,
+      "damaged_macro_f1": 0.023255813953488372,
+      "balanced_accuracy": 0.3473506239463686,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9917853231106243,
+          "recall": 0.9879978177850518,
+          "f1": 0.9898879475266467,
+          "support": 5499,
+          "predicted": 5478
+        },
+        "minor": {
+          "precision": 0.04081632653061224,
+          "recall": 0.05405405405405406,
+          "f1": 0.046511627906976744,
+          "support": 37,
+          "predicted": 49
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 19
+        }
+      }
+    },
+    "average_precision": [
+      0.011400536754843638,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico",
+    "thresholds": [
+      -3.2880076527595525,
+      -3.8068309020996094
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5298,
+          161,
+          40
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9558240173097728,
+      "macro_f1": 0.3453115585665342,
+      "damaged_macro_f1": 0.029131759329779135,
+      "balanced_accuracy": 0.37250065122405546,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923206592994943,
+          "recall": 0.9634478996181124,
+          "f1": 0.9776711570400443,
+          "support": 5499,
+          "predicted": 5339
+        },
+        "minor": {
+          "precision": 0.012121212121212121,
+          "recall": 0.05405405405405406,
+          "f1": 0.019801980198019802,
+          "support": 37,
+          "predicted": 165
+        },
+        "major_or_destroyed": {
+          "precision": 0.023809523809523808,
+          "recall": 0.1,
+          "f1": 0.038461538461538464,
+          "support": 10,
+          "predicted": 42
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.007163787688162769
+    ]
+  },
+  {
+    "light": "mexico",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      -1.496262835264239,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5488,
+          11,
+          0
+        ],
+        [
+          36,
+          1,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9897223223945185,
+      "macro_f1": 0.3452166691021555,
+      "damaged_macro_f1": 0.02040816326530612,
+      "balanced_accuracy": 0.34167555444151193,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9916877484640405,
+          "recall": 0.9979996362975087,
+          "f1": 0.9948336807758542,
+          "support": 5499,
+          "predicted": 5534
+        },
+        "minor": {
+          "precision": 0.08333333333333333,
+          "recall": 0.02702702702702703,
+          "f1": 0.04081632653061224,
+          "support": 37,
+          "predicted": 12
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.010499800957412255,
+      0.007106701890457693
+    ]
+  },
+  {
+    "light": "mexico",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      -1.496262835264239,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5488,
+          11,
+          0
+        ],
+        [
+          36,
+          1,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9897223223945185,
+      "macro_f1": 0.3452166691021555,
+      "damaged_macro_f1": 0.02040816326530612,
+      "balanced_accuracy": 0.34167555444151193,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9916877484640405,
+          "recall": 0.9979996362975087,
+          "f1": 0.9948336807758542,
+          "support": 5499,
+          "predicted": 5534
+        },
+        "minor": {
+          "precision": 0.08333333333333333,
+          "recall": 0.02702702702702703,
+          "f1": 0.04081632653061224,
+          "support": 37,
+          "predicted": 12
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.010499800957412255,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_herat",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      0.12267119944095095,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5488,
+          11,
+          0
+        ],
+        [
+          36,
+          1,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9897223223945185,
+      "macro_f1": 0.3452166691021555,
+      "damaged_macro_f1": 0.02040816326530612,
+      "balanced_accuracy": 0.34167555444151193,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9916877484640405,
+          "recall": 0.9979996362975087,
+          "f1": 0.9948336807758542,
+          "support": 5499,
+          "predicted": 5534
+        },
+        "minor": {
+          "precision": 0.08333333333333333,
+          "recall": 0.02702702702702703,
+          "f1": 0.04081632653061224,
+          "support": 37,
+          "predicted": 12
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.011400536754843638,
+      0.007107217596943346
+    ]
+  },
+  {
+    "light": "mexico_keypoint",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      -1.072339153393973,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5445,
+          54,
+          0
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9821492967904796,
+      "macro_f1": 0.34466724789305436,
+      "damaged_macro_f1": 0.021505376344086023,
+      "balanced_accuracy": 0.34807802892909273,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9918032786885246,
+          "recall": 0.9901800327332242,
+          "f1": 0.990990990990991,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.03571428571428571,
+          "recall": 0.05405405405405406,
+          "f1": 0.043010752688172046,
+          "support": 37,
+          "predicted": 56
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.013892054944144678,
+      0.007106701890457693
+    ]
+  },
+  {
+    "light": "mexico_rbf",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      -2.1501759617812595,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5204,
+          147,
+          148
+        ],
+        [
+          34,
+          2,
+          1
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9392354850342589,
+      "macro_f1": 0.34242304819331054,
+      "damaged_macro_f1": 0.02927120669056153,
+      "balanced_accuracy": 0.43346931219271645,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921830314585319,
+          "recall": 0.9463538825240952,
+          "f1": 0.9687267311988086,
+          "support": 5499,
+          "predicted": 5245
+        },
+        "minor": {
+          "precision": 0.013422818791946308,
+          "recall": 0.05405405405405406,
+          "f1": 0.021505376344086023,
+          "support": 37,
+          "predicted": 149
+        },
+        "major_or_destroyed": {
+          "precision": 0.019736842105263157,
+          "recall": 0.3,
+          "f1": 0.037037037037037035,
+          "support": 10,
+          "predicted": 152
+        }
+      }
+    },
+    "average_precision": [
+      0.00861291616155742,
+      0.008231856560610509
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_joint",
+    "thresholds": [
+      16.0,
+      0.20191124081611717
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5444,
+          0,
+          55
+        ],
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9817886765236207,
+      "macro_f1": 0.34037067370400703,
+      "damaged_macro_f1": 0.015151515151515152,
+      "balanced_accuracy": 0.3633327271625144,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9916211293260474,
+          "recall": 0.9899981814875431,
+          "f1": 0.9908089908089908,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 0
+        },
+        "major_or_destroyed": {
+          "precision": 0.017857142857142856,
+          "recall": 0.1,
+          "f1": 0.030303030303030304,
+          "support": 10,
+          "predicted": 56
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.0072008718972865
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_keypoint",
+    "thresholds": [
+      16.0,
+      -3.731630285620975
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5391,
+          0,
+          108
+        ],
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          8,
+          0,
+          2
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9724125495852867,
+      "macro_f1": 0.3397187532910964,
+      "damaged_macro_f1": 0.01652892561983471,
+      "balanced_accuracy": 0.39345335515548285,
+      "classes": {
+        "no_damage": {
+          "precision": 0.991904323827047,
+          "recall": 0.9803600654664485,
+          "f1": 0.9860984086336199,
+          "support": 5499,
+          "predicted": 5435
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 0
+        },
+        "major_or_destroyed": {
+          "precision": 0.018018018018018018,
+          "recall": 0.2,
+          "f1": 0.03305785123966942,
+          "support": 10,
+          "predicted": 111
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.007456941826649928
+    ]
+  },
+  {
+    "light": "mexico_context",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      -2.3988528103832474,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5083,
+          262,
+          154
+        ],
+        [
+          31,
+          4,
+          2
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9177785791561486,
+      "macro_f1": 0.339718689884567,
+      "damaged_macro_f1": 0.03095279942195403,
+      "balanced_accuracy": 0.4441526633015995,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9925795743018941,
+          "recall": 0.9243498817966903,
+          "f1": 0.9572504708097929,
+          "support": 5499,
+          "predicted": 5121
+        },
+        "minor": {
+          "precision": 0.015037593984962405,
+          "recall": 0.10810810810810811,
+          "f1": 0.026402640264026403,
+          "support": 37,
+          "predicted": 266
+        },
+        "major_or_destroyed": {
+          "precision": 0.018867924528301886,
+          "recall": 0.3,
+          "f1": 0.03550295857988166,
+          "support": 10,
+          "predicted": 159
+        }
+      }
+    },
+    "average_precision": [
+      0.011601521608130114,
+      0.008231856560610507
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_herat_only",
+    "thresholds": [
+      16.0,
+      -2.6228286862373387
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5337,
+          0,
+          162
+        ],
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          7,
+          0,
+          3
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9628561125135232,
+      "macro_f1": 0.33838161925328997,
+      "damaged_macro_f1": 0.01694915254237288,
+      "balanced_accuracy": 0.42351336606655754,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9921918572225321,
+          "recall": 0.9705400981996727,
+          "f1": 0.9812465526751241,
+          "support": 5499,
+          "predicted": 5379
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 0
+        },
+        "major_or_destroyed": {
+          "precision": 0.017964071856287425,
+          "recall": 0.3,
+          "f1": 0.03389830508474576,
+          "support": 10,
+          "predicted": 167
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.008231856560610507
+    ]
+  },
+  {
+    "light": "mexico_rbf",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      -0.9686035767841225,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5444,
+          55,
+          0
+        ],
+        [
+          36,
+          1,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9817886765236207,
+      "macro_f1": 0.33743812238435894,
+      "damaged_macro_f1": 0.010752688172043012,
+      "balanced_accuracy": 0.33900840283819006,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9916211293260474,
+          "recall": 0.9899981814875431,
+          "f1": 0.9908089908089908,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.017857142857142856,
+          "recall": 0.02702702702702703,
+          "f1": 0.021505376344086023,
+          "support": 37,
+          "predicted": 56
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.00861291616155742,
+      0.007107611275676909
+    ]
+  },
+  {
+    "light": "mexico_rbf",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      -0.9686035767841227,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5444,
+          55,
+          0
+        ],
+        [
+          36,
+          1,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9817886765236207,
+      "macro_f1": 0.33743812238435894,
+      "damaged_macro_f1": 0.010752688172043012,
+      "balanced_accuracy": 0.33900840283819006,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9916211293260474,
+          "recall": 0.9899981814875431,
+          "f1": 0.9908089908089908,
+          "support": 5499,
+          "predicted": 5490
+        },
+        "minor": {
+          "precision": 0.017857142857142856,
+          "recall": 0.02702702702702703,
+          "f1": 0.021505376344086023,
+          "support": 37,
+          "predicted": 56
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.00861291616155742,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      -3.2880076527595525,
+      -3.7415880680084252
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5243,
+          160,
+          96
+        ],
+        [
+          33,
+          2,
+          2
+        ],
+        [
+          7,
+          2,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9459069599711504,
+      "macro_f1": 0.3369319862290368,
+      "damaged_macro_f1": 0.01912456068282441,
+      "balanced_accuracy": 0.3691667117199032,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9924285443876585,
+          "recall": 0.9534460811056555,
+          "f1": 0.9725468373214617,
+          "support": 5499,
+          "predicted": 5283
+        },
+        "minor": {
+          "precision": 0.012195121951219513,
+          "recall": 0.05405405405405406,
+          "f1": 0.01990049751243781,
+          "support": 37,
+          "predicted": 164
+        },
+        "major_or_destroyed": {
+          "precision": 0.010101010101010102,
+          "recall": 0.1,
+          "f1": 0.01834862385321101,
+          "support": 10,
+          "predicted": 99
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_context",
+    "severe": "mexico_hard_negatives",
+    "thresholds": [
+      -2.3988528103832474,
+      -3.7415880680084252
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5130,
+          268,
+          101
+        ],
+        [
+          31,
+          4,
+          2
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.925892535160476,
+      "macro_f1": 0.3350328210491896,
+      "damaged_macro_f1": 0.02171691364333163,
+      "balanced_accuracy": 0.38033499948393573,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9922630560928434,
+          "recall": 0.9328968903436988,
+          "f1": 0.9616646358609054,
+          "support": 5499,
+          "predicted": 5170
+        },
+        "minor": {
+          "precision": 0.014705882352941176,
+          "recall": 0.10810810810810811,
+          "f1": 0.025889967637540454,
+          "support": 37,
+          "predicted": 272
+        },
+        "major_or_destroyed": {
+          "precision": 0.009615384615384616,
+          "recall": 0.1,
+          "f1": 0.017543859649122806,
+          "support": 10,
+          "predicted": 104
+        }
+      }
+    },
+    "average_precision": [
+      0.011601521608130114,
+      0.00604217515132088
+    ]
+  },
+  {
+    "light": "mexico_transfer",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      -3.2880076527595525,
+      2.8291015625
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5336,
+          163,
+          0
+        ],
+        [
+          35,
+          2,
+          0
+        ],
+        [
+          8,
+          2,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9624954922466643,
+      "macro_f1": 0.33355684616188813,
+      "damaged_macro_f1": 0.00980392156862745,
+      "balanced_accuracy": 0.3414707670026819,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9920059490611638,
+          "recall": 0.9703582469539916,
+          "f1": 0.9810626953484096,
+          "support": 5499,
+          "predicted": 5379
+        },
+        "minor": {
+          "precision": 0.011976047904191617,
+          "recall": 0.05405405405405406,
+          "f1": 0.0196078431372549,
+          "support": 37,
+          "predicted": 167
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.006944385628678712,
+      0.007107217596943346
+    ]
+  },
+  {
+    "light": "mexico_context",
+    "severe": "mexico_direct_finetune",
+    "thresholds": [
+      -2.3988528103832474,
+      16.0
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5225,
+          274,
+          0
+        ],
+        [
+          33,
+          4,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9428416877028489,
+      "macro_f1": 0.33198500414995263,
+      "damaged_macro_f1": 0.012698412698412698,
+      "balanced_accuracy": 0.3527602889305017,
+      "classes": {
+        "no_damage": {
+          "precision": 0.991837509491268,
+          "recall": 0.950172758683397,
+          "f1": 0.9705581870530324,
+          "support": 5499,
+          "predicted": 5268
+        },
+        "minor": {
+          "precision": 0.014388489208633094,
+          "recall": 0.10810810810810811,
+          "f1": 0.025396825396825397,
+          "support": 37,
+          "predicted": 278
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 0
+        }
+      }
+    },
+    "average_precision": [
+      0.011601521608130114,
+      0.007107746677209496
+    ]
+  }
+]

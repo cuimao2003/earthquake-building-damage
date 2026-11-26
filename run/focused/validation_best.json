@@ -1,0 +1,90 @@
+{
+  "epoch": 6,
+  "steps": 112,
+  "footprint_loss": 0.6238654851913452,
+  "damage_loss": 0.32634440064430237,
+  "validation": {
+    "confusion": [
+      [
+        14285503,
+        811215,
+        73705,
+        7930
+      ],
+      [
+        1274929,
+        3256781,
+        152127,
+        27762
+      ],
+      [
+        5199,
+        17620,
+        3178,
+        2403
+      ],
+      [
+        853,
+        2886,
+        0,
+        0
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.9177090343586901,
+        "recall": 0.9411760946658705,
+        "f1": 0.9292944373066606,
+        "iou": 0.8679271591426482,
+        "support": 15178353,
+        "predicted": 15566484
+      },
+      "no-damage": {
+        "precision": 0.7965707244364807,
+        "recall": 0.6912262694681784,
+        "f1": 0.7401690048784667,
+        "iou": 0.5875145219832159,
+        "support": 4711599,
+        "predicted": 4088502
+      },
+      "minor-damage": {
+        "precision": 0.013877123269726213,
+        "recall": 0.11190140845070423,
+        "f1": 0.024692125403053496,
+        "iou": 0.012500393341514838,
+        "support": 28400,
+        "predicted": 229010
+      },
+      "major-or-destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 3739,
+        "predicted": 38095
+      }
+    },
+    "accuracy": 0.880703837764821,
+    "kappa": 0.6650249158261224,
+    "footprint": {
+      "f1": 0.7611002769979598,
+      "iou": 0.6143356583805664,
+      "precision": 0.7950113497383947,
+      "recall": 0.729963796482858
+    },
+    "building_macro_f1": 0.2549537100938401,
+    "damaged_macro_f1": 0.012346062701526748
+  },
+  "thresholds": {
+    "footprint": 0.5,
+    "minor": 0.65,
+    "severe": 0.5
+  },
+  "selection_score": 0.199534616275635
+}

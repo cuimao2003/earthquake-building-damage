@@ -1,0 +1,21 @@
+{
+  "attempted": 685,
+  "accepted": 576,
+  "skipped": {
+    "no_catalog_pair": 109
+  },
+  "source_labels": "https://mapping.emergency.copernicus.eu/activations/EMSR695/",
+  "imagery": "Maxar Open Data ARD",
+  "counts_by_grade": {
+    "Damaged": 299,
+    "Destroyed": 277
+  },
+  "counts_by_aoi": {
+    "aoi01": 76,
+    "aoi02": 68,
+    "aoi03": 61,
+    "aoi07": 356,
+    "aoi08": 15
+  },
+  "roi": "footprints"
+}

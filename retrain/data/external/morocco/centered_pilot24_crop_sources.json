@@ -1,0 +1,342 @@
+[
+  {
+    "point": [
+      -8.621601,
+      31.215543
+    ],
+    "aoi": "aoi01",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202002313/2022-07-07/10300500CFF91800-visual.tif",
+      "2022-07-07"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202002313/2023-09-10/104001008B75BB00-visual.tif",
+      "2023-09-10"
+    ]
+  },
+  {
+    "point": [
+      -8.613582,
+      31.21978
+    ],
+    "aoi": "aoi01",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202002313/2022-07-07/10300500CFF91800-visual.tif",
+      "2022-07-07"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202002313/2023-09-10/104001008B75BB00-visual.tif",
+      "2023-09-10"
+    ]
+  },
+  {
+    "point": [
+      -8.585494,
+      31.2943
+    ],
+    "aoi": "aoi01",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202002133/2023-07-14/1040010087BCDB00-visual.tif",
+      "2023-07-14"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202002133/2023-09-10/104001008B75BB00-visual.tif",
+      "2023-09-10"
+    ]
+  },
+  {
+    "point": [
+      -8.247254,
+      31.215167
+    ],
+    "aoi": "aoi02",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202003312/2022-05-12/10400100797DAC00-visual.tif",
+      "2022-05-12"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202003312/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.223799,
+      31.195421
+    ],
+    "aoi": "aoi02",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202003312/2022-05-12/10400100797DAC00-visual.tif",
+      "2022-05-12"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202003312/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -7.982387,
+      31.25001
+    ],
+    "aoi": "aoi03",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202012211/2021-05-02/104001006975B600-visual.tif",
+      "2021-05-02"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202012211/2023-09-10/10300500E4F91700-visual.tif",
+      "2023-09-10"
+    ]
+  },
+  {
+    "point": [
+      -7.965244,
+      31.254716
+    ],
+    "aoi": "aoi03",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202012211/2021-05-02/104001006800CE00-visual.tif",
+      "2021-05-02"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202012211/2023-09-10/10300500E4F91700-visual.tif",
+      "2023-09-10"
+    ]
+  },
+  {
+    "point": [
+      -8.227175,
+      30.984421
+    ],
+    "aoi": "aoi07",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021130/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021130/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.219289,
+      30.952682
+    ],
+    "aoi": "aoi07",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021132/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021132/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.204331,
+      30.958515
+    ],
+    "aoi": "aoi07",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.196419,
+      30.989764
+    ],
+    "aoi": "aoi07",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.192416,
+      30.986754
+    ],
+    "aoi": "aoi07",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.188311,
+      30.993406
+    ],
+    "aoi": "aoi07",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.184755,
+      30.991334
+    ],
+    "aoi": "aoi07",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.183452,
+      30.992238
+    ],
+    "aoi": "aoi07",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.180285,
+      30.995171
+    ],
+    "aoi": "aoi07",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.174517,
+      30.994787
+    ],
+    "aoi": "aoi07",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.167999,
+      30.970599
+    ],
+    "aoi": "aoi07",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202021131/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.156414,
+      31.013222
+    ],
+    "aoi": "aoi07",
+    "grade": 1,
+    "cems_label": "Damaged",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202030002/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202030002/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  },
+  {
+    "point": [
+      -8.148922,
+      31.015005
+    ],
+    "aoi": "aoi07",
+    "grade": 2,
+    "cems_label": "Destroyed",
+    "pre": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202030002/2022-06-23/1040010077691A00-visual.tif",
+      "2022-06-23"
+    ],
+    "post": [
+      "https://maxar-opendata.s3.amazonaws.com/events/Morocco-Earthquake-Sept-2023/ard/29/120202030002/2023-09-11/10300500E4F92300-visual.tif",
+      "2023-09-11"
+    ]
+  }
+]

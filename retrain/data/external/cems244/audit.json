@@ -1,0 +1,81 @@
+{
+  "EMSR244_01ATLIXCO_02GRADING_MAP_v1_vector.zip": [
+    {
+      "layer": "EMSR244_01ATLIXCO_02GRADING_v1_11000_crisis_information_point_grading.shp",
+      "count": 2,
+      "extent": [
+        555359.1738999998,
+        2091002.6284999996,
+        559423.0292999996,
+        2094036.3126999997
+      ],
+      "crs": "EPSG:32614",
+      "grades": {
+        "grading": {
+          "Null": 2
+        }
+      }
+    },
+    {
+      "layer": "EMSR244_01ATLIXCO_02GRADING_v1_11000_settlements_point_grading.shp",
+      "count": 386,
+      "extent": [
+        555029.4096999997,
+        2088617.0752000008,
+        562139.5761000002,
+        2094465.3464000002
+      ],
+      "crs": "EPSG:32614",
+      "grades": {
+        "grading": {
+          "null": 286,
+          "Negligible to slight damage": 42,
+          "Highly Damaged": 41,
+          "Completely Destroyed": 17
+        }
+      }
+    }
+  ],
+  "EMSR244_02TLANCUALPICAN_02GRADING_MAP_v1_vector.zip": [
+    {
+      "layer": "EMSR244_02TLANCUALPICAN_02GRADING_v1_7500_settlements_point_grading.shp",
+      "count": 12,
+      "extent": [
+        531561.0218000002,
+        2037943.3036000002,
+        534555.5779999997,
+        2039967.1909999996
+      ],
+      "crs": "EPSG:32614",
+      "grades": {
+        "grading": {
+          "Negligible to slight damage": 7,
+          "Moderately Damaged": 2,
+          "Highly Damaged": 2,
+          "Completely Destroyed": 1
+        }
+      }
+    }
+  ],
+  "EMSR244_03HUEHUETLAN_02GRADING_MAP_v1_vector.zip": [
+    {
+      "layer": "EMSR244_03HUEHUETLAN_02GRADING_v1_8000_settlements_point_grading.shp",
+      "count": 10,
+      "extent": [
+        532155.6412000004,
+        2031319.6276999991,
+        533190.9951999998,
+        2031681.5252
+      ],
+      "crs": "EPSG:32614",
+      "grades": {
+        "grading": {
+          "Not Affected": 1,
+          "Moderately Damaged": 3,
+          "Highly Damaged": 4,
+          "Negligible to slight damage": 2
+        }
+      }
+    }
+  ]
+}

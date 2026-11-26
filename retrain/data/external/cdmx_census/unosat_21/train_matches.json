@@ -1,0 +1,15 @@
+[
+  {
+    "chip": "mexico-earthquake_00000129",
+    "uid": "0856b816-5893-4cde-acb1-cb3ee56abd6c",
+    "bounds": [
+      758.8300000011594,
+      15.45000000029369,
+      797.2059542121112,
+      63.69380090868365
+    ],
+    "xbd": "no-damage",
+    "survey_risk": "DAMAGED BUILDINGS",
+    "census_id": 102
+  }
+]
