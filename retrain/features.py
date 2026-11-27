@@ -12,7 +12,7 @@ import torch
 from torch.nn import functional as F
 from shapely import wkt
 
-from dino import PATCH, WIDTH, load_dino
+from dino import PATCH, load_dino
 from inventory import LABELS, ROOT
 
 SIZE = 112
@@ -175,8 +175,9 @@ def descriptors(encoder, batch, regions, local_evidence=False):
         # Permit a one-token displacement before ranking visual changes in the roof.
         with torch.no_grad():
             height, width = grid.shape[-2:]
-            before = patch[:, 0].reshape(n, height, width, WIDTH).permute(0, 3, 1, 2)
-            after = patch[:, 1].reshape(n, height, width, WIDTH).permute(0, 3, 1, 2)
+            channels = patch.shape[-1]
+            before = patch[:, 0].reshape(n, height, width, channels).permute(0, 3, 1, 2)
+            after = patch[:, 1].reshape(n, height, width, channels).permute(0, 3, 1, 2)
             padded = F.pad(before, (1, 1, 1, 1), mode="replicate")
             best = same.reshape(n, height, width)
             for y in range(3):
@@ -198,11 +199,11 @@ def descriptors(encoder, batch, regions, local_evidence=False):
 
 
 @torch.no_grad()
-def embed(encoder, views, regions, device):
+def embed(encoder, views, regions, device, local_evidence=False):
     batch = torch.from_numpy(np.ascontiguousarray(views.transpose(0, 1, 4, 2, 3))).to(device)
     roi = torch.from_numpy(np.ascontiguousarray(regions)).to(device)
     with torch.cuda.amp.autocast(enabled=device.type == "cuda"):
-        appearance, numerical = descriptors(encoder, batch, roi)
+        appearance, numerical = descriptors(encoder, batch, roi, local_evidence)
     return appearance.cpu().numpy(), numerical.cpu().numpy()
 
 
@@ -216,7 +217,7 @@ def jitter_bounds(bounds, rng, shape):
     return (*np.clip(center - half, 0, cap), *np.clip(center + half, 0, cap))
 
 
-def read_record(record, negative_limit, registration_method, jitter=False):
+def read_record(record, negative_limit, registration_method, jitter=False, size=SIZE):
     path = Path(record["source"])
     chip = record["chip"]
     pre = read_rgb(path / "images" / f"{chip}_pre_disaster.png")
@@ -245,7 +246,7 @@ def read_record(record, negative_limit, registration_method, jitter=False):
         repeats = 3 if jitter and grade else 1
         for i in range(repeats):
             crop = jitter_bounds(bounds, jitter_rng, pre.shape) if jitter else bounds
-            img, mask = patch_pair(pre, post, crop)
+            img, mask = patch_pair(pre, post, crop, size=size)
             patches.append(img)
             masks.append(mask)
             statistics.append(signal(img, mask))

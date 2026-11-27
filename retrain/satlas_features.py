@@ -5,6 +5,7 @@ implementation. The local implementation bridges torchvision 0.13 to the
 published checkpoint's cosine attention and post-normalization.
 """
 
+from collections import OrderedDict
 import math
 
 import numpy as np
@@ -14,6 +15,7 @@ from torch.nn import functional as F
 from torchvision.models.swin_transformer import (
     ShiftedWindowAttention, SwinTransformer, SwinTransformerBlock, _patch_merging_pad,
 )
+from torchvision.ops import FeaturePyramidNetwork
 
 from classifier import RUN, load_data, train_head, train_texture, choose
 from finetune_mexico import STORE
@@ -104,16 +106,57 @@ class AerialMerge(nn.Module):
         return self.norm(self.reduction(merged))
 
 
-def backbone(device):
+def aerial_features(state, stages):
     instance = SwinTransformer(patch_size=[4, 4], embed_dim=128, depths=[2, 2, 18, 2],
                                num_heads=[4, 8, 16, 32], window_size=[8, 8], block=AerialBlock)
     for index, width in ((2, 128), (4, 256), (6, 512)):
         instance.features[index] = AerialMerge(width)
+    if state is not None:
+        prefix = "backbone.backbone.features."
+        features = {k[len(prefix):]: v for k, v in state.items() if k.startswith(prefix)}
+        instance.features.load_state_dict(features, strict=True)
+    return instance.features[:stages]
+
+
+def backbone(device):
     state = torch.load(WEIGHTS, map_location="cpu")
-    prefix = "backbone.backbone.features."
-    features = {k[len(prefix):]: v for k, v in state.items() if k.startswith(prefix)}
-    instance.features.load_state_dict(features, strict=True)
-    return instance.features[:4].eval().requires_grad_(False).to(device)
+    return aerial_features(state, 4).eval().requires_grad_(False).to(device)
+
+
+class SatlasPyramid(nn.Module):
+    out_channels = 128
+
+    def __init__(self, pretrained):
+        super().__init__()
+        state = torch.load(WEIGHTS, map_location="cpu") if pretrained else None
+        self.features = aerial_features(state, 8)
+        for layer in self.features[:5]:
+            layer.requires_grad_(False)
+        self.features[5][:-5].requires_grad_(False)
+        self.pyramid = FeaturePyramidNetwork([128, 256, 512, 1024], self.out_channels)
+        if state is not None:
+            prefix = "intermediates.0.fpn."
+            weights = {k[len(prefix):]: v for k, v in state.items() if k.startswith(prefix)}
+            self.pyramid.load_state_dict(weights, strict=True)
+
+    def forward(self, image):
+        output = OrderedDict()
+        for i, layer in enumerate(self.features):
+            image = layer(image)
+            if i % 2:
+                output[str(i // 2)] = image.permute(0, 3, 1, 2).contiguous()
+        return self.pyramid(output)
+
+
+def initialize_building_head(model):
+    state = torch.load(WEIGHTS, map_location="cpu")
+    # The official aerial training configuration assigns head 14 to buildings.
+    prefix = "heads.14."
+    public = {k[len(prefix):]: v for k, v in state.items() if k.startswith(prefix)}
+    expected = [k for k in model.state_dict() if not k.startswith("backbone.")]
+    missing, extra = model.load_state_dict({k: public[k] for k in expected}, strict=False)
+    if extra or any(not k.startswith("backbone.") for k in missing):
+        raise ValueError("The Satlas building head did not load completely")
 
 
 @torch.no_grad()

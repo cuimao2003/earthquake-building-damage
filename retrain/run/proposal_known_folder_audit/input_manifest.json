@@ -1,0 +1,371 @@
+[
+  {
+    "chip": "mexico-earthquake_00000005",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 284
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000006",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 595,
+      "minor-damage": 8
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000010",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 261
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000012",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 236
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000022",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 112,
+      "un-classified": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000025",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 98
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000028",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 152
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000058",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 649,
+      "minor-damage": 18
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000061",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 384
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000063",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 582
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000065",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 291,
+      "minor-damage": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000069",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 305,
+      "minor-damage": 12,
+      "major-damage": 16
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000076",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 283,
+      "major-damage": 4,
+      "minor-damage": 7,
+      "destroyed": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000080",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 214
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000090",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 155
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000094",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 542
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000095",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 34,
+      "un-classified": 3,
+      "minor-damage": 4
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000106",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 10
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000109",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 45
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000113",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 75
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000117",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 1058,
+      "minor-damage": 2,
+      "major-damage": 2
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000121",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 486
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000124",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 329,
+      "minor-damage": 3,
+      "major-damage": 6,
+      "un-classified": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000131",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 360
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000135",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 512
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000139",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 362
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000157",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 171
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000161",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 272,
+      "minor-damage": 9,
+      "un-classified": 2
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000163",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 321
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000169",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 5,
+      "major-damage": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000174",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 174
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000178",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 124
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000180",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 206,
+      "un-classified": 2,
+      "minor-damage": 5
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000183",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 510,
+      "minor-damage": 12,
+      "major-damage": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000187",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 255,
+      "major-damage": 1,
+      "minor-damage": 3
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000188",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 605,
+      "un-classified": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000189",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 199,
+      "un-classified": 1
+    },
+    "captures": "1030010072469D00"
+  },
+  {
+    "chip": "mexico-earthquake_00000190",
+    "source": "D:\\pc\\earthquake data\\test\\test",
+    "origin": "requested_test_folder",
+    "counts": {
+      "no-damage": 28
+    },
+    "captures": "1030010072469D00"
+  }
+]

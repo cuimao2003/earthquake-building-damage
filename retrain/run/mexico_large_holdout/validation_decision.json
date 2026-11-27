@@ -1,0 +1,22 @@
+{
+  "selected": {
+    "folder": "./run/mexico_large_selection",
+    "localizer": "swin_mix",
+    "macro_f1": 0.22958541065468827,
+    "damaged_macro_f1": 0.07077100115074798
+  },
+  "candidates": [
+    {
+      "folder": "./run/mexico_large_selection",
+      "localizer": "swin_mix",
+      "macro_f1": 0.22958541065468827,
+      "damaged_macro_f1": 0.07077100115074798
+    },
+    {
+      "folder": "./run/mexico_large_fusion_selection",
+      "localizer": "swin_large_consensus",
+      "macro_f1": 0.21196182180902046,
+      "damaged_macro_f1": 0.04001404001404002
+    }
+  ]
+}

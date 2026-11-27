@@ -1,0 +1,145 @@
+[
+  {
+    "scene": 53,
+    "annotated": 95,
+    "predicted": 99,
+    "matched": 88,
+    "correct": 82,
+    "accuracy": 0.8631578947368421,
+    "class_support": [
+      82,
+      3,
+      10
+    ]
+  },
+  {
+    "scene": 59,
+    "annotated": 129,
+    "predicted": 140,
+    "matched": 121,
+    "correct": 106,
+    "accuracy": 0.8217054263565892,
+    "class_support": [
+      44,
+      20,
+      65
+    ]
+  },
+  {
+    "scene": 4,
+    "annotated": 158,
+    "predicted": 172,
+    "matched": 134,
+    "correct": 127,
+    "accuracy": 0.8037974683544303,
+    "class_support": [
+      7,
+      11,
+      140
+    ]
+  },
+  {
+    "scene": 16,
+    "annotated": 44,
+    "predicted": 51,
+    "matched": 39,
+    "correct": 34,
+    "accuracy": 0.7727272727272727,
+    "class_support": [
+      36,
+      6,
+      2
+    ]
+  },
+  {
+    "scene": 39,
+    "annotated": 235,
+    "predicted": 227,
+    "matched": 205,
+    "correct": 176,
+    "accuracy": 0.7489361702127659,
+    "class_support": [
+      68,
+      25,
+      142
+    ]
+  },
+  {
+    "scene": 43,
+    "annotated": 119,
+    "predicted": 132,
+    "matched": 97,
+    "correct": 79,
+    "accuracy": 0.6638655462184874,
+    "class_support": [
+      24,
+      6,
+      89
+    ]
+  },
+  {
+    "scene": 23,
+    "annotated": 72,
+    "predicted": 89,
+    "matched": 61,
+    "correct": 44,
+    "accuracy": 0.6111111111111112,
+    "class_support": [
+      46,
+      15,
+      11
+    ]
+  },
+  {
+    "scene": 29,
+    "annotated": 64,
+    "predicted": 93,
+    "matched": 52,
+    "correct": 38,
+    "accuracy": 0.59375,
+    "class_support": [
+      27,
+      17,
+      20
+    ]
+  },
+  {
+    "scene": 15,
+    "annotated": 146,
+    "predicted": 194,
+    "matched": 116,
+    "correct": 86,
+    "accuracy": 0.589041095890411,
+    "class_support": [
+      76,
+      32,
+      38
+    ]
+  },
+  {
+    "scene": 6,
+    "annotated": 317,
+    "predicted": 319,
+    "matched": 230,
+    "correct": 186,
+    "accuracy": 0.5867507886435331,
+    "class_support": [
+      128,
+      44,
+      145
+    ]
+  },
+  {
+    "scene": 11,
+    "annotated": 53,
+    "predicted": 54,
+    "matched": 32,
+    "correct": 31,
+    "accuracy": 0.5849056603773585,
+    "class_support": [
+      39,
+      5,
+      9
+    ]
+  }
+]

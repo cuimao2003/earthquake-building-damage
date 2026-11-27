@@ -1,0 +1,65 @@
+{
+  "selected": {
+    "texture_weight": 0.0,
+    "thresholds": [
+      0.37216796875000213,
+      -0.34694463431835465
+    ],
+    "validation": {
+      "matrix": [
+        [
+          5442,
+          48,
+          9
+        ],
+        [
+          33,
+          4,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9821492967904796,
+      "macro_f1": 0.3936245699431297,
+      "damaged_macro_f1": 0.0949438202247191,
+      "balanced_accuracy": 0.3992475290347632,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9923413566739606,
+          "recall": 0.9896344789961812,
+          "f1": 0.9909860693799508,
+          "support": 5499,
+          "predicted": 5484
+        },
+        "minor": {
+          "precision": 0.07692307692307693,
+          "recall": 0.10810810810810811,
+          "f1": 0.0898876404494382,
+          "support": 37,
+          "predicted": 52
+        },
+        "major_or_destroyed": {
+          "precision": 0.1,
+          "recall": 0.1,
+          "f1": 0.1,
+          "support": 10,
+          "predicted": 10
+        }
+      }
+    }
+  },
+  "registration": "phase",
+  "patch_size": 112,
+  "transferred_encoder": true,
+  "local_evidence": true,
+  "encoder_checkpoint": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\mexico_vitl112\\mexico_vit.pt"
+}

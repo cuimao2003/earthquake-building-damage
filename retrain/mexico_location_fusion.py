@@ -17,7 +17,8 @@ from swin_locator import TILE, load_swin, swin_boxes
 
 
 OUT = ROOT / "run/mexico_location_fusion"
-NETWORKS = {"base": "swin_loc_mix", "small": "swin_loc_small"}
+LARGE_OUT = ROOT / "run/mexico_large_location_fusion"
+NETWORKS = {"base": "swin_loc_mix", "small": "swin_loc_small", "satlas": "swin_loc_satlas"}
 LOOSE = .14
 
 
@@ -28,9 +29,10 @@ def load_network(network, device):
 
 def proposals(image, view, device):
     network, mirrored = view
-    model, state = load_network(network, device)
+    model, state = load_network("satlas" if network == "satlas_zoom" else network, device)
+    tile = 192 if network == "satlas_zoom" else state.get("tile_size", TILE)
     boxes, scores = swin_boxes(model, image[:, ::-1] if mirrored else image, device, LOOSE,
-                              tile=state.get("tile_size", TILE))
+                              tile=tile)
     if mirrored:
         boxes[:, [0, 2]] = image.shape[1] - boxes[:, [2, 0]]
     return boxes, scores
@@ -64,7 +66,10 @@ def fused_boxes(image, settings, device):
 def choices(views):
     for view in views:
         yield {"views": [view]}
-    for a, b in ((views[0], views[1]), (views[0], views[2]), (views[2], views[3])):
+    pairs = ((views[0], views[1]), (views[0], views[2]), (views[2], views[3]))
+    if views[2][0] == "satlas":
+        pairs += ((views[0], views[3]), (views[1], views[2]))
+    for a, b in pairs:
         for association in (.48, .57):
             for penalty in (.62, .80, .96):
                 yield {"views": [a, b], "association": association, "penalty": penalty}
@@ -114,13 +119,15 @@ def choose(data, options):
 if __name__ == "__main__":
     cli = argparse.ArgumentParser(description=__doc__)
     cli.add_argument("--out", type=Path, default=OUT)
+    cli.add_argument("--satlas", action="store_true", help="Compare the aerial Swin-Base views")
     args = cli.parse_args()
     args.out.mkdir(parents=True, exist_ok=True)
     cv2.setNumThreads(1)
     torch.set_num_threads(2)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     manifest = json.loads((ROOT / "data/manifest.json").read_bytes())
-    views = [(name, mirror) for name in NETWORKS for mirror in (False, True)]
+    views = ([('base', False), ('base', True), ('satlas', False), ('satlas_zoom', False)]
+             if args.satlas else [(name, mirror) for name in ("base", "small") for mirror in (False, True)])
     records = collect(manifest["val"], views, device)
     candidates = choose(records, choices(views))
     selected = candidates[0]

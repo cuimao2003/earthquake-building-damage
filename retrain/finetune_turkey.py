@@ -13,7 +13,7 @@ from torch import nn
 from torch.nn import functional as F
 
 from classifier import PairHead, calibrate, report, matrix, predict_grade
-from dino import load_dino
+from dino import dino_from_state, load_dino
 from features import descriptors, patch_pair, read_rgb, signal, WEIGHTS
 from inventory import ROOT, write_json
 from turkey import DATA
@@ -139,9 +139,8 @@ def save(path, encoder, head, **metadata):
 
 def load(path, device):
     state = torch.load(path, map_location="cpu")
-    encoder = load_dino(WEIGHTS, device)
-    encoder.load_state_dict(state["encoder"])
-    head = PairHead(state["n_features"]).to(device)
+    encoder = dino_from_state(state["encoder"], device)
+    head = PairHead(state["n_features"], visual_width=encoder.width).to(device)
     head.load_state_dict(state["head"])
     return encoder, head.eval(), state
 
@@ -152,8 +151,8 @@ def train(args, device, store=None, sample_fractions=(.36, .27), checkpoint_name
     rng = np.random.default_rng(args.seed)
     train, validation = [Patches(split, args.patch_size, store) for split in ("train", "val")]
     if args.init is None:
-        encoder = load_dino(WEIGHTS, device)
-        head = PairHead(train.change.shape[1] + 3).to(device)
+        encoder = load_dino(getattr(args, "weights", WEIGHTS), device)
+        head = PairHead(train.change.shape[1] + 3, visual_width=encoder.width).to(device)
     else:
         encoder, head, _ = load(args.init, device)
     for layer in encoder.blocks[-args.blocks:]:
@@ -166,7 +165,7 @@ def train(args, device, store=None, sample_fractions=(.36, .27), checkpoint_name
                                 "lr": args.lr},
                                {"params": head.parameters(), "lr": 4.0 * args.lr}], weight_decay=.035)
     if auxiliary is not None:
-        auxiliary_head = PairHead(auxiliary.change.shape[1] + 3).to(device)
+        auxiliary_head = PairHead(auxiliary.change.shape[1] + 3, visual_width=encoder.width).to(device)
         auxiliary_head.center[:-3].copy_(torch.from_numpy(auxiliary.change.mean(0)))
         auxiliary_head.scale[:-3].copy_(torch.from_numpy(auxiliary.change.std(0).clip(.015)))
         auxiliary_head.scale[-3:].fill_(.25)

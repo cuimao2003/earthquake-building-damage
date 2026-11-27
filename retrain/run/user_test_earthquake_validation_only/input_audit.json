@@ -1,0 +1,301 @@
+{
+  "requested_folder": "D:\\pc\\earthquake data\\test",
+  "source_counts": {
+    "D:\\pc\\earthquake data\\test\\test\\labels": 38,
+    "D:\\pc\\earthquake data\\test\\test\\new train\\labels": 38,
+    "D:\\pc\\earthquake data\\test\\test\\PythonProject4\\new train\\labels": 0
+  },
+  "unique_pairs": 38,
+  "duplicate_pairs": [
+    {
+      "chip": "mexico-earthquake_00000005",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000006",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000010",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000012",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000022",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000025",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000028",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000058",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000061",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000063",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000065",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000069",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000076",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000080",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000090",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000094",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000095",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000106",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000109",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000113",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000117",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000121",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000124",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000131",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000135",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000139",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000157",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000161",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000163",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000169",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000174",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000178",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000180",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000183",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000187",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000188",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000189",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    },
+    {
+      "chip": "mexico-earthquake_00000190",
+      "source": "D:\\pc\\earthquake data\\test\\test\\new train",
+      "kept": "D:\\pc\\earthquake data\\test\\test",
+      "damage_grades_omitted": true
+    }
+  ],
+  "prior_partitions": {
+    "train": 32,
+    "val": 5,
+    "excluded_overlap": 1
+  },
+  "prior_partition_by_chip": {
+    "mexico-earthquake_00000005": "train",
+    "mexico-earthquake_00000006": "train",
+    "mexico-earthquake_00000010": "train",
+    "mexico-earthquake_00000012": "train",
+    "mexico-earthquake_00000022": "train",
+    "mexico-earthquake_00000025": "train",
+    "mexico-earthquake_00000028": "train",
+    "mexico-earthquake_00000058": "train",
+    "mexico-earthquake_00000061": "train",
+    "mexico-earthquake_00000063": "train",
+    "mexico-earthquake_00000065": "train",
+    "mexico-earthquake_00000069": "train",
+    "mexico-earthquake_00000076": "val",
+    "mexico-earthquake_00000080": "train",
+    "mexico-earthquake_00000090": "train",
+    "mexico-earthquake_00000094": "train",
+    "mexico-earthquake_00000095": "train",
+    "mexico-earthquake_00000106": "val",
+    "mexico-earthquake_00000109": "train",
+    "mexico-earthquake_00000113": "val",
+    "mexico-earthquake_00000117": "train",
+    "mexico-earthquake_00000121": "train",
+    "mexico-earthquake_00000124": "train",
+    "mexico-earthquake_00000131": "train",
+    "mexico-earthquake_00000135": "train",
+    "mexico-earthquake_00000139": "train",
+    "mexico-earthquake_00000157": "train",
+    "mexico-earthquake_00000161": "train",
+    "mexico-earthquake_00000163": "train",
+    "mexico-earthquake_00000169": "val",
+    "mexico-earthquake_00000174": "train",
+    "mexico-earthquake_00000178": "train",
+    "mexico-earthquake_00000180": "train",
+    "mexico-earthquake_00000183": "val",
+    "mexico-earthquake_00000187": "train",
+    "mexico-earthquake_00000188": "excluded_overlap",
+    "mexico-earthquake_00000189": "train",
+    "mexico-earthquake_00000190": "train"
+  },
+  "previously_excluded": [
+    {
+      "chip": "mexico-earthquake_00000188",
+      "origin": "test_previous",
+      "hold_chip": "mexico-earthquake_00000050",
+      "overlap": 0.008338882509876773,
+      "matches_id": false,
+      "shared_building_ids": 0
+    }
+  ],
+  "annotation_counts": {
+    "no-damage": 11284,
+    "minor-damage": 84,
+    "un-classified": 11,
+    "major-damage": 31,
+    "destroyed": 1
+  }
+}

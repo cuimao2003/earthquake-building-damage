@@ -1,0 +1,157 @@
+{
+  "evaluated": 0,
+  "excluded": [
+    {
+      "chip": "mexico-earthquake_00000005",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000006",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000010",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000012",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000022",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000025",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000028",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000058",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000061",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000063",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000065",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000069",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000076",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000080",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000090",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000094",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000095",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000106",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000109",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000113",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000117",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000121",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000124",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000131",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000135",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000139",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000157",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000161",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000163",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000169",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000174",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000178",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000180",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000183",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000187",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000188",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000189",
+      "reason": "previous_chip_or_buildings"
+    },
+    {
+      "chip": "mexico-earthquake_00000190",
+      "reason": "previous_chip_or_buildings"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "scene": 53,
+    "correct": 82,
+    "annotated": 95,
+    "accuracy": 0.8632,
+    "predicted": 99,
+    "matched": 88,
+    "figure": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\typical_figures\\scene53_typical_caption.png"
+  },
+  {
+    "scene": 59,
+    "correct": 106,
+    "annotated": 129,
+    "accuracy": 0.8217,
+    "predicted": 140,
+    "matched": 121,
+    "figure": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\typical_figures\\scene59_typical_caption.png"
+  },
+  {
+    "scene": 4,
+    "correct": 127,
+    "annotated": 158,
+    "accuracy": 0.8038,
+    "predicted": 172,
+    "matched": 134,
+    "figure": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\typical_figures\\scene04_typical_caption.png"
+  }
+]

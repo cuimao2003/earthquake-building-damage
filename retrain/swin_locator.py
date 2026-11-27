@@ -49,20 +49,34 @@ class SwinPyramid(nn.Module):
         return self.pyramid(stages)
 
 
-def detector(pretrained):
-    backbone = SwinPyramid(pretrained)
-    anchors = AnchorGenerator(((12, 18), (24, 32), (45, 64), (90, 128)),
-                              ((.6, 1., 1.67),) * 4)
-    roi_pool = MultiScaleRoIAlign(["0", "1", "2", "3"], output_size=5, sampling_ratio=2)
-    mlp = TwoMLPHead(backbone.out_channels * 25, 384)
-    predictor = FastRCNNPredictor(384, 2)
-    return FasterRCNN(backbone, num_classes=None, min_size=320, max_size=320,
+def detector(pretrained, architecture="swin_t"):
+    normalization = {}
+    if architecture == "satlas_b":
+        from satlas_features import SatlasPyramid
+
+        backbone = SatlasPyramid(pretrained)
+        anchors = AnchorGenerator(((32,), (64,), (128,), (256,)), ((.5, 1., 2.),) * 4)
+        pool_size, representation, input_size = 7, 1024, 384
+        normalization = {"image_mean": [0., 0., 0.], "image_std": [1., 1., 1.]}
+    else:
+        backbone = SwinPyramid(pretrained)
+        anchors = AnchorGenerator(((12, 18), (24, 32), (45, 64), (90, 128)), ((.6, 1., 1.67),) * 4)
+        pool_size, representation, input_size = 5, 384, 320
+    roi_pool = MultiScaleRoIAlign(["0", "1", "2", "3"], output_size=pool_size, sampling_ratio=2)
+    mlp = TwoMLPHead(backbone.out_channels * pool_size ** 2, representation)
+    predictor = FastRCNNPredictor(representation, 2)
+    model = FasterRCNN(backbone, num_classes=None, min_size=input_size, max_size=input_size,
                       rpn_anchor_generator=anchors, rpn_pre_nms_top_n_train=1200,
                       rpn_pre_nms_top_n_test=700, rpn_post_nms_top_n_train=540,
                       rpn_post_nms_top_n_test=430, box_roi_pool=roi_pool,
                       box_head=mlp, box_predictor=predictor, box_score_thresh=.08,
                       box_nms_thresh=.48, box_detections_per_img=130,
-                      box_batch_size_per_image=192)
+                      box_batch_size_per_image=192, **normalization)
+    if architecture == "satlas_b" and pretrained:
+        from satlas_features import initialize_building_head
+
+        initialize_building_head(model)
+    return model
 
 
 @lru_cache(maxsize=16)
@@ -172,8 +186,8 @@ def save(model, out, row):
 
 
 def load_swin(path, device):
-    model = detector(False).to(device)
     state = torch.load(path, map_location="cpu")
+    model = detector(False, state.get("architecture", "swin_t")).to(device)
     model.load_state_dict(state["model"])
     return model.eval(), state
 
@@ -183,24 +197,41 @@ def train(args, device, datasets=None, image_loader=source_scene):
     rng = np.random.default_rng(41027)
     args.out.mkdir(parents=True, exist_ok=True)
     tile = getattr(args, "tile_size", TILE)
+    architecture = getattr(args, "architecture", "swin_t")
     if datasets is None:
         data = json.loads((ROOT / "data/manifest.json").read_bytes())
         datasets = [[(r, building_boxes(r)) for r in data[split]] for split in ("train", "val")]
     train_rows, validation = datasets
     if args.init:
         model, original = load_swin(args.init, device)
+        architecture = original.get("architecture", "swin_t")
         same_scale = original.get("tile_size", TILE) == tile
         best = original.get("box_f1_iou_50", -1.) if same_scale and image_loader is source_scene else -1.
     else:
-        model = detector(True).to(device)
+        model = detector(True, architecture).to(device)
         best = -1.
     active = [p for p in model.parameters() if p.requires_grad]
-    optim = torch.optim.AdamW(active, lr=args.lr, weight_decay=.015)
-    adjust = torch.optim.lr_scheduler.CosineAnnealingLR(optim, args.epochs, eta_min=.00003)
+    parameters = active
+    if architecture == "satlas_b":
+        backbone = [p for p in model.backbone.parameters() if p.requires_grad]
+        ids = {id(p) for p in backbone}
+        parameters = [{"params": backbone, "lr": args.lr * .24},
+                      {"params": [p for p in active if id(p) not in ids], "lr": args.lr}]
+    optim = torch.optim.AdamW(parameters, lr=args.lr, weight_decay=.015)
+    eta = .00001 if architecture == "satlas_b" else .00003
+    adjust = torch.optim.lr_scheduler.CosineAnnealingLR(optim, args.epochs, eta_min=eta)
     amp = device.type == "cuda"
     scaler = torch.cuda.amp.GradScaler(enabled=amp)
     started = time.monotonic()
     history = []
+    if getattr(args, "validate_initial", False):
+        row = {"epoch": 0, "tile_size": tile, "architecture": architecture,
+               **evaluate(model, validation, device, image_loader, tile)}
+        print(json.dumps(row), flush=True)
+        if row["box_f1_iou_50"] > best:
+            best = row["box_f1_iou_50"]
+            save(model, args.out, row)
+        history.append(row)
     if args.aux_buildings:
         folder = ROOT.parent / "cache"
         aux = np.load(folder / "building_train.npy", mmap_mode="r")
@@ -241,7 +272,7 @@ def train(args, device, datasets=None, image_loader=source_scene):
                 break
         adjust.step()
         row = {"epoch": epoch, "loss": total / steps, "steps": steps,
-               "elapsed": time.monotonic() - started, "tile_size": tile}
+               "elapsed": time.monotonic() - started, "tile_size": tile, "architecture": architecture}
         stop = time.monotonic() - started >= args.seconds
         if epoch == 1 or epoch % 3 == 0 or epoch == args.epochs or stop:
             row.update(evaluate(model, validation, device, image_loader, tile))
@@ -266,6 +297,8 @@ if __name__ == "__main__":
     cli.add_argument("--init", type=Path)
     cli.add_argument("--aux-buildings", type=float, default=0.)
     cli.add_argument("--tile-size", type=int, choices=(160, 192, 224, 256, 320), default=TILE)
+    cli.add_argument("--architecture", choices=("swin_t", "satlas_b"), default="swin_t")
+    cli.add_argument("--validate-initial", action="store_true")
     args = cli.parse_args()
     if min(args.epochs, args.batch, args.steps, args.seconds, args.lr) <= 0:
         cli.error("training parameters must be positive")

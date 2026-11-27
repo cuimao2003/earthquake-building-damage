@@ -11,7 +11,7 @@ from sklearn.metrics import average_precision_score
 import torch
 
 from classifier import RUN, calibrate, load_data, save_model
-from features import SIZE, read_record
+from features import SIZE, WEIGHTS, read_record
 from finetune_turkey import Patches, load, predict, train
 from inventory import ROOT, write_json
 from select_mexico import head_scores, likelihood_pair
@@ -28,22 +28,22 @@ class AuxiliaryPatches(Patches):
             self.rgb, self.roi, self.change, self.grade = (z[k] for k in ("rgb", "roi", "texture", "grade"))
 
 
-def prepare(rows, split):
-    STORE.mkdir(exist_ok=True)
+def prepare(rows, split, store, size):
+    store.mkdir(exist_ok=True)
     original = load_data(split)
     total = len(original["grade"])
-    prefix = STORE / split
+    prefix = store / split
     images = np.lib.format.open_memmap(prefix.with_name(split + "_rgb.npy"), mode="w+", dtype=np.uint8,
-                                      shape=(total, 2, SIZE, SIZE, 3))
+                                      shape=(total, 2, size, size, 3))
     masks = np.lib.format.open_memmap(prefix.with_name(split + "_roi.npy"), mode="w+", dtype=np.uint8,
-                                     shape=(total, SIZE, SIZE))
+                                     shape=(total, size, size))
     grades, points, chips = [], [], []
     start = 0
     with ThreadPoolExecutor(max_workers=3) as pool:
         for offset in range(0, len(rows), 6):
             group = rows[offset:offset + 6]
             results = pool.map(read_record, group, [72 if split == "train" else None] * len(group),
-                               ["phase"] * len(group))
+                               ["phase"] * len(group), [False] * len(group), [size] * len(group))
             for row, (rgb, roi, change, grade, uid, _) in zip(group, results):
                 end = start + len(grade)
                 if end > start:
@@ -64,10 +64,13 @@ def prepare(rows, split):
     np.savez(prefix.with_suffix(".npz"), change=np.stack(points), grade=np.asarray(grades), chip=np.asarray(chips))
 
 
-def assess(device, out):
+def assess(device, out, store):
     encoder, head, state = load(out / CHECKPOINT, device)
-    data = Patches("val", SIZE, STORE)
-    fresh = predict(encoder, head, data, device, batch=64)
+    size = state["patch_size"]
+    data = Patches("val", size, store)
+    local_evidence = state.get("local_evidence", False)
+    batch = 32 if size > 112 or encoder.width > 768 else 64
+    fresh = predict(encoder, head, data, device, batch=batch, local_evidence=local_evidence)
     _, minor = head_scores(RUN / "mexico_herat_only")
     _, severe = head_scores(RUN / "mexico_transfer")
     results = []
@@ -85,7 +88,9 @@ def assess(device, out):
     np.save(out / "val_head_scores.npy", fresh)
     write_json(out / "selection.json", {"selected": {"texture_weight": 0., "thresholds": thresholds,
                                                     "validation": val}, "registration": "phase",
-                                       "transferred_encoder": True, "encoder_checkpoint": str((out / CHECKPOINT).resolve())})
+                                       "patch_size": size, "transferred_encoder": True,
+                                       "local_evidence": local_evidence,
+                                       "encoder_checkpoint": str((out / CHECKPOINT).resolve())})
     write_json(out / "validation_comparison.json", results)
 
 
@@ -95,20 +100,26 @@ if __name__ == "__main__":
     cli.add_argument("--steps", type=int, default=78)
     cli.add_argument("--out", type=Path, default=OUT)
     cli.add_argument("--aux-crops", type=Path)
+    cli.add_argument("--weights", type=Path, default=WEIGHTS)
+    cli.add_argument("--patch-size", type=int, choices=(112, 168), default=SIZE)
+    cli.add_argument("--blocks", type=int, choices=(1, 2, 3, 4), default=2)
+    cli.add_argument("--batch", type=int, default=32)
+    cli.add_argument("--lr", type=float, default=.000032)
+    cli.add_argument("--local-evidence", action="store_true", help="Emphasize anomalous roof tokens")
     args = cli.parse_args()
-    if min(args.epochs, args.steps) < 1:
-        cli.error("epochs and steps must be positive")
+    if min(args.epochs, args.steps, args.lr) <= 0 or args.batch < 10:
+        cli.error("epochs, steps and learning rate must be positive and batch must be at least ten")
     cv2.setNumThreads(1)
     torch.set_num_threads(2)
     args.out.mkdir(exist_ok=True, parents=True)
+    store = STORE if args.patch_size == SIZE else STORE.with_name(f"{STORE.name}_{args.patch_size}")
     index = json.loads((ROOT / "data/manifest.json").read_bytes())
     for split in ("train", "val"):
-        if not (STORE / f"{split}.npz").is_file():
-            prepare(index[split], split)
+        if not (store / f"{split}.npz").is_file():
+            prepare(index[split], split, store, args.patch_size)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    args.seed, args.patch_size, args.init = 48123, SIZE, None
-    args.blocks, args.lr, args.batch = 2, .000032, 32
-    args.local_evidence, args.partial_augment = False, False
+    args.seed, args.init = 48123, None
+    args.partial_augment = False
     auxiliary = AuxiliaryPatches(args.aux_crops) if args.aux_crops else None
-    train(args, device, STORE, sample_fractions=(.65, .23), checkpoint_name=CHECKPOINT, auxiliary=auxiliary)
-    assess(device, args.out)
+    train(args, device, store, sample_fractions=(.65, .23), checkpoint_name=CHECKPOINT, auxiliary=auxiliary)
+    assess(device, args.out, store)

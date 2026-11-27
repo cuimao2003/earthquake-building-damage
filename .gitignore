@@ -20,6 +20,12 @@ retrain/weights/
 retrain/tmp/
 tmp/
 
+# 超出仓库体积限制的大权重（检测器 / 编码器）
+retrain/run/*/detector.pt
+retrain/run/*/mexico_vit.pt
+retrain/data/proposal_*/
+retrain/data/proposal_lower_floor/
+
 # 数据集原始目录（仅保留清单与审计 JSON）
 retrain/data/original/
 retrain/data/mexico_patches/

@@ -1,0 +1,204 @@
+{
+  "scenes": 34,
+  "localizer": "swin_mix",
+  "detection_iou_threshold": 0.5,
+  "box_f1": 0.4731073804244536,
+  "detection_precision": 0.46710032524393297,
+  "detection_recall": 0.4792709536644847,
+  "detection_counts": [
+    3734,
+    7994,
+    7791
+  ],
+  "classification": {
+    "matrix": [
+      [
+        3625,
+        71,
+        3
+      ],
+      [
+        14,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        0
+      ]
+    ],
+    "unmatched_truth": [
+      4035,
+      12,
+      2
+    ],
+    "accuracy": 0.4667782642286892,
+    "macro_f1": 0.1557431634121716,
+    "damaged_macro_f1": 0.0,
+    "balanced_accuracy": 0.15623653133350573,
+    "classes": {
+      "no_damage": {
+        "precision": 0.46575870486958754,
+        "recall": 0.4687095940005172,
+        "f1": 0.4672294902365148,
+        "support": 7734,
+        "predicted": 7783
+      },
+      "minor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 27,
+        "predicted": 179
+      },
+      "major_or_destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5,
+        "predicted": 15
+      }
+    },
+    "unmatched_predictions": [
+      4141,
+      108,
+      11
+    ]
+  },
+  "example": "mexico-earthquake_00000091",
+  "given_human_boxes_diagnostic": {
+    "matrix": [
+      [
+        7607,
+        105,
+        22
+      ],
+      [
+        27,
+        0,
+        0
+      ],
+      [
+        5,
+        0,
+        0
+      ]
+    ],
+    "unmatched_truth": [
+      0,
+      0,
+      0
+    ],
+    "accuracy": 0.9795261395827968,
+    "macro_f1": 0.3298857303931135,
+    "damaged_macro_f1": 0.0,
+    "balanced_accuracy": 0.32785966727006294,
+    "classes": {
+      "no_damage": {
+        "precision": 0.9958109700222543,
+        "recall": 0.9835790018101888,
+        "f1": 0.9896571911793404,
+        "support": 7734,
+        "predicted": 7639
+      },
+      "minor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 27,
+        "predicted": 105
+      },
+      "major_or_destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5,
+        "predicted": 22
+      }
+    }
+  },
+  "box_raster_metrics": {
+    "confusion": [
+      [
+        20966245,
+        4667692,
+        101133,
+        9689
+      ],
+      [
+        1466170,
+        8119925,
+        235245,
+        18560
+      ],
+      [
+        8212,
+        40469,
+        190,
+        361
+      ],
+      [
+        359,
+        8788,
+        0,
+        0
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.934283591638977,
+        "recall": 0.8143888626030642,
+        "f1": 0.8702260388419853,
+        "iou": 0.7702656183985745,
+        "support": 25744759,
+        "predicted": 22440986
+      },
+      "no-damage": {
+        "precision": 0.6325469113430575,
+        "recall": 0.8252040163009786,
+        "f1": 0.7161446332710287,
+        "iou": 0.5578078744926186,
+        "support": 9839900,
+        "predicted": 12836874
+      },
+      "minor-damage": {
+        "precision": 0.0005645218796795893,
+        "recall": 0.003859278518037049,
+        "f1": 0.0009849663037843441,
+        "iou": 0.0004927258110526179,
+        "support": 49232,
+        "predicted": 336568
+      },
+      "major-or-destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 9147,
+        "predicted": 28610
+      }
+    },
+    "accuracy": 0.8160460396220995,
+    "kappa": 0.5873636007741054,
+    "footprint": {
+      "f1": 0.7293001992049378,
+      "iou": 0.5739358727754762,
+      "precision": 0.6380476307773973,
+      "recall": 0.8510103625084724
+    },
+    "any_damage": {
+      "f1": 0.002601774967713909,
+      "precision": 0.0015088532167874297,
+      "recall": 0.009438325425238528
+    },
+    "building_macro_f1": 0.23904319985827102,
+    "damaged_macro_f1": 0.0004924831518921721
+  }
+}

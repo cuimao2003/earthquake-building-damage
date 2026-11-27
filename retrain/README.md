@@ -1,5 +1,7 @@
 # 震后建筑定位和损伤分级重训记录
 
+双时相候选框 Transformer 的文献依据、四组训练对照与独立测试命令见 [震后建筑损伤训练方案](震后建筑损伤训练方案.md)。
+
 本轮按建筑级三档宏 F1 查验接近 80% 的目标，同时保留总体正确率、各档精确率和召回率。建筑自动检测采用预测框与人工框的 IoU 至少为 0.50、同一建筑只匹配一次的规则。给定人工框的分级诊断用于判断瓶颈在定位还是伤级判断。墨西哥模型使用震前、震后 RGB 影像，目标为定位建筑并输出分级结果。按现有 xBD 标签分为未受损、轻损、重损或毁坏，后两种严重等级合并训练。旧项目文档中的太阳几何、多光谱、SAR 和结构损失比例需要相应的输入与标注另行验证。
 
 ## 数据和划分
@@ -43,6 +45,18 @@
 
 192 像素检测切片微调后在验证集上的建筑框 F1 为 0.5493。256 像素模型原图与翻转图的加权框融合达到 0.5656。以原分级器重新校准后，检测分级合并的验证宏 F1 为 0.2101，原配置为 0.2241。另测试了航拍 SatlasPretrain 特征及模拟自动框偏移的训练增强，给定人工框时各自单模型验证宏 F1 为 0.3596 和 0.3575。来源为 [SatlasPretrain 模型发布页](https://github.com/allenai/satlaspretrain_models)。
 
+摩洛哥迁移的最佳组合在给定人工框时，验证宏 F1 为 0.3910，原配置为 0.3900。自动定位与分级的验证宏 F1 为 0.2124，加上框融合后为 0.2097。继续使用端到端验证宏 F1 为 0.2241 的原配置作为对照。摩洛哥样本按整个测绘区留一交叉验证，给定屋顶范围的受损与毁坏二分类宏 F1 为 0.6587，见 `data/external/morocco/footprints_severity_diagnostic.json`。
+
+## 放宽模型规模后的实验
+
+轻损候选采用 DINOv2 ViT-L/14（约 3.04 亿参数）和 112 像素图块，重损候选采用 ViT-B/14（约 8,658 万参数）和 168 像素图块。训练仍以墨西哥人工标注为主，摩洛哥图块通过独立分类头参与骨干微调。给定人工框时，ViT-L 和 ViT-B 单模型的三档验证宏 F1 分别为 0.3936 和 0.4227。按验证结果选择 ViT-L 的轻损分支与 ViT-B 的重损分支后，宏 F1 为 **0.4546**，判对 4/37 栋轻损、3/10 栋重损。混淆矩阵和权重路径见 `run/mexico_large_selection/selection.json`。权重来自 [DINOv2 官方发布](https://github.com/facebookresearch/dinov2)。
+
+采用航拍预训练的 Satlas Swin V2 Base、特征金字塔和原有建筑检测头另行微调，检测器共 9,537 万参数。其零微调验证建筑框 F1 为 0.3803，微调后最佳为 0.4652。原来的小型定位器为 0.5524。训练记录见 `run/swin_loc_satlas/history.json`。来源为 [SatlasPretrain 官方发布](https://github.com/allenai/satlaspretrain_models) 和 [航拍建筑任务配置](https://github.com/allenai/satlas/blob/main/configs/aerial/swinb_si_pretrain.txt)。
+
+按自动流程验证宏 F1 锁定原 Swin 定位器和两个较大的分级器。该组合的验证宏 F1 为 0.2296，定位框融合的对照版本为 0.2120，前一轮配置为 0.2241。阈值、候选和选用理由见 `run/mexico_large_holdout/validation_decision.json` 与 `run/mexico_large_selection/automatic_thresholds.json`。
+
+按锁定配置复测同一批 34 对留出影像。建筑框 F1 为 0.4731，三档端到端宏 F1 为 **0.1557**，正确定位且分级的比例为 **46.68%**。27 栋轻损和 5 栋重损均未正确分级。给定人工框的留出宏 F1 为 0.3299，整图像素吻合率为 81.60%。上一轮配置在同一批影像上的端到端宏 F1 为 0.1561，正确定位且分级的比例为 47.13%。大型分级器的验证收益未在这批留出影像上复现。完整数据、对照图与锁定设置见 `run/mexico_large_holdout/`，F 盘样例的预测见 `run/prediction_large/`。
+
 ## 运行墨西哥影像推理
 
 ```powershell
@@ -57,6 +71,13 @@ $quakePython = 'F:\transformer\anaconda\envs\transformer\python.exe'
 
 ```powershell
 & $quakePython .\infer_retrain.py test --with-box-diagnostic --pixel-audit --out .\run\mexico_recheck
+```
+
+复核较大模型的留出结果，或在单对图像上运行该版本。
+
+```powershell
+& $quakePython .\infer_retrain.py test --with-box-diagnostic --pixel-audit --localizer swin_mix --classifier .\run\mexico_large_selection --out .\run\mexico_large_recheck
+& $quakePython .\infer_retrain.py image --pre 'F:\transformer\mexico-earthquake_00000131_pre_disaster.png' --post 'F:\transformer\mexico-earthquake_00000131_post_disaster.png' --localizer swin_mix --classifier .\run\mexico_large_selection --out .\run\prediction_large
 ```
 
 ## 复核土耳其分级

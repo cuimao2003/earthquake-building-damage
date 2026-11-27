@@ -3,9 +3,10 @@
 基于**同尺寸、已配准的震前 / 震后 RGB 卫星影像**，同时完成建筑物定位与损伤等级分类（未受损 / 轻损 / 重损或毁坏）。仓库包含两代实现：
 
 1. **第一代：像素级双时相 Transformer**（约 19.7 万参数，单卡可训）——共享双时相编码器 + 两个四头自注意力块 + 多尺度时相差分融合 + 建筑定位 / 损伤分类双输出头；
-2. **第二代重训流水线（2026-11）**：Swin FPN 建筑检测器 + DINOv2 / 纹理双分级器，并在阿富汗、摩洛哥等辅助数据上做迁移与难负样本实验。
+2. **第二代重训流水线（2026-11）**：Swin FPN 建筑检测器 + DINOv2 / 纹理双分级器，并在阿富汗、摩洛哥等辅助数据上做迁移与难负样本实验；
+3. **第三代候选框 Transformer（2026-11-27）**：Swin 候选框 + 冻结 DINOv2 特征 + RoI 跨时相注意力分级头，并与旧模型按类别融合；包含 ViT-B/ViT-L 骨干对照与 0.20/0.24 低定位阈值实验。见文末「2026-11-27 更新」。
 
-核心结论：**建筑定位已达到可用水平；损伤分级（尤其轻损）仍远未达到 80% 的目标**，瓶颈主要在轻损样本稀少、时相配准和标注质量。详见 [`retrain/README.md`](retrain/README.md)（完整实验记录）。
+核心结论：**建筑定位已达到可用水平；损伤分级（尤其轻损）仍远未达到 80% 的目标**，瓶颈主要在轻损样本稀少、时相配准和标注质量。三代模型在墨西哥开发验证集上的三档宏 F1 分别为 0.2296（旧模型）、0.2309（旧模型 + ViT-B 注意力头融合）、0.2332（旧模型 + ViT-L 池化头融合），最后一次提升在样本量下不显著；土耳其测试集端到端正确率为 69.06%。详见 [`retrain/README.md`](retrain/README.md) 与 [`retrain/震后建筑损伤训练方案.md`](retrain/震后建筑损伤训练方案.md)。
 
 ## 结果速览
 
@@ -175,6 +176,9 @@ python evaluate.py
 | `retrain/run/turkey_vit/test.json` | 土耳其给定人工框分级混淆矩阵 |
 | `retrain/run/turkey_automatic/test.json` | 土耳其端到端（自动定位）记录 |
 | `retrain/run/mexico_final/` | 墨西哥最终配置、阈值与候选审计 |
+| `retrain/run/proposal_*/` | 第三代候选框 Transformer 的对照组、融合配置、定位 / 独立测试审计 |
+| `retrain/run/ds_vitl_*/`、`ds_floor20_*/` | 第三代 ViT-L 骨干与 0.20 定位阈值对照实验 |
+| `retrain/run/typical_figures/` | 土耳其测试集准确率最高的三个场景四联图与逐场景指标 |
 
 ## 已知限制
 
@@ -186,5 +190,90 @@ python evaluate.py
 ## 说明
 
 - `docs/` 与 `retrain/` 中的历史实验记录保留了作者本机路径（如 `D:\土坑论文\...`、`F:\transformer\...`），仅作为实验环境记录，复现时请替换为相对路径或本机路径。
-- 仓库体积约 22 MB：包含第一代模型权重与精选指标 / 对照图；数据集、缓存与第二代大权重（约 670 MB）未包含，避免仓库膨胀。
+- 仓库体积约 55 MB：包含第一代与第三代模型权重（分级头）、精选指标 / 对照图与典型结果图；数据集、缓存、Swin 检测器与 DINOv2 骨架等大权重未包含，避免仓库膨胀。
 - 代码与实验结果由本项目作者整理，欢迎交流。
+
+## 2026-11-27 更新：候选框 Transformer（第三代）
+
+在「Swin 定位 + DINOv2 / 纹理双分级器」的基础上，新增一条**候选框（proposal）双时相分级流水线**，把定位与分级解耦，并落实文献中的跨时相注意力做法：
+
+- 用 Swin FPN 在震前影像生成建筑候选框（默认阈值 0.36，可用 `--detector-floor` 调整）；
+- 每个候选框裁 168×168 的震前 / 震后成对图块，冻结 DINOv2 ViT-B/14（或 ViT-L/14）编码特征；
+- RoI 双时相 Transformer 分级头：局部跨时相注意力 + 前/后特征差值 + 两层空间 Transformer + 建筑内外加权池化，输出「有效建筑概率 + 未受损 / 轻损 / 重损」四路 logits；
+- 训练混合人工框、人工框偏移增强和 Swin 实际候选框，与人工框 IoU < 0.20 的候选框降权为负样本；
+- 推理时把新分级头与旧模型（`run/mexico_large_selection`）按轻损 / 重损分别做对数分数融合，融合权重与阈值只在验证集上选择。
+
+### 墨西哥开发验证集结果（27 对影像，54,499 栋未受损 / 37 栋轻损 / 10 栋重损）
+
+| 配置 | 三档宏 F1 | 损伤档宏 F1 | 定位 F1 | 轻损 / 重损匹配 |
+|---|---:|---:|---:|---:|
+| 旧模型基线（ViT-L + ViT-B 分级器） | 0.2296 | 0.0708 | 0.5524 | 27/37、5/10 |
+| 旧模型 + ViT-B 注意力头融合 | 0.2309 | 0.0729 | 0.5524 | — |
+| ViT-B 注意力头（混合候选框） | 0.2067 | 0.0366 | 0.5524 | 27/37、5/10 |
+| ViT-B 池化头 | 0.2013 | 0.0333 | 0.5524 | 27/37、5/10 |
+| ViT-B 仅人工框训练 | 0.2035 | 0.0312 | 0.5524 | 27/37、5/10 |
+| ViT-B 注意力头 + 摩洛哥辅助 | 0.2054 | 0.0382 | 0.5473 | 27/37、5/10 |
+| ViT-B 注意力头 + 0.24 定位阈值 | 0.2087 | 0.0504 | 0.5305 | 31/37、6/10 |
+| ViT-L 注意力头 | 0.2014 | 0.0346 | 0.5530 | 27/37、5/10 |
+| ViT-L 池化头 | 0.2085 | 0.0425 | 0.5524 | 27/37、5/10 |
+| **旧模型 + ViT-L 池化头 50% 融合** | **0.2332** | **0.0758** | — | — |
+| ViT-L 注意力头 + 旧模型融合 | 0.2296 | 0.0708 | — | 网格把新头权重压到 0 |
+| ViT-B 注意力头 + 0.20 定位阈值 | 0.1955 | 0.0416 | 0.5080 | 32/37、6/10 |
+| ViT-B 池化头 + 0.20 定位阈值 | 0.1768 | 0.0143 | 0.5080 | — |
+
+- **骨干容量不是瓶颈**：ViT-L 与 ViT-B 在 0.20 个百分点内，没有稳定收益。
+- **继续降低定位阈值没有帮助**：0.20 阈值把损伤建筑候选覆盖从 27→32、5→6 提上去，但未受损类误报增加更多，整体宏 F1 反而下降，0.24 已是最佳折中。
+- 当前验证集最好结果（旧模型 + ViT-L 池化头 50% 融合，0.2332）相对基线只高 0.36 个百分点，而验证集仅 37 栋轻损、10 栋重损，单次波动即可覆盖该增益，**不能视为实质改进**。34 对历史留出影像的回归复测因并行 GPU 任务未完成（记录见训练方案文末）。
+- 结论与下一步：瓶颈是损伤标注数量 / 质量与检测器精度；优先补标轻损 / 重损建筑并改进检测器，而不是继续加大骨干或降低阈值。
+
+### 土耳其测试集典型结果（按逐场景正确率选前三）
+
+口径与报告一致：自动定位（框 IoU ≥ 0.50 一对一匹配）且三档分级正确的建筑数 ÷ 人工标注建筑总数，测试集未参与训练或调参。
+
+| 场景 | 正确 / 标注 | 正确率 |
+|---|---:|---:|
+| 53 | 82/95 | 86.32% |
+| 59 | 106/129 | 82.17% |
+| 04 | 127/158 | 80.38% |
+| 全部 11 个测试场景 | 989/1,432 | 69.06% |
+
+（墨西哥 34 对留出影像中单场景最高为 77.9%，低于土耳其前三，因此按「任何地区」排序时前三名都来自土耳其。）
+
+![土耳其测试集典型结果（53 场景）](retrain/run/typical_figures/scene53_typical_caption.png)
+
+其余两张：`retrain/run/typical_figures/scene59_typical_caption.png`、`retrain/run/typical_figures/scene04_typical_caption.png`；逐场景预测框见同目录 `scene*_predictions.csv`，排名见 `retrain/run/turkey_automatic/typical_ranking.json`。
+
+### 新增代码与复现命令
+
+| 文件 | 作用 |
+|---|---|
+| `retrain/train_proposal_transformer.py` | 候选框流水线入口（prepare / train / fuse / test / image / audit-location） |
+| `retrain/roi_transformer.py` | RoI 双时相 Transformer 分级头 |
+| `retrain/evaluate_test_folder.py` | 独立 / 已知测试文件夹的输入审计与评估 |
+| `retrain/make_typical_figures.py`、`retrain/rank_turkey_scenes.py` | 典型结果四联图与逐场景正确率排名 |
+| `retrain/震后建筑损伤训练方案.md` | 数据、文献依据、实验方案、本机验证记录与 2026-11-27 执行记录 |
+
+```powershell
+# 准备特征缓存（默认 ViT-B；ViT-L 用 --weights .\weights\dinov2_vitl14_pretrain.pth --encode-batch 8）
+python retrain/train_proposal_transformer.py prepare
+# 训练分级头（attention / pooled / manual-only / morocco）
+python retrain/train_proposal_transformer.py train --variant attention --out retrain/run/ds_attention
+# 与旧模型融合（参考配置见 retrain/run/proposal_fusion/fusion.json）
+python retrain/train_proposal_transformer.py fuse --out retrain/run/ds_attention --result retrain/run/ds_fusion
+# 历史留出回归复测
+python retrain/train_proposal_transformer.py test --out retrain/run/ds_attention --fusion retrain/run/ds_fusion/fusion.json --regression --result retrain/run/ds_regression
+```
+
+### 本更新新增的目录
+
+- `retrain/train_proposal_transformer.py`、`roi_transformer.py`、`evaluate_test_folder.py`、`evaluate_turkey_transfer.py`
+- `retrain/make_typical_figures.py`、`rank_turkey_scenes.py`、`震后建筑损伤训练方案.md`
+- `retrain/run/proposal_*`：ViT-B 候选框对照组、融合配置、定位审计、独立测试审计
+- `retrain/run/ds_vitl_*`、`retrain/run/ds_floor20_*`：ViT-L 骨干与 0.20 定位阈值对照
+- `retrain/run/typical_figures/`：三张典型结果图、逐场景预测框与指标
+- `retrain/run/mexico_large_*`、`retrain/run/prediction_large/`、`retrain/run/turkey_mexico_transfer/` 等旧流水线补充记录（仅小体积 JSON / CSV / 对照图）
+
+### 权重说明
+
+- 分级头权重已包含：`retrain/run/*/head.pt`（0.7–1.5 MB/个），融合配置 `fusion.json` 与参考模型选择记录也已包含。
+- 体积过大的文件未包含：Swin 检测器 `run/*/detector.pt`（约 114 MB）、DINOv2 骨架 `retrain/weights/*.pth`（84–1161 MB）、旧流水线编码器 `run/mexico_vitl112/mexico_vit.pt` 等；推理前需按 `retrain/README.md` 与训练方案自行准备。

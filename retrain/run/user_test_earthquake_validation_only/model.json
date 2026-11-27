@@ -1,0 +1,5 @@
+{
+  "classifier": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\mexico_large_selection",
+  "localizer": "swin_mix",
+  "evaluated_pairs": 5
+}

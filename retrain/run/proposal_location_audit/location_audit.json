@@ -1,0 +1,99 @@
+{
+  "scenes": 27,
+  "support": [
+    5499,
+    37,
+    10
+  ],
+  "default_threshold": 0.36,
+  "thresholds": [
+    {
+      "detector_threshold": 0.12,
+      "proposals": 14215,
+      "box_f1": 0.435279829976723,
+      "per_grade_match_upper_bound": [
+        4260,
+        34,
+        6
+      ],
+      "macro_f1_upper_bound": 0.8602622497975867
+    },
+    {
+      "detector_threshold": 0.16,
+      "proposals": 11644,
+      "box_f1": 0.4780408353208074,
+      "per_grade_match_upper_bound": [
+        4068,
+        34,
+        6
+      ],
+      "macro_f1_upper_bound": 0.8527232696902645
+    },
+    {
+      "detector_threshold": 0.24,
+      "proposals": 8554,
+      "box_f1": 0.5304588327069002,
+      "per_grade_match_upper_bound": [
+        3702,
+        31,
+        6
+      ],
+      "macro_f1_upper_bound": 0.8221532825715875
+    },
+    {
+      "detector_threshold": 0.36,
+      "proposals": 6104,
+      "box_f1": 0.5523989357136726,
+      "per_grade_match_upper_bound": [
+        3185,
+        27,
+        5
+      ],
+      "macro_f1_upper_bound": 0.7479832002661344
+    },
+    {
+      "detector_threshold": 0.48,
+      "proposals": 4626,
+      "box_f1": 0.5402536125036862,
+      "per_grade_match_upper_bound": [
+        2719,
+        24,
+        4
+      ],
+      "macro_f1_upper_bound": 0.6733439989786515
+    },
+    {
+      "detector_threshold": 0.6,
+      "proposals": 3457,
+      "box_f1": 0.49800088849400265,
+      "per_grade_match_upper_bound": [
+        2218,
+        20,
+        3
+      ],
+      "macro_f1_upper_bound": 0.5793758759528114
+    },
+    {
+      "detector_threshold": 0.72,
+      "proposals": 2357,
+      "box_f1": 0.4187753036437247,
+      "per_grade_match_upper_bound": [
+        1641,
+        11,
+        3
+      ],
+      "macro_f1_upper_bound": 0.45984522013933776
+    },
+    {
+      "detector_threshold": 0.83,
+      "proposals": 1239,
+      "box_f1": 0.27645151783082816,
+      "per_grade_match_upper_bound": [
+        931,
+        5,
+        2
+      ],
+      "macro_f1_upper_bound": 0.28700288824705616
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "localizer": "proposal_transformer_fusion",
+  "predicted_buildings": 305,
+  "by_class": [
+    295,
+    9,
+    1
+  ],
+  "coordinate_frame": "pre_event",
+  "display_registration": [
+    0.0,
+    0.0,
+    0.11944602182484232
+  ],
+  "shape": [
+    1024,
+    1024
+  ]
+}

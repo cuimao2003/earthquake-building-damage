@@ -26,9 +26,9 @@ QUANTILES = [0.25, .55, .75, .85, .90, .93, .95, .97, .98, .99, .992,
 
 
 class PairHead(nn.Module):
-    def __init__(self, n_features, hidden=96):
+    def __init__(self, n_features, hidden=96, visual_width=WIDTH):
         super().__init__()
-        self.projection = nn.Sequential(nn.LayerNorm(WIDTH), nn.Linear(WIDTH, hidden), nn.GELU())
+        self.projection = nn.Sequential(nn.LayerNorm(visual_width), nn.Linear(visual_width, hidden), nn.GELU())
         self.fusion = nn.Sequential(nn.Linear(8 * hidden + n_features, hidden),
                                     nn.LayerNorm(hidden), nn.GELU(), nn.Dropout(.40),
                                     nn.Linear(hidden, 3))
@@ -65,7 +65,8 @@ def scene_features(values, scenes=None):
 
 def load_head(path, device):
     state = torch.load(path, map_location=device)
-    model = PairHead(state["n_features"]).to(device)
+    width = state["model"]["projection.1.weight"].shape[1]
+    model = PairHead(state["n_features"], visual_width=width).to(device)
     model.load_state_dict(state["model"], strict=True)
     return model.eval(), state
 
@@ -153,7 +154,7 @@ def train_head(train, val, device, out, epochs=42, auxiliary=None, external_seve
     n_features = train["change"].shape[1]
     rng = np.random.default_rng(641587)
     torch.manual_seed(4081)
-    model = PairHead(n_features).to(device)
+    model = PairHead(n_features, visual_width=train["appearance"].shape[-1]).to(device)
     model.center.copy_(torch.from_numpy(train["change"].mean(0)))
     model.scale.copy_(torch.from_numpy(train["change"].std(0).clip(.015)))
     groups = [np.flatnonzero(train["grade"] == k) for k in range(3)]

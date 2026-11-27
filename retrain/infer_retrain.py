@@ -16,7 +16,7 @@ import torch
 
 from classifier import QUANTILES, load_head, odds, predict_grade, probabilities, report, scene_features
 from detector import detect, load_detector, match
-from dino import load_dino
+from dino import dino_from_state, load_dino
 from evaluation import confusion, metrics, predict_map
 from features import WEIGHTS, align, embed, patch_pair, read_rgb, signal
 from infer import load_model
@@ -50,23 +50,24 @@ def load_localizers(device):
 @lru_cache(maxsize=2)
 def load_new_localizer(kind, device):
     from swin_locator import load_swin
-    folder = "swin_loc_mix" if kind == "swin_mix" else "swin_loc"
+    folder = {"swin": "swin_loc", "swin_mix": "swin_loc_mix", "swin_satlas": "swin_loc_satlas"}[kind]
     return load_swin(ROOT / "run" / folder / "detector.pt", device)
 
 
 def localize(kind, positions, pre, post, device):
     center, c, footprint, f = positions
-    if kind == "swin_consensus":
-        from mexico_location_fusion import OUT, fused_boxes
-        settings = json.loads((OUT / "validation.json").read_bytes())["selected"]
+    if kind in ("swin_consensus", "swin_large_consensus"):
+        from mexico_location_fusion import LARGE_OUT, OUT, fused_boxes
+        folder = LARGE_OUT if kind == "swin_large_consensus" else OUT
+        settings = json.loads((folder / "validation.json").read_bytes())["selected"]
         return fused_boxes(pre, settings, device)
     if kind == "center":
         boxes, _ = detect(center, pre, device, c["threshold"])
         return boxes
-    if kind in ("swin", "swin_mix"):
-        from swin_locator import swin_boxes
+    if kind in ("swin", "swin_mix", "swin_satlas"):
+        from swin_locator import TILE, swin_boxes
         model, state = load_new_localizer(kind, device)
-        boxes, _ = swin_boxes(model, pre, device, state["threshold"])
+        boxes, _ = swin_boxes(model, pre, device, state["threshold"], tile=state.get("tile_size", TILE))
         return boxes
     foot = predict_map(footprint, pre, post, device, batch=8, amp=device.type == "cuda",
                        **f.get("inference", {}))[0]
@@ -81,6 +82,8 @@ def choose_localizer(records, localizers, device):
         options += ["swin"]
     if (ROOT / "run/swin_loc_mix/detector.pt").is_file():
         options += ["swin_mix"]
+    if (ROOT / "run/swin_loc_satlas/detector.pt").is_file():
+        options += ["swin_satlas"]
     for kind in options:
         totals = np.zeros(3, np.int64)
         for row in records:
@@ -103,10 +106,11 @@ def choose_localizer(records, localizers, device):
 class Grader:
     def __init__(self, path, device, encoder_weights=None):
         self.device = device
-        self.encoder = load_dino(WEIGHTS, device)
         if encoder_weights:
             checkpoint = torch.load(encoder_weights, map_location="cpu")
-            self.encoder.load_state_dict(checkpoint["encoder"])
+            self.encoder = dino_from_state(checkpoint["encoder"], device)
+        else:
+            self.encoder = load_dino(WEIGHTS, device)
         self.head, _ = load_head(path / "head.pt", device)
         config = json.loads((path / "selection.json").read_bytes())
         if bool(encoder_weights) != config.get("transferred_encoder", False):
@@ -114,6 +118,9 @@ class Grader:
         self.selection = config["selected"]
         self.context = config.get("scene_context", False)
         self.registration = config.get("registration", "phase")
+        self.patch_size = config.get("patch_size", 112)
+        self.local_evidence = config.get("local_evidence", False)
+        self.batch_size = 32 if self.encoder.width > 768 else 48 if self.encoder.width > 384 or self.patch_size > 112 else 72
         self.texture = (joblib.load(path / "texture.joblib")
                         if self.selection["texture_weight"] else None)
         self.aligned = None
@@ -127,13 +134,13 @@ class Grader:
         visual, signals = [], []
 
         def prepare(bounds):
-            im, mask = patch_pair(pre, registered, bounds)
+            im, mask = patch_pair(pre, registered, bounds, size=self.patch_size)
             return im, mask, signal(im, mask)
 
         with ThreadPoolExecutor(max_workers=3) as workers:
-            for i in range(0, len(boxes), 72):
-                crops, roi, stats = zip(*workers.map(prepare, boxes[i:i + 72]))
-                a, cross = embed(self.encoder, np.stack(crops), np.stack(roi), self.device)
+            for i in range(0, len(boxes), self.batch_size):
+                crops, roi, stats = zip(*workers.map(prepare, boxes[i:i + self.batch_size]))
+                a, cross = embed(self.encoder, np.stack(crops), np.stack(roi), self.device, self.local_evidence)
                 x = np.concatenate((np.stack(stats), cross), axis=1)
                 visual.append(a)
                 signals.append(x)
@@ -296,7 +303,8 @@ def tune_automatic_thresholds(scores, target, missed, quantiles=QUANTILES):
     return best
 
 
-def evaluate(records, grader, mode, loc, out, known_boxes=False, pixel_audit=False):
+def evaluate(records, grader, mode, loc, out, known_boxes=False, pixel_audit=False, boxes_from=None,
+             registration_method="keypoint"):
     totals = np.zeros((3, 3), np.int64)
     unmatched_truth = np.zeros(3, np.int64)
     unmatched_predictions = np.zeros(3, np.int64)
@@ -308,8 +316,11 @@ def evaluate(records, grader, mode, loc, out, known_boxes=False, pixel_audit=Fal
     for i, row in enumerate(records, 1):
         pre, post = paired_images(row)
         gt, grades = ground_truth(row)
-        boxes = (grader.locate(pre, post) if mode == "previous_regions"
-                 else localize(mode, loc, pre, post, grader.device))
+        if boxes_from is not None:
+            boxes = boxes_from(pre, post)
+        else:
+            boxes = (grader.locate(pre, post) if mode == "previous_regions"
+                     else localize(mode, loc, pre, post, grader.device))
         estimates, _ = grader.classify(pre, post, boxes)
         if pixel_audit:
             shape = pre.shape[:2]
@@ -336,7 +347,7 @@ def evaluate(records, grader, mode, loc, out, known_boxes=False, pixel_audit=Fal
                        "annotated": len(gt), "grade_correct": int((grades[assigned[keep]] ==
                                                                           estimates[matched[keep]]).sum())})
         if example["chip"] == row["chip"]:
-            background = align(pre, post, "keypoint")[0] if mode != "previous_regions" else post
+            background = align(pre, post, registration_method)[0] if mode != "previous_regions" else post
             comparison(pre, background, gt, grades, boxes, estimates, out / "holdout_comparison.png")
         if i % 10 == 0 or i == len(records):
             print(f"Mexico inference {i}/{len(records)}", flush=True)
@@ -359,13 +370,13 @@ def evaluate(records, grader, mode, loc, out, known_boxes=False, pixel_audit=Fal
     print(json.dumps(result, indent=2), flush=True)
 
 
-def predict_pair(pre, post, grader, mode, localizers, out):
+def predict_pair(pre, post, grader, mode, localizers, out, boxes_from=None, registration_method="keypoint"):
     if pre.shape != post.shape:
         raise ValueError("Pre- and post-earthquake images must have identical dimensions")
-    boxes = localize(mode, localizers, pre, post, grader.device)
+    boxes = boxes_from(pre, post) if boxes_from is not None else localize(mode, localizers, pre, post, grader.device)
     labels, scores = grader.classify(pre, post, boxes)
     mask = rasterize_boxes(pre.shape[:2], boxes, labels)
-    background, registration = align(pre, post, "keypoint")
+    background, registration = align(pre, post, registration_method)
     overlay = Image.fromarray(background)
     draw = ImageDraw.Draw(overlay)
     rows = []
@@ -392,7 +403,8 @@ if __name__ == "__main__":
     cli.add_argument("action", choices=("localizers", "calibrate-boxes", "test", "image", "baseline"))
     cli.add_argument("--classifier", type=Path, default=ROOT / "run/mexico_final")
     cli.add_argument("--encoder", type=Path)
-    cli.add_argument("--localizer", choices=("center", "footprint", "swin", "swin_mix", "swin_consensus"))
+    cli.add_argument("--localizer", choices=("center", "footprint", "swin", "swin_mix", "swin_consensus",
+                                               "swin_satlas", "swin_large_consensus"))
     cli.add_argument("--out", type=Path, default=ROOT / "run/mexico_holdout")
     cli.add_argument("--pre", type=Path)
     cli.add_argument("--post", type=Path)

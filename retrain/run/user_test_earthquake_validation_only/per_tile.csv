@@ -1,0 +1,6 @@
+chip,matched,predicted,annotated,grade_correct
+mexico-earthquake_00000076,189,304,295,184
+mexico-earthquake_00000106,8,17,10,8
+mexico-earthquake_00000113,40,102,75,38
+mexico-earthquake_00000169,5,23,6,5
+mexico-earthquake_00000183,256,484,523,230

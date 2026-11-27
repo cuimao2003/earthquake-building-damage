@@ -1,0 +1,197 @@
+{
+  "matches_to_archived_tiles": 38,
+  "same_pre_post_file_hashes": 38,
+  "same_label_ids_and_grades": 38,
+  "tiles": [
+    {
+      "chip": "mexico-earthquake_00000005",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000006",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000010",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000012",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000022",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000025",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000028",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000058",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000061",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000063",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000065",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000069",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000076",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000080",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000090",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000094",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000095",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000106",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000109",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000113",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000117",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000121",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000124",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000131",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000135",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000139",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000157",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000161",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000163",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000169",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000174",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000178",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000180",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000183",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000187",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000188",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000189",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    },
+    {
+      "chip": "mexico-earthquake_00000190",
+      "same_pre_post_file_hashes": true,
+      "same_label_ids_and_grades": true
+    }
+  ]
+}
