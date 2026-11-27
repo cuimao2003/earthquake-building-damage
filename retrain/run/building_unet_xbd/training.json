@@ -1,0 +1,7 @@
+{
+  "init": "run\\building_unet\\building_unet.pt",
+  "steps": 300,
+  "val_dice": 0.8207766167704555,
+  "crop": 384,
+  "elapsed_seconds": 81.0
+}

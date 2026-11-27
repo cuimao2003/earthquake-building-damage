@@ -362,3 +362,21 @@ python retrain/train_proposal_transformer.py test --out retrain/run/ds_attention
 - `retrain/evaluate_hybrid_tta_old.py`：TTA 定位 + 旧模型分级的混合评估。
 - `retrain/run/p1_*`、`run/detector_tta_audit_h.json`、`run/given_box_*.json`、`run/fusion_grid_tta.json`：本轮运行记录与指标。
 - 训练入口新增 `--minor-budget/--heavy-budget/--damage-weight/--severe-weight/--feature-noise/--swa/--background-budget/--validity-weight/--tta-flip` 选项；损失支持 focal / ranking / validity 加权。
+
+
+## 2026-11-27 更新（五）：xView2 两阶段复刻——建筑定位 UNet、掩膜实验与检测器微调
+
+按 xView2 冠军方案的第一步，训练了独立的建筑定位分割模型，并把它与 TTA 候选、检测器微调、旧分类器组合做了系统对照（详见 `retrain/墨西哥精度提升方案.md` 第 7 节）。
+
+| 实验 | 结果 |
+|---|---|
+| ResNet18-UNet 建筑提取预训练（39,346 对） | 验证 Dice 0.775 / IoU 0.654 |
+| xBD 震前建筑微调（墨西哥 130 + 帕卢 113） | xBD 验证掩膜 Dice 0.786 / IoU 0.661 |
+| 掩膜连通域→框 / 分水岭实例→框 | 框 F1 0.185 / 0.073（密集城区粘连，不可用） |
+| 掩膜覆盖过滤 TTA 候选 | F1 0.548，与不过滤 0.547 持平 |
+| Swin 检测器微调（墨西哥+帕卢+35% 建筑辅助） | 框 F1 0.5546（原 0.5524，噪声级） |
+| 旧模型分级 + TTA 定位 + 阈值重校准 | 验证 0.2022，留出 0.1555（无提升） |
+
+结论：定位端的单时相路线已到瓶颈；剩余两个方向是双时相 Siamese 检测器（pre/post/|diff| + 位移增广）和分级端损伤 CutMix 增强。
+
+新增文件：`retrain/train_building_unet.py`、`finetune_building_unet_xbd.py`、`eval_building_unet.py`、`mask_box_experiments.py`、`evaluate_mask_filtered_heads.py`、`hybrid_tta_calibrated.py`；`swin_locator.py` 支持 `--manifest`；`retrain/run/building_unet*/`、`run/swin_mix_palu_ft/history.json` 等记录（模型权重不入库）。

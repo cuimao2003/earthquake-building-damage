@@ -1,0 +1,129 @@
+{
+  "split": "val",
+  "scenes": 27,
+  "checkpoint": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\building_unet_xbd\\building_unet_xbd.pt",
+  "mask_dice": 0.7857,
+  "mask_iou": 0.6612,
+  "support": [
+    5499,
+    37,
+    10
+  ],
+  "detection": {
+    "mask_boxes": {
+      "boxes": 2021,
+      "matched": 698,
+      "precision": 0.3454,
+      "recall": 0.1258,
+      "f1": 0.1845,
+      "per_grade_matched": [
+        0,
+        0,
+        0
+      ]
+    },
+    "bbox_all": {
+      "boxes": 7339,
+      "matched": 3524,
+      "precision": 0.4802,
+      "recall": 0.6353,
+      "f1": 0.547,
+      "per_grade_matched": [
+        3487,
+        29,
+        7
+      ]
+    },
+    "filtered_0.1": {
+      "boxes": 7245,
+      "matched": 3505,
+      "precision": 0.4838,
+      "recall": 0.6319,
+      "f1": 0.548,
+      "per_grade_matched": [
+        3468,
+        29,
+        7
+      ],
+      "perfect_grading_macro_ceiling": 0.8253
+    },
+    "filtered_0.2": {
+      "boxes": 7143,
+      "matched": 3467,
+      "precision": 0.4854,
+      "recall": 0.625,
+      "f1": 0.5464,
+      "per_grade_matched": [
+        3430,
+        29,
+        7
+      ],
+      "perfect_grading_macro_ceiling": 0.8235
+    },
+    "filtered_0.3": {
+      "boxes": 7022,
+      "matched": 3418,
+      "precision": 0.4868,
+      "recall": 0.6162,
+      "f1": 0.5439,
+      "per_grade_matched": [
+        3382,
+        29,
+        6
+      ],
+      "perfect_grading_macro_ceiling": 0.7968
+    },
+    "filtered_0.4": {
+      "boxes": 6798,
+      "matched": 3336,
+      "precision": 0.4907,
+      "recall": 0.6014,
+      "f1": 0.5405,
+      "per_grade_matched": [
+        3301,
+        29,
+        5
+      ],
+      "perfect_grading_macro_ceiling": 0.7652
+    },
+    "filtered_0.5": {
+      "boxes": 6415,
+      "matched": 3207,
+      "precision": 0.4999,
+      "recall": 0.5782,
+      "f1": 0.5362,
+      "per_grade_matched": [
+        3175,
+        27,
+        4
+      ],
+      "perfect_grading_macro_ceiling": 0.7158
+    },
+    "filtered_0.6": {
+      "boxes": 5583,
+      "matched": 2845,
+      "precision": 0.5096,
+      "recall": 0.5129,
+      "f1": 0.5112,
+      "per_grade_matched": [
+        2814,
+        26,
+        4
+      ],
+      "perfect_grading_macro_ceiling": 0.6913
+    },
+    "filtered_0.7": {
+      "boxes": 4013,
+      "matched": 2095,
+      "precision": 0.5221,
+      "recall": 0.3777,
+      "f1": 0.4383,
+      "per_grade_matched": [
+        2073,
+        19,
+        3
+      ],
+      "perfect_grading_macro_ceiling": 0.5626
+    }
+  }
+}

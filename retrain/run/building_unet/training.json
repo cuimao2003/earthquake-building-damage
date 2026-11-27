@@ -1,0 +1,9 @@
+{
+  "crop": 256,
+  "step": 2250,
+  "val_dice": 0.7752518230402753,
+  "val_iou": 0.654114066992127,
+  "train_files": 38559,
+  "elapsed_seconds": 364.6,
+  "steps": 2500
+}

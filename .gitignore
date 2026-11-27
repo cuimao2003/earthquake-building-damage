@@ -46,3 +46,5 @@ retrain/data/kate_aux.npz
 *.parquet
 retrain/data/proposal_vitb168_ft/
 retrain/data/proposal_tta/
+retrain/run/building_unet*/*.pt
+retrain/run/swin_mix_palu_ft/detector.pt

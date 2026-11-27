@@ -199,7 +199,8 @@ def train(args, device, datasets=None, image_loader=source_scene):
     tile = getattr(args, "tile_size", TILE)
     architecture = getattr(args, "architecture", "swin_t")
     if datasets is None:
-        data = json.loads((ROOT / "data/manifest.json").read_bytes())
+        manifest = getattr(args, "manifest", None) or (ROOT / "data/manifest.json")
+        data = json.loads(Path(manifest).read_bytes())
         datasets = [[(r, building_boxes(r)) for r in data[split]] for split in ("train", "val")]
     train_rows, validation = datasets
     if args.init:
@@ -298,6 +299,7 @@ if __name__ == "__main__":
     cli.add_argument("--aux-buildings", type=float, default=0.)
     cli.add_argument("--tile-size", type=int, choices=(160, 192, 224, 256, 320), default=TILE)
     cli.add_argument("--architecture", choices=("swin_t", "satlas_b"), default="swin_t")
+    cli.add_argument("--manifest", type=Path, default=ROOT / "data/manifest.json")
     cli.add_argument("--validate-initial", action="store_true")
     args = cli.parse_args()
     if min(args.epochs, args.batch, args.steps, args.seconds, args.lr) <= 0:
