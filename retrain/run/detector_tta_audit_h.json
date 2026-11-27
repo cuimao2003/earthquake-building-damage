@@ -1,0 +1,119 @@
+{
+  "detector": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\swin_loc_mix\\detector.pt",
+  "flip": "h",
+  "support": [
+    5499,
+    37,
+    10
+  ],
+  "variants": {
+    "base": {
+      "0.12": {
+        "boxes": 14215,
+        "matched": 4301,
+        "precision": 0.3026,
+        "recall": 0.7754,
+        "f1": 0.4353,
+        "per_grade_matched": [
+          4260,
+          34,
+          6
+        ],
+        "perfect_grading_macro_ceiling": 0.8603
+      },
+      "0.16": {
+        "boxes": 11644,
+        "matched": 4109,
+        "precision": 0.3529,
+        "recall": 0.7408,
+        "f1": 0.478,
+        "per_grade_matched": [
+          4068,
+          34,
+          6
+        ],
+        "perfect_grading_macro_ceiling": 0.8527
+      },
+      "0.24": {
+        "boxes": 8554,
+        "matched": 3740,
+        "precision": 0.4372,
+        "recall": 0.6742,
+        "f1": 0.5305,
+        "per_grade_matched": [
+          3702,
+          31,
+          6
+        ],
+        "perfect_grading_macro_ceiling": 0.8222
+      },
+      "0.36": {
+        "boxes": 6104,
+        "matched": 3218,
+        "precision": 0.5272,
+        "recall": 0.5801,
+        "f1": 0.5524,
+        "per_grade_matched": [
+          3185,
+          27,
+          5
+        ],
+        "perfect_grading_macro_ceiling": 0.748
+      }
+    },
+    "tta": {
+      "0.12": {
+        "boxes": 18164,
+        "matched": 4583,
+        "precision": 0.2523,
+        "recall": 0.8262,
+        "f1": 0.3866,
+        "per_grade_matched": [
+          4540,
+          35,
+          7
+        ],
+        "perfect_grading_macro_ceiling": 0.9001
+      },
+      "0.16": {
+        "boxes": 14704,
+        "matched": 4404,
+        "precision": 0.2995,
+        "recall": 0.7939,
+        "f1": 0.4349,
+        "per_grade_matched": [
+          4361,
+          35,
+          7
+        ],
+        "perfect_grading_macro_ceiling": 0.8934
+      },
+      "0.24": {
+        "boxes": 10503,
+        "matched": 4050,
+        "precision": 0.3856,
+        "recall": 0.7301,
+        "f1": 0.5047,
+        "per_grade_matched": [
+          4008,
+          34,
+          7
+        ],
+        "perfect_grading_macro_ceiling": 0.8748
+      },
+      "0.36": {
+        "boxes": 7339,
+        "matched": 3533,
+        "precision": 0.4814,
+        "recall": 0.6369,
+        "f1": 0.5483,
+        "per_grade_matched": [
+          3496,
+          29,
+          7
+        ],
+        "perfect_grading_macro_ceiling": 0.8265
+      }
+    }
+  }
+}

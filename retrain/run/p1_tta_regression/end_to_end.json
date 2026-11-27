@@ -1,0 +1,153 @@
+{
+  "scenes": 34,
+  "localizer": "proposal_transformer",
+  "detection_iou_threshold": 0.5,
+  "box_f1": 0.46959619952494064,
+  "detection_precision": 0.4369543595977456,
+  "detection_recall": 0.5075086638428956,
+  "detection_counts": [
+    3954,
+    9049,
+    7791
+  ],
+  "classification": {
+    "matrix": [
+      [
+        3814,
+        80,
+        28
+      ],
+      [
+        15,
+        1,
+        0
+      ],
+      [
+        4,
+        0,
+        0
+      ]
+    ],
+    "unmatched_truth": [
+      3812,
+      11,
+      1
+    ],
+    "accuracy": 0.49124388359515836,
+    "macro_f1": 0.15715008108771236,
+    "damaged_macro_f1": 0.004629629629629629,
+    "balanced_accuracy": 0.17672805984158454,
+    "classes": {
+      "no_damage": {
+        "precision": 0.4348916761687571,
+        "recall": 0.49314714248771657,
+        "f1": 0.46219098400387787,
+        "support": 7734,
+        "predicted": 8770
+      },
+      "minor": {
+        "precision": 0.005291005291005291,
+        "recall": 0.037037037037037035,
+        "f1": 0.009259259259259259,
+        "support": 27,
+        "predicted": 189
+      },
+      "major_or_destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5,
+        "predicted": 78
+      }
+    },
+    "unmatched_predictions": [
+      4937,
+      108,
+      50
+    ]
+  },
+  "example": "mexico-earthquake_00000091",
+  "box_raster_metrics": {
+    "confusion": [
+      [
+        20781315,
+        4885359,
+        58872,
+        19213
+      ],
+      [
+        1502371,
+        8166762,
+        131077,
+        39690
+      ],
+      [
+        6159,
+        39783,
+        3290,
+        0
+      ],
+      [
+        285,
+        8828,
+        34,
+        0
+      ]
+    ],
+    "class_order": [
+      "background",
+      "no-damage",
+      "minor-damage",
+      "major-or-destroyed"
+    ],
+    "classes": {
+      "background": {
+        "precision": 0.9323101749518733,
+        "recall": 0.8072056530030054,
+        "f1": 0.8652592077396077,
+        "iou": 0.7625170555612266,
+        "support": 25744759,
+        "predicted": 22290130
+      },
+      "no-damage": {
+        "precision": 0.6233821133048139,
+        "recall": 0.8299639223975853,
+        "f1": 0.7119910209971547,
+        "iou": 0.5527842061694058,
+        "support": 9839900,
+        "predicted": 13100732
+      },
+      "minor-damage": {
+        "precision": 0.01702255358999964,
+        "recall": 0.06682645433864154,
+        "f1": 0.02713346116574916,
+        "iou": 0.013753318144765169,
+        "support": 49232,
+        "predicted": 193273
+      },
+      "major-or-destroyed": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "support": 9147,
+        "predicted": 58903
+      }
+    },
+    "accuracy": 0.8122586800822085,
+    "kappa": 0.5798281243982057,
+    "footprint": {
+      "f1": 0.7216374802714374,
+      "iou": 0.5645014376865993,
+      "precision": 0.6282874112515416,
+      "recall": 0.8475679459025149
+    },
+    "any_damage": {
+      "f1": 0.021406836148186312,
+      "precision": 0.013181270223970561,
+      "recall": 0.05693828260162045
+    },
+    "building_macro_f1": 0.2463748273876346,
+    "damaged_macro_f1": 0.01356673058287458
+  }
+}

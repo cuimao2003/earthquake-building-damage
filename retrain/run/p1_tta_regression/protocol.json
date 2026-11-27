@@ -1,0 +1,6 @@
+{
+  "evaluation": "regression",
+  "training_run": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\p1_tta_pooled",
+  "scenes": 34,
+  "checkpoint_sha256": "50d58b1e9def801df2fae94c5db08138a5dff62086e1c56153632a7a4059185a"
+}

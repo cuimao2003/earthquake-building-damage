@@ -1,0 +1,237 @@
+{
+  "head": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\proposal_attention\\head.pt",
+  "boxes": 5546,
+  "automatic_thresholds": [
+    1.4339781999588013,
+    0.8936744928359985
+  ],
+  "automatic_mode": {
+    "metrics": {
+      "matrix": [
+        [
+          5408,
+          5,
+          86
+        ],
+        [
+          35,
+          0,
+          2
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9752975117201587,
+      "macro_f1": 0.3359581262969081,
+      "damaged_macro_f1": 0.010101010101010102,
+      "balanced_accuracy": 0.36115051221434197,
+      "classes": {
+        "no_damage": {
+          "precision": 0.991929567131328,
+          "recall": 0.983451536643026,
+          "f1": 0.9876723586887042,
+          "support": 5499,
+          "predicted": 5452
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 5
+        },
+        "major_or_destroyed": {
+          "precision": 0.011235955056179775,
+          "recall": 0.1,
+          "f1": 0.020202020202020204,
+          "support": 10,
+          "predicted": 89
+        }
+      },
+      "unmatched_predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "matrix": [
+      [
+        5408,
+        5,
+        86
+      ],
+      [
+        35,
+        0,
+        2
+      ],
+      [
+        9,
+        0,
+        1
+      ]
+    ]
+  },
+  "given_box_tuned_thresholds": [
+    0.7166130244731901,
+    1.1971302318573067
+  ],
+  "given_box_tuned": {
+    "metrics": {
+      "matrix": [
+        [
+          5354,
+          103,
+          42
+        ],
+        [
+          31,
+          5,
+          1
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9664623151821132,
+      "macro_f1": 0.36287901838253395,
+      "damaged_macro_f1": 0.05276509386098427,
+      "balanced_accuracy": 0.40292223483712847,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9927684034860004,
+          "recall": 0.9736315693762502,
+          "f1": 0.9831068674256335,
+          "support": 5499,
+          "predicted": 5393
+        },
+        "minor": {
+          "precision": 0.045871559633027525,
+          "recall": 0.13513513513513514,
+          "f1": 0.0684931506849315,
+          "support": 37,
+          "predicted": 109
+        },
+        "major_or_destroyed": {
+          "precision": 0.022727272727272728,
+          "recall": 0.1,
+          "f1": 0.037037037037037035,
+          "support": 10,
+          "predicted": 44
+        }
+      },
+      "unmatched_predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "matrix": [
+      [
+        5354,
+        103,
+        42
+      ],
+      [
+        31,
+        5,
+        1
+      ],
+      [
+        8,
+        1,
+        1
+      ]
+    ]
+  },
+  "loso": {
+    "metrics": {
+      "matrix": [
+        [
+          5390,
+          77,
+          32
+        ],
+        [
+          36,
+          0,
+          1
+        ],
+        [
+          9,
+          1,
+          0
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9718716191849982,
+      "macro_f1": 0.3286384976525822,
+      "damaged_macro_f1": 0.0,
+      "balanced_accuracy": 0.3267260714069225,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9917203311867525,
+          "recall": 0.9801782142207675,
+          "f1": 0.9859154929577465,
+          "support": 5499,
+          "predicted": 5435
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 78
+        },
+        "major_or_destroyed": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10,
+          "predicted": 33
+        }
+      },
+      "unmatched_predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "matrix": [
+      [
+        5390,
+        77,
+        32
+      ],
+      [
+        36,
+        0,
+        1
+      ],
+      [
+        9,
+        1,
+        0
+      ]
+    ]
+  }
+}

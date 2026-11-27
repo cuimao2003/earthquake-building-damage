@@ -91,7 +91,8 @@ def probabilities(logits):
     return valid, grades
 
 
-def training_loss(logits, target, has_background, ranking=False, focal_gamma=0.0):
+def training_loss(logits, target, has_background, ranking=False, focal_gamma=0.0,
+                  damage_weight=1.0, severe_weight=1.0, validity_weight=0.6):
     eligible = target >= 0
     damaged = target > 0
     def binary(channel, keep, labels):
@@ -101,8 +102,8 @@ def training_loss(logits, target, has_background, ranking=False, focal_gamma=0.0
             pt = torch.where(labels[keep] > .5, probability, 1. - probability)
             raw = raw * (1. - pt).clamp_min(0.).pow(focal_gamma)
         return raw.sum() / keep.sum().clamp_min(1)
-    damage = binary(1, eligible, damaged)
-    severe = binary(2, damaged, target == 2)
+    damage = damage_weight * binary(1, eligible, damaged)
+    severe = severe_weight * binary(2, damaged, target == 2)
     if ranking and (target == 0).any() and damaged.any():
         # Any visible damage should outrank intact roofs on the heavy-vs-intact margin,
         # which the plain positive-only severe BCE never sees as negatives.
@@ -113,4 +114,4 @@ def training_loss(logits, target, has_background, ranking=False, focal_gamma=0.0
         return damage + severe
     weight = torch.where(eligible, 1., .45)
     validity = F.binary_cross_entropy_with_logits(logits[:, 0], eligible.float(), weight=weight)
-    return damage + severe + .60 * validity
+    return damage + severe + validity_weight * validity

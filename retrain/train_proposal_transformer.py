@@ -51,10 +51,59 @@ def index(args):
     return json.loads(args.manifest.read_bytes())
 
 
-def detector_boxes(detector, state, image, device, floor=None):
+def detector_boxes(detector, state, image, device, floor=None, tta_flip="none"):
     threshold = state["threshold"] if floor is None else floor
-    boxes, _ = swin_boxes(detector, image, device, threshold, tile=state.get("tile_size", TILE))
-    return boxes
+    tile = state.get("tile_size", TILE)
+    boxes, scores = swin_boxes(detector, image, device, threshold, tile=tile)
+    if tta_flip == "none" or not len(boxes):
+        return boxes
+    height, width = image.shape[:2]
+    groups = [(boxes, scores)]
+    if tta_flip in ("h", "hv"):
+        flipped_boxes, flipped_scores = swin_boxes(detector, image[:, ::-1].copy(), device, threshold, tile=tile)
+        flipped_boxes = flipped_boxes.copy()
+        flipped_boxes[:, 0::2] = width - flipped_boxes[:, 0::2][:, ::-1]
+        groups.append((flipped_boxes, flipped_scores))
+    if tta_flip == "hv":
+        flipped_boxes, flipped_scores = swin_boxes(detector, image[::-1].copy(), device, threshold, tile=tile)
+        flipped_boxes = flipped_boxes.copy()
+        flipped_boxes[:, 1::2] = height - flipped_boxes[:, 1::2][:, ::-1]
+        groups.append((flipped_boxes, flipped_scores))
+    merged_boxes, merged_scores = groups[0]
+    for extra_boxes, extra_scores in groups[1:]:
+        merged_boxes, merged_scores = wbf(merged_boxes, merged_scores, extra_boxes, extra_scores)
+    return merged_boxes
+
+
+def wbf(boxes_a, scores_a, boxes_b, scores_b, iou_threshold=.55):
+    boxes = np.concatenate((boxes_a, boxes_b), axis=0)
+    scores = np.concatenate((scores_a, scores_b), axis=0)
+    order = np.argsort(-scores)
+    clusters = []
+    for index in order:
+        box, score = boxes[index], float(scores[index])
+        placed = False
+        for cluster in clusters:
+            fused = cluster[0] / cluster[1]
+            left = max(fused[0], box[0]); top = max(fused[1], box[1])
+            right = min(fused[2], box[2]); bottom = min(fused[3], box[3])
+            inter = max(0., right - left) * max(0., bottom - top)
+            area_f = (fused[2] - fused[0]) * (fused[3] - fused[1])
+            area_b = (box[2] - box[0]) * (box[3] - box[1])
+            iou = inter / max(1e-6, area_f + area_b - inter)
+            if iou >= iou_threshold:
+                cluster[0] += box * score
+                cluster[1] += score
+                cluster[2] = max(cluster[2], score)
+                placed = True
+                break
+        if not placed:
+            clusters.append([box * score, score, score])
+    if not clusters:
+        return np.zeros((0, 4), np.float32), np.zeros(0, np.float32)
+    fused_boxes = np.stack([c[0] / c[1] for c in clusters]).astype(np.float32)
+    fused_scores = np.asarray([c[2] for c in clusters], dtype=np.float32)
+    return fused_boxes, fused_scores
 
 
 def subset(ids, cap, rng):
@@ -99,6 +148,8 @@ def prepare(args, device):
               "registration": args.registration}
     if args.detector_floor is not None:
         header["detector_floor"] = args.detector_floor
+    if args.tta_flip != "none":
+        header["tta_flip"] = args.tta_flip
     args.cache.mkdir(parents=True, exist_ok=True)
     stamp = args.cache / "setup.json"
     if stamp.is_file() and json.loads(stamp.read_bytes()) != header:
@@ -120,7 +171,7 @@ def prepare(args, device):
             if output.is_file():
                 continue
             before, after = paired_images(row)
-            proposed = detector_boxes(detector, state, before, device, args.detector_floor)
+            proposed = detector_boxes(detector, state, before, device, args.detector_floor, args.tta_flip)
             truth, grades = ground_truth(row)
             registered = align(before, after, args.registration)[0]
             if split == "train":
@@ -256,10 +307,10 @@ def fit(args, device):
     groups = {k: np.flatnonzero(data["target"] == k) for k in (-1, 0, 1, 2)}
     if any(not len(groups[k]) for k in (0, 1, 2)):
         raise ValueError("Training cache needs labeled intact, light and heavy damage buildings")
-    budget = {0: 28, 1: 14, 2: args.heavy_budget}
+    budget = {0: 28, 1: args.minor_budget, 2: args.heavy_budget}
     has_background = bool(len(groups[-1]))
     if has_background:
-        budget[-1] = 12
+        budget[-1] = args.background_budget
     width = data["features"].shape[-1]
     torch.manual_seed(args.seed)
     rng = np.random.default_rng(args.seed)
@@ -279,6 +330,7 @@ def fit(args, device):
         with np.load(args.cache / "morocco.npz", allow_pickle=False) as z:
             auxiliary = dict(z)
     best, history = -1., []
+    swa_state, swa_count = None, 0
     start = time.monotonic()
     args.out.mkdir(parents=True, exist_ok=True)
     if (args.out / "head.pt").exists():
@@ -291,9 +343,14 @@ def fit(args, device):
             ids = np.concatenate([rng.choice(groups[k], count, replace=True) for k, count in budget.items()])
             optim.zero_grad(set_to_none=True)
             with torch.cuda.amp.autocast(enabled=use_amp):
-                logits = head(tensor(data["features"][ids], device), tensor(data["roi"][ids], device).float())
+                features = tensor(data["features"][ids], device)
+                if args.feature_noise > 0:
+                    features = (features.float() + torch.randn_like(features.float()) * args.feature_noise).half()
+                logits = head(features, tensor(data["roi"][ids], device).float())
                 loss = training_loss(logits.float(), tensor(data["target"][ids], device), has_background,
-                                     ranking=args.loss == "rank", focal_gamma=args.focal_gamma)
+                                     ranking=args.loss == "rank", focal_gamma=args.focal_gamma,
+                                     damage_weight=args.damage_weight, severe_weight=args.severe_weight,
+                                     validity_weight=args.validity_weight)
                 if auxiliary is not None:
                     ids = rng.integers(0, len(auxiliary["target"]), 16)
                     extra = head(tensor(auxiliary["features"][ids], device), tensor(auxiliary["roi"][ids], device).float())
@@ -327,8 +384,29 @@ def fit(args, device):
             print(f"Epoch {epoch}: loss {row['loss']:.4f}, automatic validation macro F1 {macro:.4f}", flush=True)
         history.append(row)
         write_json(args.out / "history.json", history)
+        if args.swa and epoch > args.epochs // 2:
+            current = {name: value.detach().float().cpu() for name, value in head.state_dict().items()}
+            if swa_state is None:
+                swa_state = current
+            else:
+                for name in swa_state:
+                    swa_state[name] += current[name]
+            swa_count += 1
         if stop:
             break
+
+    if args.swa and swa_state is not None:
+        averaged = {name: value / swa_count for name, value in swa_state.items()}
+        head.load_state_dict({name: averaged[name].to(head.state_dict()[name].dtype) for name in averaged})
+        chosen = calibrate(head, validation, device, has_background)
+        macro = chosen["validation"]["macro_f1"]
+        print(f"SWA: automatic validation macro F1 {macro:.4f}", flush=True)
+        if macro > best:
+            best = macro
+            save_head(args.out / "head.pt", head, {"width": width, "variant": args.variant, "epoch": -1,
+                      "swa": True, "cache": stamp, "calibration": chosen, "manual_only": args.manual_only,
+                      "auxiliary": auxiliary_identity, "seed": args.seed})
+            write_json(args.out / "validation.json", chosen)
 
 
 def fusion_scores(reference, proposed, weight):
@@ -360,6 +438,7 @@ class ProposalGrader:
         self.settings = state["calibration"]
         self.registration = state["cache"]["registration"]
         self.detector_floor = state["cache"].get("detector_floor")
+        self.tta_flip = state["cache"].get("tta_flip", "none")
         if state["cache"]["encoder_sha256"] != digest(args.weights) or state["cache"]["detector_sha256"] != digest(args.detector):
             raise ValueError("Encoder or detector differs from the locked training inputs")
         self.encoder = load_encoder(args.weights, device)
@@ -392,7 +471,8 @@ class ProposalGrader:
         return results
 
     def propose(self, pre, post):
-        boxes = detector_boxes(self.detector, self.detector_state, pre, self.device, self.detector_floor)
+        boxes = detector_boxes(self.detector, self.detector_state, pre, self.device, self.detector_floor,
+                               self.tta_flip)
         results = self.scores(pre, post, boxes)
         keep = results[:, 0] >= self.settings["validity_threshold"]
         retained = boxes[keep]
@@ -586,6 +666,15 @@ def main():
     cli.add_argument("--heavy-budget", type=int, default=10, help="heavy-damage samples per training step")
     cli.add_argument("--focal-gamma", type=float, default=0.0, help="focal-loss gamma for the damage BCE")
     cli.add_argument("--kate-aux", type=Path, help="cached KATE-CD Turkey 2023 auxiliary damage features")
+    cli.add_argument("--minor-budget", type=int, default=14, help="light-damage samples per training step")
+    cli.add_argument("--damage-weight", type=float, default=1.0, help="weight of the damage BCE")
+    cli.add_argument("--severe-weight", type=float, default=1.0, help="weight of the severe BCE")
+    cli.add_argument("--feature-noise", type=float, default=0.0, help="gaussian noise std on cached features")
+    cli.add_argument("--swa", action="store_true", help="average weights over the second half of training")
+    cli.add_argument("--background-budget", type=int, default=12, help="background candidates per training step")
+    cli.add_argument("--validity-weight", type=float, default=0.6, help="weight of the validity BCE")
+    cli.add_argument("--tta-flip", choices=("none", "h", "hv"), default="none",
+                    help="flip TTA + WBF when generating proposals")
     cli.add_argument("--result", type=Path)
     cli.add_argument("--test-folder", type=Path)
     cli.add_argument("--regression", action="store_true")
@@ -593,7 +682,8 @@ def main():
     cli.add_argument("--pre", type=Path)
     cli.add_argument("--post", type=Path)
     args = cli.parse_args()
-    if min(args.encode_batch, args.epochs, args.steps, args.seconds, args.heavy_budget) < 1 or args.pilot_scenes < 0:
+    if min(args.encode_batch, args.epochs, args.steps, args.seconds, args.heavy_budget, args.minor_budget,
+           args.background_budget) < 1 or args.pilot_scenes < 0:
         cli.error("Batch, epochs, steps and time must be positive")
     if args.detector_floor is not None and (args.action != "prepare" or not .05 <= args.detector_floor <= 1):
         cli.error("--detector-floor is a preparation option in the range .05 to 1")

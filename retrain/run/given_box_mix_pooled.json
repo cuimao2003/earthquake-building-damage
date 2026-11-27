@@ -1,0 +1,237 @@
+{
+  "head": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\mix_palu_pooled\\head.pt",
+  "boxes": 5546,
+  "automatic_thresholds": [
+    2.036546230316162,
+    -0.8228582143783569
+  ],
+  "automatic_mode": {
+    "metrics": {
+      "matrix": [
+        [
+          5429,
+          16,
+          54
+        ],
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9790840245221781,
+      "macro_f1": 0.3400662638497521,
+      "damaged_macro_f1": 0.015384615384615385,
+      "balanced_accuracy": 0.36242347093410926,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9915981735159818,
+          "recall": 0.9872704128023277,
+          "f1": 0.9894295607800255,
+          "support": 5499,
+          "predicted": 5475
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 16
+        },
+        "major_or_destroyed": {
+          "precision": 0.01818181818181818,
+          "recall": 0.1,
+          "f1": 0.03076923076923077,
+          "support": 10,
+          "predicted": 55
+        }
+      },
+      "unmatched_predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "matrix": [
+      [
+        5429,
+        16,
+        54
+      ],
+      [
+        37,
+        0,
+        0
+      ],
+      [
+        9,
+        0,
+        1
+      ]
+    ]
+  },
+  "given_box_tuned_thresholds": [
+    0.9704923093318935,
+    -0.5394751310348481
+  ],
+  "given_box_tuned": {
+    "metrics": {
+      "matrix": [
+        [
+          5357,
+          102,
+          40
+        ],
+        [
+          34,
+          3,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9666426253155427,
+      "macro_f1": 0.35476329877893037,
+      "damaged_macro_f1": 0.04058686411627588,
+      "balanced_accuracy": 0.38508606806479145,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9922207816262271,
+          "recall": 0.9741771231132933,
+          "f1": 0.9831161681042393,
+          "support": 5499,
+          "predicted": 5399
+        },
+        "minor": {
+          "precision": 0.02830188679245283,
+          "recall": 0.08108108108108109,
+          "f1": 0.04195804195804196,
+          "support": 37,
+          "predicted": 106
+        },
+        "major_or_destroyed": {
+          "precision": 0.024390243902439025,
+          "recall": 0.1,
+          "f1": 0.0392156862745098,
+          "support": 10,
+          "predicted": 41
+        }
+      },
+      "unmatched_predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "matrix": [
+      [
+        5357,
+        102,
+        40
+      ],
+      [
+        34,
+        3,
+        0
+      ],
+      [
+        8,
+        1,
+        1
+      ]
+    ]
+  },
+  "loso": {
+    "metrics": {
+      "matrix": [
+        [
+          5378,
+          77,
+          44
+        ],
+        [
+          37,
+          0,
+          0
+        ],
+        [
+          8,
+          1,
+          1
+        ]
+      ],
+      "unmatched_truth": [
+        0,
+        0,
+        0
+      ],
+      "accuracy": 0.9698882077172737,
+      "macro_f1": 0.3403883182678275,
+      "damaged_macro_f1": 0.01818181818181818,
+      "balanced_accuracy": 0.3593319997575317,
+      "classes": {
+        "no_damage": {
+          "precision": 0.9917020099575881,
+          "recall": 0.9779959992725951,
+          "f1": 0.9848013184398462,
+          "support": 5499,
+          "predicted": 5423
+        },
+        "minor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 37,
+          "predicted": 78
+        },
+        "major_or_destroyed": {
+          "precision": 0.022222222222222223,
+          "recall": 0.1,
+          "f1": 0.03636363636363636,
+          "support": 10,
+          "predicted": 45
+        }
+      },
+      "unmatched_predictions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "matrix": [
+      [
+        5378,
+        77,
+        44
+      ],
+      [
+        37,
+        0,
+        0
+      ],
+      [
+        8,
+        1,
+        1
+      ]
+    ]
+  }
+}

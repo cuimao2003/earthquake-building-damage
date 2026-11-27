@@ -45,3 +45,4 @@ retrain/data/external/
 retrain/data/kate_aux.npz
 *.parquet
 retrain/data/proposal_vitb168_ft/
+retrain/data/proposal_tta/

@@ -326,3 +326,39 @@ python retrain/train_proposal_transformer.py test --out retrain/run/ds_attention
 - 微调编码器把墨西哥验证单头推到 0.2211（单头最高），但轻损预测数被 validity 阈值压到 0、重损 F1 仅 0.1143，且融合后 0.2359 仍低于混合融合的 0.2388。
 - 跨震区严重退化（帕卢 0.1704、KATE 0.024）：旧编码器是在墨西哥旧任务上微调的，领域偏移被放大。
 - 结论：不采用。最终推荐仍是「墨西哥口径用 mix_fusion（0.2388 / 留出 0.1566），未知震区用 mix_palu_pooled（帕卢 0.3283 / KATE 0.220）」。
+
+
+## 2026-11-27 更新（四）：提升墨西哥精度的实测与文献结论
+
+针对「墨西哥验证/留出精度上不去」的问题，本轮先做了指标口径校准和文献调研，再完成第 1 阶段低成本实验（详见 `retrain/墨西哥精度提升方案.md`）。
+
+### 指标口径（关键）
+
+文献在 xBD 上报告的 0.75–0.82 基本是**像素级 xView2 综合分**；xBD 官方基线定位 F1≈0.80 而损伤 F1 只有 0.03，按建筑实例（给定多边形）的宏 F1 也只有约 0.32。本项目采用建筑级三档宏 F1，不能与这些数字直接比较；合理的对照口径是同时报告定位 F1、给定人工框分级宏 F1、以及 xView2 像素综合分。
+
+### 实测结果（墨西哥 27 对验证 / 34 对留出）
+
+| 实验 | 结果 |
+|---|---|
+| 定位审计（默认检测器 @0.36） | 完美分级宏 F1 上限 0.748；TTA+WBF 后 0.827（@0.24 为 0.875） |
+| TTA+WBF 定位 | 召回 0.580→0.637，轻损匹配 27→29、重损 5→7（@0.36） |
+| 分级增强（过采样 + Focal + 类权重 + 特征噪声） | 验证宏 F1 0.2149（基线 0.2013），损伤档 0.0504，34 对留出 0.1626 |
+| 过采样 + 重损权重 + SWA | 验证宏 F1 0.2050（SWA 0.1916，无提升） |
+| TTA 候选缓存 + validity 加权训练 | 验证宏 F1 0.2166、损伤档 0.0584；留出 0.1572 |
+| TTA 候选 + 旧模型融合 | 验证宏 F1 0.2253、损伤档 0.0663 |
+| 给定人工框 LOSO 诊断 | 新分级头宏 F1 约 0.33，旧模型约 0.4546；轻损/重损 F1 接近 0 |
+
+结论：**第 1 阶段的低成本改动已到瓶颈**；定位侧 TTA 能把上限抬高，但分级能力（尤其轻损/重损）与误报过滤才是主限制。下一阶段按预期收益：
+1. 复刻 xView2 冠军两阶段（UNet 震前分割定位 + Siamese 分级 + 4×TTA）；
+2. 复用旧流水线更强的分级特征（ViT-L 112 + ViT-B 168 + 纹理）；
+3. 更高 token 分辨率（336px/12×12）或 DINOv2 LoRA；
+4. 评估补报 xView2 像素综合分。
+
+### 新增文件
+
+- `retrain/墨西哥精度提升方案.md`：文献调研 + 误差预算 + 第 1 阶段实测结果与下一阶段路线。
+- `retrain/detector_tta_audit.py`：检测器翻折 TTA + WBF 的定位审计。
+- `retrain/given_box_diagnostic.py`：给定人工框的分级上界诊断（自动/LOSO 阈值）。
+- `retrain/evaluate_hybrid_tta_old.py`：TTA 定位 + 旧模型分级的混合评估。
+- `retrain/run/p1_*`、`run/detector_tta_audit_h.json`、`run/given_box_*.json`、`run/fusion_grid_tta.json`：本轮运行记录与指标。
+- 训练入口新增 `--minor-budget/--heavy-budget/--damage-weight/--severe-weight/--feature-noise/--swa/--background-budget/--validity-weight/--tta-flip` 选项；损失支持 focal / ranking / validity 加权。
