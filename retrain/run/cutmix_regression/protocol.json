@@ -1,0 +1,6 @@
+{
+  "evaluation": "regression",
+  "training_run": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\cutmix_attention",
+  "scenes": 34,
+  "checkpoint_sha256": "7a1111ee1313d1e5bf2861443b210eca78c67e9fb368fb0d8d9707d0507d51bb"
+}

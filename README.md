@@ -380,3 +380,12 @@ python retrain/train_proposal_transformer.py test --out retrain/run/ds_attention
 结论：定位端的单时相路线已到瓶颈；剩余两个方向是双时相 Siamese 检测器（pre/post/|diff| + 位移增广）和分级端损伤 CutMix 增强。
 
 新增文件：`retrain/train_building_unet.py`、`finetune_building_unet_xbd.py`、`eval_building_unet.py`、`mask_box_experiments.py`、`evaluate_mask_filtered_heads.py`、`hybrid_tta_calibrated.py`；`swin_locator.py` 支持 `--manifest`；`retrain/run/building_unet*/`、`run/swin_mix_palu_ft/history.json` 等记录（模型权重不入库）。
+
+
+## 2026-11-27 更新（六）：分级端 CutMix 损伤合成增强（负结果）
+
+- 生成 130 个损伤 Copy-Paste 合成场景（轻损捐赠者 1,000 过采样 + 重损 1,000，按建筑多边形只贴建筑像素），训练集 243 → 373。
+- CutMix pooled：验证宏 F1 0.2037 / 损伤档 0.0366；CutMix attention：0.2155 / 0.0500；34 对留出 0.1561。
+- 对照 p1_focal（0.2149 / 0.0504 / 留出 0.1626）与 p1_tta（0.2166 / 0.0584）无提升；给定人工框 LOSO 宏 F1 0.3309（对照 0.3293，噪声级）。
+- 结论：合成损伤纹理与真实震害差异大，增样本不解决分级瓶颈；详见 `retrain/墨西哥精度提升方案.md` 第 8 节。
+- 新增：`retrain/make_damage_cutmix.py`、`retrain/data/manifest_cutmix.json`、`retrain/run/cutmix_*` 记录（合成影像与特征缓存不入库）。

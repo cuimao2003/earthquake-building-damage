@@ -1,0 +1,4338 @@
+{
+ "train": [
+  {
+   "chip": "mexico-earthquake_00000000",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 447,
+    "minor-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000002",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 286
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000003",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 923,
+    "minor-damage": 9
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000004",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 170
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000007",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 435
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000008",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 285,
+    "minor-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000009",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 244
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000011",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 196
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000015",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 52,
+    "un-classified": 9
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000017",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 320
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000018",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 243
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000019",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 249
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000020",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 109
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000021",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 283
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000023",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 257
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000024",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 286
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000027",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 240
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000029",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 325
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000030",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 113
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000031",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000032",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 48
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000033",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 93
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000034",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 54
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000035",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 173
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000039",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 114,
+    "minor-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000040",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 416
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000041",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 142
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000042",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 343
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000043",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 839,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000046",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 75
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000047",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 248
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000048",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 1148,
+    "minor-damage": 9
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000049",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 513,
+    "minor-damage": 1,
+    "major-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000052",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 837,
+    "minor-damage": 12,
+    "major-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000053",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 400,
+    "minor-damage": 12
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000055",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 204,
+    "minor-damage": 6
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000057",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 342,
+    "minor-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000059",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 350,
+    "major-damage": 2,
+    "destroyed": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000064",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 397
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000066",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 26
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000067",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 311
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000072",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 58
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000075",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 42,
+    "minor-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000078",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 272
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000079",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 178
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000083",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 908
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000084",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 172,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000087",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 195
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000088",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 282,
+    "minor-damage": 1,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000089",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 340
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000092",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 330,
+    "minor-damage": 12
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000093",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 90
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000096",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000100",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 462
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000101",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 112
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000102",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 138
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000103",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 63
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000107",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 579
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000108",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 138,
+    "minor-damage": 4,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000110",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 57
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000111",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 124,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000112",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 775
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000114",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 22,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000118",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 279
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000119",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 53,
+    "minor-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000120",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 248
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000122",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 524
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000125",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 509
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000126",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 276
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000128",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 264,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000129",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 274,
+    "un-classified": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000132",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 111
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000136",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 113
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000138",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 657
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000140",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 719
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000141",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 58
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000142",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 163,
+    "un-classified": 11,
+    "minor-damage": 1,
+    "destroyed": 1,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000143",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 515
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000144",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 362
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000146",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 295,
+    "minor-damage": 2,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000148",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 13
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000150",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 26
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000152",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 25
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000153",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 215
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000154",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 450
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000158",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 317
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000160",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 188
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000164",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 19,
+    "un-classified": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000168",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 26
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000173",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 684
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000176",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 8,
+    "un-classified": 13
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000177",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 203,
+    "un-classified": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000179",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 27,
+    "un-classified": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000181",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 352,
+    "un-classified": 7,
+    "minor-damage": 9
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000182",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 328
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000185",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 535,
+    "un-classified": 14
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000186",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 374
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000192",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "un-classified": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000005",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 284
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000006",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 595,
+    "minor-damage": 8
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000010",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 261
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000012",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 236
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000022",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 112,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000025",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 98
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000028",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 152
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000058",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 649,
+    "minor-damage": 18
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000061",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 384
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000063",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 582
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000065",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 291,
+    "minor-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000069",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 305,
+    "minor-damage": 12,
+    "major-damage": 16
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000080",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 214
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000090",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 155
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000094",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 542
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000095",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 34,
+    "un-classified": 3,
+    "minor-damage": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000109",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 45
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000117",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 1058,
+    "minor-damage": 2,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000121",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 486
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000124",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 329,
+    "minor-damage": 3,
+    "major-damage": 6,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000131",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 360
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000135",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 512
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000139",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 362
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000157",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 171
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000161",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 272,
+    "minor-damage": 9,
+    "un-classified": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000163",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 321
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000174",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 174
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000178",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 124
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000180",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 206,
+    "un-classified": 2,
+    "minor-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000187",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 255,
+    "major-damage": 1,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000189",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 199,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000190",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 28
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000000",
+   "counts": {
+    "no-damage": 81,
+    "destroyed": 9,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000001",
+   "counts": {
+    "no-damage": 27,
+    "major-damage": 2,
+    "destroyed": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000002",
+   "counts": {
+    "no-damage": 273,
+    "un-classified": 3,
+    "destroyed": 34,
+    "major-damage": 11
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000003",
+   "counts": {
+    "major-damage": 5
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000005",
+   "counts": {
+    "no-damage": 158,
+    "un-classified": 21,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000006",
+   "counts": {
+    "no-damage": 416,
+    "un-classified": 97,
+    "destroyed": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000007",
+   "counts": {
+    "destroyed": 30,
+    "no-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000011",
+   "counts": {
+    "un-classified": 99,
+    "no-damage": 350
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000015",
+   "counts": {
+    "destroyed": 79,
+    "no-damage": 9,
+    "major-damage": 7
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000016",
+   "counts": {
+    "destroyed": 7
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000019",
+   "counts": {
+    "destroyed": 103,
+    "no-damage": 130,
+    "un-classified": 53,
+    "major-damage": 8
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000020",
+   "counts": {
+    "destroyed": 70,
+    "major-damage": 3,
+    "no-damage": 14
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000022",
+   "counts": {
+    "no-damage": 43,
+    "un-classified": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000023",
+   "counts": {
+    "no-damage": 162,
+    "major-damage": 1,
+    "un-classified": 1,
+    "destroyed": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000024",
+   "counts": {
+    "no-damage": 473,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000025",
+   "counts": {
+    "no-damage": 47,
+    "major-damage": 7,
+    "destroyed": 32,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000026",
+   "counts": {
+    "destroyed": 51,
+    "major-damage": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000030",
+   "counts": {
+    "destroyed": 109,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000033",
+   "counts": {
+    "destroyed": 8,
+    "no-damage": 7,
+    "major-damage": 4,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000034",
+   "counts": {
+    "major-damage": 2,
+    "no-damage": 107,
+    "destroyed": 4,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000040",
+   "counts": {
+    "no-damage": 56,
+    "destroyed": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000042",
+   "counts": {
+    "no-damage": 15,
+    "destroyed": 2,
+    "major-damage": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000043",
+   "counts": {
+    "destroyed": 2,
+    "no-damage": 58
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000044",
+   "counts": {
+    "no-damage": 273,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000045",
+   "counts": {
+    "no-damage": 765,
+    "major-damage": 7,
+    "destroyed": 14
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000047",
+   "counts": {
+    "no-damage": 97,
+    "destroyed": 123,
+    "major-damage": 17
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000048",
+   "counts": {
+    "no-damage": 155,
+    "destroyed": 7,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000049",
+   "counts": {}
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000050",
+   "counts": {
+    "no-damage": 14,
+    "destroyed": 1,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000051",
+   "counts": {
+    "destroyed": 13,
+    "un-classified": 4,
+    "no-damage": 55,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000053",
+   "counts": {
+    "major-damage": 6,
+    "destroyed": 38,
+    "no-damage": 54,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000054",
+   "counts": {
+    "no-damage": 605
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000056",
+   "counts": {
+    "no-damage": 106,
+    "destroyed": 54,
+    "major-damage": 10
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000057",
+   "counts": {
+    "destroyed": 43,
+    "no-damage": 34,
+    "major-damage": 9
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000058",
+   "counts": {
+    "no-damage": 775
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000061",
+   "counts": {
+    "no-damage": 171,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000064",
+   "counts": {
+    "no-damage": 250,
+    "destroyed": 7
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000065",
+   "counts": {
+    "destroyed": 41,
+    "no-damage": 61,
+    "major-damage": 27
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000066",
+   "counts": {
+    "destroyed": 87,
+    "major-damage": 5,
+    "no-damage": 6
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000067",
+   "counts": {
+    "no-damage": 629,
+    "un-classified": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000068",
+   "counts": {
+    "no-damage": 467,
+    "destroyed": 16,
+    "major-damage": 9,
+    "un-classified": 8
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000069",
+   "counts": {
+    "destroyed": 197,
+    "major-damage": 18,
+    "no-damage": 260,
+    "un-classified": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000071",
+   "counts": {
+    "no-damage": 85,
+    "major-damage": 2,
+    "destroyed": 13
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000072",
+   "counts": {
+    "no-damage": 484,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000073",
+   "counts": {
+    "no-damage": 79,
+    "destroyed": 34,
+    "major-damage": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000074",
+   "counts": {
+    "no-damage": 889,
+    "un-classified": 6
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000076",
+   "counts": {
+    "no-damage": 23
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000077",
+   "counts": {}
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000083",
+   "counts": {
+    "major-damage": 5,
+    "no-damage": 214,
+    "destroyed": 10
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000084",
+   "counts": {
+    "no-damage": 595,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000086",
+   "counts": {
+    "no-damage": 138,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000087",
+   "counts": {
+    "no-damage": 1185,
+    "un-classified": 1,
+    "destroyed": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000088",
+   "counts": {
+    "no-damage": 166,
+    "major-damage": 29,
+    "destroyed": 16,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000090",
+   "counts": {
+    "no-damage": 210,
+    "un-classified": 2,
+    "major-damage": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000092",
+   "counts": {
+    "no-damage": 225,
+    "un-classified": 6,
+    "destroyed": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000097",
+   "counts": {
+    "no-damage": 706,
+    "un-classified": 7,
+    "destroyed": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000098",
+   "counts": {
+    "no-damage": 1000,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000099",
+   "counts": {
+    "no-damage": 138
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000100",
+   "counts": {
+    "destroyed": 2,
+    "no-damage": 72
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000101",
+   "counts": {
+    "no-damage": 102,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000102",
+   "counts": {
+    "no-damage": 101,
+    "un-classified": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000103",
+   "counts": {
+    "major-damage": 1,
+    "destroyed": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000106",
+   "counts": {
+    "no-damage": 96,
+    "un-classified": 1,
+    "major-damage": 3,
+    "destroyed": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000107",
+   "counts": {
+    "no-damage": 59,
+    "destroyed": 12,
+    "major-damage": 5
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000108",
+   "counts": {
+    "no-damage": 151,
+    "major-damage": 1,
+    "destroyed": 5,
+    "un-classified": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000109",
+   "counts": {
+    "no-damage": 284,
+    "major-damage": 8,
+    "un-classified": 3,
+    "destroyed": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000110",
+   "counts": {
+    "no-damage": 9,
+    "destroyed": 93
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000111",
+   "counts": {
+    "no-damage": 42,
+    "destroyed": 7,
+    "un-classified": 1,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000112",
+   "counts": {
+    "no-damage": 105,
+    "major-damage": 20,
+    "destroyed": 91,
+    "minor-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000115",
+   "counts": {
+    "destroyed": 15,
+    "major-damage": 60,
+    "un-classified": 7,
+    "no-damage": 352
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000118",
+   "counts": {
+    "no-damage": 294,
+    "destroyed": 1540,
+    "major-damage": 9
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000119",
+   "counts": {
+    "no-damage": 308,
+    "destroyed": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000121",
+   "counts": {
+    "no-damage": 3,
+    "destroyed": 5,
+    "major-damage": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000122",
+   "counts": {
+    "no-damage": 181,
+    "destroyed": 36,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000123",
+   "counts": {
+    "no-damage": 249
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000125",
+   "counts": {
+    "destroyed": 197,
+    "major-damage": 53,
+    "no-damage": 716
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000126",
+   "counts": {
+    "no-damage": 499
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000128",
+   "counts": {
+    "no-damage": 178
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000131",
+   "counts": {
+    "no-damage": 309,
+    "major-damage": 37,
+    "destroyed": 54,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000132",
+   "counts": {
+    "no-damage": 32,
+    "destroyed": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000133",
+   "counts": {
+    "no-damage": 59,
+    "destroyed": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000134",
+   "counts": {
+    "no-damage": 746,
+    "major-damage": 2,
+    "destroyed": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000136",
+   "counts": {
+    "major-damage": 24,
+    "destroyed": 99,
+    "no-damage": 171
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000137",
+   "counts": {
+    "no-damage": 1766,
+    "un-classified": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000140",
+   "counts": {
+    "no-damage": 950
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000142",
+   "counts": {
+    "destroyed": 16,
+    "no-damage": 8,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000145",
+   "counts": {
+    "no-damage": 11,
+    "destroyed": 5,
+    "major-damage": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000148",
+   "counts": {
+    "major-damage": 2,
+    "destroyed": 14,
+    "no-damage": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000152",
+   "counts": {
+    "no-damage": 798,
+    "destroyed": 1,
+    "major-damage": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000153",
+   "counts": {
+    "no-damage": 80,
+    "un-classified": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000154",
+   "counts": {
+    "no-damage": 44,
+    "un-classified": 2
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000155",
+   "counts": {
+    "no-damage": 69
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000157",
+   "counts": {
+    "no-damage": 48,
+    "un-classified": 4
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000160",
+   "counts": {
+    "no-damage": 164,
+    "destroyed": 49,
+    "major-damage": 9
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000161",
+   "counts": {
+    "no-damage": 187,
+    "un-classified": 1,
+    "major-damage": 6,
+    "destroyed": 98
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000164",
+   "counts": {
+    "major-damage": 52,
+    "no-damage": 220,
+    "un-classified": 13,
+    "destroyed": 29
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000166",
+   "counts": {
+    "destroyed": 36,
+    "major-damage": 10,
+    "no-damage": 67,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000167",
+   "counts": {
+    "destroyed": 137,
+    "no-damage": 382,
+    "major-damage": 8
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000168",
+   "counts": {
+    "no-damage": 13,
+    "destroyed": 175,
+    "un-classified": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000169",
+   "counts": {
+    "destroyed": 26,
+    "no-damage": 82
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000171",
+   "counts": {
+    "no-damage": 62,
+    "destroyed": 6,
+    "major-damage": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000174",
+   "counts": {
+    "no-damage": 294
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000175",
+   "counts": {
+    "no-damage": 346,
+    "major-damage": 1
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000177",
+   "counts": {
+    "no-damage": 239
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000178",
+   "counts": {
+    "destroyed": 223,
+    "no-damage": 398,
+    "major-damage": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000179",
+   "counts": {
+    "no-damage": 475,
+    "un-classified": 5
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000182",
+   "counts": {
+    "destroyed": 511,
+    "no-damage": 79,
+    "major-damage": 24
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000183",
+   "counts": {
+    "no-damage": 89,
+    "major-damage": 2,
+    "destroyed": 34
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000187",
+   "counts": {
+    "no-damage": 10,
+    "destroyed": 3
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000188",
+   "counts": {
+    "destroyed": 26,
+    "un-classified": 1,
+    "no-damage": 8
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000189",
+   "counts": {
+    "destroyed": 34,
+    "major-damage": 8,
+    "no-damage": 75
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000191",
+   "counts": {
+    "no-damage": 13,
+    "destroyed": 92
+   }
+  },
+  {
+   "source": "D:\\pc\\earthquake data\\train",
+   "chip": "palu-tsunami_00000195",
+   "counts": {
+    "destroyed": 4,
+    "un-classified": 2,
+    "no-damage": 16,
+    "major-damage": 1
+   }
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000148",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 7,
+    "minor-damage": 3,
+    "destroyed": 2,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000023",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 154,
+    "major-damage": 2,
+    "un-classified": 1,
+    "destroyed": 8,
+    "minor-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000101",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 104,
+    "minor-damage": 3,
+    "destroyed": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000138",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 649,
+    "minor-damage": 6,
+    "destroyed": 1,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000167",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 139,
+    "no-damage": 374,
+    "major-damage": 8,
+    "minor-damage": 6
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000069",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 202,
+    "major-damage": 19,
+    "no-damage": 252,
+    "un-classified": 4,
+    "minor-damage": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000186",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 366,
+    "destroyed": 5,
+    "minor-damage": 2,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000019",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 107,
+    "no-damage": 122,
+    "minor-damage": 3,
+    "un-classified": 53,
+    "major-damage": 9
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000055",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 196,
+    "minor-damage": 13,
+    "destroyed": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000090",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 147,
+    "minor-damage": 5,
+    "destroyed": 2,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000158",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 309,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000000",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 439,
+    "minor-damage": 5,
+    "destroyed": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000125",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 501,
+    "minor-damage": 4,
+    "destroyed": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000182",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 514,
+    "no-damage": 71,
+    "major-damage": 24,
+    "minor-damage": 5
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000114",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 3,
+    "no-damage": 14,
+    "destroyed": 5,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000100",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 6,
+    "no-damage": 64,
+    "major-damage": 1,
+    "minor-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000092",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 322,
+    "minor-damage": 20
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000152",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 790,
+    "minor-damage": 5,
+    "destroyed": 4,
+    "major-damage": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000107",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 51,
+    "destroyed": 17,
+    "minor-damage": 3,
+    "major-damage": 5
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000122",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 516,
+    "destroyed": 4,
+    "minor-damage": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000108",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 2,
+    "no-damage": 143,
+    "major-damage": 2,
+    "destroyed": 10,
+    "un-classified": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000144",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 354,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000146",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 287,
+    "minor-damage": 6,
+    "destroyed": 3,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000157",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 163,
+    "minor-damage": 4,
+    "destroyed": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000179",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 3,
+    "destroyed": 5,
+    "no-damage": 19,
+    "un-classified": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000166",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 41,
+    "major-damage": 10,
+    "no-damage": 59,
+    "minor-damage": 3,
+    "un-classified": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000143",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 507,
+    "minor-damage": 3,
+    "destroyed": 4,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000111",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 34,
+    "minor-damage": 7,
+    "destroyed": 8,
+    "un-classified": 1,
+    "major-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000040",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 48,
+    "minor-damage": 5,
+    "major-damage": 1,
+    "destroyed": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000018",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 235,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000095",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 26,
+    "destroyed": 4,
+    "un-classified": 3,
+    "minor-damage": 6,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000042",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 3,
+    "destroyed": 7,
+    "no-damage": 7,
+    "major-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000053",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "major-damage": 6,
+    "destroyed": 42,
+    "no-damage": 46,
+    "minor-damage": 4,
+    "un-classified": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000003",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 915,
+    "minor-damage": 11,
+    "destroyed": 6
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000155",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 61,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000017",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 312,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000065",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 46,
+    "no-damage": 53,
+    "major-damage": 27,
+    "minor-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000140",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 711,
+    "minor-damage": 5,
+    "major-damage": 2,
+    "destroyed": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000072",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 476,
+    "minor-damage": 4,
+    "destroyed": 4,
+    "un-classified": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000063",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 574,
+    "minor-damage": 6,
+    "destroyed": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000021",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 275,
+    "minor-damage": 3,
+    "destroyed": 3,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000033",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 85,
+    "destroyed": 5,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000132",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 24,
+    "destroyed": 4,
+    "major-damage": 1,
+    "minor-damage": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000087",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 1177,
+    "minor-damage": 4,
+    "un-classified": 1,
+    "destroyed": 5,
+    "major-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000053",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 392,
+    "minor-damage": 17,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000001",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 19,
+    "destroyed": 6,
+    "major-damage": 3,
+    "minor-damage": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000010",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 253,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000139",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 354,
+    "major-damage": 1,
+    "minor-damage": 5,
+    "destroyed": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000182",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 320,
+    "destroyed": 4,
+    "minor-damage": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000083",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 900,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000046",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 67,
+    "major-damage": 2,
+    "minor-damage": 5,
+    "destroyed": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000048",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 1140,
+    "destroyed": 4,
+    "minor-damage": 12,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000050",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 4,
+    "no-damage": 6,
+    "destroyed": 4,
+    "un-classified": 2,
+    "major-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000007",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 427,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000174",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 4,
+    "no-damage": 286,
+    "destroyed": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000027",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 232,
+    "minor-damage": 3,
+    "destroyed": 4,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000039",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 106,
+    "destroyed": 4,
+    "minor-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000054",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 597,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000093",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 82,
+    "major-damage": 3,
+    "destroyed": 2,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000161",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 179,
+    "destroyed": 100,
+    "un-classified": 1,
+    "minor-damage": 6,
+    "major-damage": 6
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000030",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 105,
+    "minor-damage": 2,
+    "destroyed": 4,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000064",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 242,
+    "destroyed": 12,
+    "minor-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000134",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 738,
+    "minor-damage": 7,
+    "major-damage": 3,
+    "destroyed": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000122",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 173,
+    "destroyed": 41,
+    "major-damage": 1,
+    "minor-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000088",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 158,
+    "destroyed": 21,
+    "major-damage": 29,
+    "un-classified": 2,
+    "minor-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000131",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 352,
+    "minor-damage": 4,
+    "destroyed": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000086",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 130,
+    "major-damage": 1,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "un-classified": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000020",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 101,
+    "destroyed": 4,
+    "minor-damage": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000153",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 72,
+    "minor-damage": 3,
+    "destroyed": 3,
+    "major-damage": 2,
+    "un-classified": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000126",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 268,
+    "destroyed": 6,
+    "minor-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000154",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 36,
+    "minor-damage": 6,
+    "un-classified": 2,
+    "major-damage": 1,
+    "destroyed": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000058",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 641,
+    "destroyed": 5,
+    "minor-damage": 20,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000005",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 150,
+    "destroyed": 3,
+    "un-classified": 21,
+    "major-damage": 2,
+    "minor-damage": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000088",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 274,
+    "minor-damage": 6,
+    "destroyed": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000185",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 527,
+    "un-classified": 14,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000132",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 103,
+    "minor-damage": 4,
+    "destroyed": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000025",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 39,
+    "minor-damage": 4,
+    "destroyed": 36,
+    "major-damage": 7,
+    "un-classified": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000126",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "major-damage": 1,
+    "no-damage": 491,
+    "minor-damage": 4,
+    "destroyed": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000071",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 77,
+    "major-damage": 2,
+    "destroyed": 17,
+    "minor-damage": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000097",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 698,
+    "destroyed": 5,
+    "minor-damage": 4,
+    "un-classified": 7
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000029",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 317,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000174",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 166,
+    "minor-damage": 6,
+    "destroyed": 1,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000177",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 231,
+    "destroyed": 5,
+    "major-damage": 2,
+    "minor-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000073",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 71,
+    "destroyed": 35,
+    "major-damage": 3,
+    "minor-damage": 7
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000102",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 93,
+    "minor-damage": 3,
+    "un-classified": 4,
+    "destroyed": 5
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000043",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 831,
+    "minor-damage": 3,
+    "destroyed": 5,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000034",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "major-damage": 2,
+    "no-damage": 99,
+    "destroyed": 6,
+    "minor-damage": 6,
+    "un-classified": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000048",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 147,
+    "minor-damage": 6,
+    "destroyed": 9,
+    "major-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000191",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 2,
+    "destroyed": 98,
+    "no-damage": 5
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000163",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 313,
+    "destroyed": 4,
+    "minor-damage": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000098",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 992,
+    "minor-damage": 4,
+    "un-classified": 2,
+    "destroyed": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000171",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 54,
+    "destroyed": 9,
+    "minor-damage": 5,
+    "major-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000102",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 130,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000049",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 505,
+    "major-damage": 4,
+    "destroyed": 5,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000072",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 50,
+    "destroyed": 5,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000178",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 228,
+    "no-damage": 390,
+    "major-damage": 4,
+    "minor-damage": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000107",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 571,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000141",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 50,
+    "destroyed": 3,
+    "minor-damage": 3,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000125",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 203,
+    "major-damage": 53,
+    "no-damage": 708,
+    "minor-damage": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000059",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 342,
+    "major-damage": 2,
+    "minor-damage": 6,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000087",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 187,
+    "destroyed": 4,
+    "minor-damage": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000080",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 206,
+    "destroyed": 3,
+    "minor-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000028",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 144,
+    "destroyed": 4,
+    "major-damage": 1,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000076",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 2,
+    "destroyed": 5,
+    "no-damage": 15,
+    "major-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000090",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 202,
+    "destroyed": 2,
+    "un-classified": 2,
+    "minor-damage": 4,
+    "major-damage": 4
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000161",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 264,
+    "minor-damage": 14,
+    "destroyed": 2,
+    "major-damage": 1,
+    "un-classified": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000118",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 271,
+    "minor-damage": 3,
+    "destroyed": 3,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000152",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "minor-damage": 4,
+    "no-damage": 17,
+    "destroyed": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000032",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 40,
+    "major-damage": 2,
+    "destroyed": 1,
+    "minor-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000119",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 300,
+    "destroyed": 8,
+    "minor-damage": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000024",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 278,
+    "destroyed": 5,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000035",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 165,
+    "minor-damage": 5,
+    "destroyed": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000045",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 757,
+    "destroyed": 21,
+    "major-damage": 7,
+    "minor-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000011",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "un-classified": 99,
+    "no-damage": 342,
+    "minor-damage": 6,
+    "destroyed": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000160",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 180,
+    "minor-damage": 3,
+    "destroyed": 3,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000066",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 18,
+    "minor-damage": 4,
+    "destroyed": 3,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000109",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 37,
+    "destroyed": 6,
+    "minor-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000068",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 459,
+    "destroyed": 19,
+    "minor-damage": 3,
+    "major-damage": 11,
+    "un-classified": 8
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000079",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 170,
+    "destroyed": 4,
+    "major-damage": 1,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000131",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 301,
+    "destroyed": 58,
+    "minor-damage": 2,
+    "major-damage": 39,
+    "un-classified": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000142",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 155,
+    "minor-damage": 5,
+    "destroyed": 4,
+    "un-classified": 11,
+    "major-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000169",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "destroyed": 30,
+    "no-damage": 74,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000128",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 170,
+    "destroyed": 4,
+    "minor-damage": 3,
+    "major-damage": 1
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000135",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 504,
+    "destroyed": 1,
+    "minor-damage": 6,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000164",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "major-damage": 53,
+    "no-damage": 212,
+    "minor-damage": 5,
+    "un-classified": 13,
+    "destroyed": 31
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000052",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 829,
+    "minor-damage": 15,
+    "destroyed": 4,
+    "major-damage": 6
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000137",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 1758,
+    "major-damage": 3,
+    "destroyed": 2,
+    "minor-damage": 3,
+    "un-classified": 3
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-mexico-earthquake_00000103",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 55,
+    "minor-damage": 1,
+    "destroyed": 6,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000084",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "no-damage": 587,
+    "minor-damage": 4,
+    "destroyed": 2,
+    "major-damage": 2,
+    "un-classified": 2
+   },
+   "captures": []
+  },
+  {
+   "chip": "cutmix-palu-tsunami_00000136",
+   "source": "data\\synthetic_cutmix",
+   "origin": "cutmix",
+   "counts": {
+    "major-damage": 24,
+    "destroyed": 104,
+    "no-damage": 163,
+    "minor-damage": 3
+   },
+   "captures": []
+  }
+ ],
+ "val": [
+  {
+   "chip": "mexico-earthquake_00000001",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 172
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000013",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 260
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000037",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 292
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000044",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 191
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000068",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 209
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000070",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 127
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000074",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 289,
+    "minor-damage": 7
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000082",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 287,
+    "minor-damage": 4
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000085",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 301,
+    "minor-damage": 1,
+    "major-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000086",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 208,
+    "minor-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000098",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 208
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000104",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 99,
+    "un-classified": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000105",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 146
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000115",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 344
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000127",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 270
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000151",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 296,
+    "minor-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000155",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 2
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000159",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 136
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000166",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 7
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000171",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 407
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000172",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 14
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000184",
+   "source": "D:\\pc\\earthquake data\\train",
+   "origin": "train_original",
+   "counts": {
+    "no-damage": 351
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000076",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 283,
+    "major-damage": 4,
+    "minor-damage": 7,
+    "destroyed": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000106",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 10
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000113",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 75
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000169",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 5,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000183",
+   "source": "D:\\pc\\earthquake data\\test\\test",
+   "origin": "test_previous",
+   "counts": {
+    "no-damage": 510,
+    "minor-damage": 12,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  }
+ ],
+ "test": [
+  {
+   "chip": "mexico-earthquake_00000014",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 199
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000016",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 56
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000026",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 154
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000036",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 508
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000038",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 484,
+    "un-classified": 17
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000045",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 227
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000050",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 491
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000051",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 143
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000054",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 109
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000056",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 133
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000060",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 168,
+    "minor-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000062",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 66,
+    "minor-damage": 5
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000071",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 111
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000073",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 142,
+    "major-damage": 2,
+    "minor-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000077",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 249
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000081",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 272,
+    "minor-damage": 4,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000091",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 164,
+    "minor-damage": 8
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000097",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 273
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000099",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 3
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000116",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 231,
+    "minor-damage": 6
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000123",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 405
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000130",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 301
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000133",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 180
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000134",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 184
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000137",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 60
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000145",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 38,
+    "un-classified": 4,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000147",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 554
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000149",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 68
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000156",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 172
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000162",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 698,
+    "major-damage": 1
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000165",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 9
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000167",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 859
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000170",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 18
+   },
+   "captures": "1030010072469D00"
+  },
+  {
+   "chip": "mexico-earthquake_00000175",
+   "source": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\original\\hold",
+   "origin": "hold_new",
+   "counts": {
+    "no-damage": 5,
+    "un-classified": 4
+   },
+   "captures": "1030010072469D00"
+  }
+ ]
+}
