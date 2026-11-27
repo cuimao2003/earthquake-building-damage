@@ -1,0 +1,121 @@
+{
+  "scenes": 42,
+  "localizer": "proposal_transformer_fusion",
+  "detection_iou_threshold": 0.5,
+  "box_f1": 0.5440558103975535,
+  "detection_precision": 0.6803298279158699,
+  "detection_recall": 0.4532643312101911,
+  "detection_counts": [
+    5693,
+    8368,
+    12560
+  ],
+  "classification": {
+    "matrix": [
+      [
+        4907,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        747,
+        0,
+        3
+      ]
+    ],
+    "unmatched_truth": [
+      6019,
+      0,
+      737
+    ],
+    "accuracy": 0.39552118575801515,
+    "macro_f1": 0.17124367392232157,
+    "damaged_macro_f1": 0.0020093770931011385,
+    "balanced_accuracy": 0.15036286437759896,
+    "classes": {
+      "no_damage": {
+        "precision": 0.5892878587726672,
+        "recall": 0.44907110826393337,
+        "f1": 0.5097122675807625,
+        "support": 10927,
+        "predicted": 8327
+      },
+      "minor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0,
+        "predicted": 0
+      },
+      "major_or_destroyed": {
+        "precision": 0.5,
+        "recall": 0.0020174848688634837,
+        "f1": 0.004018754186202277,
+        "support": 1487,
+        "predicted": 6
+      }
+    },
+    "unmatched_predictions": [
+      2673,
+      0,
+      2
+    ]
+  },
+  "example": "palu-tsunami_00000143",
+  "given_human_boxes_diagnostic": {
+    "matrix": [
+      [
+        10915,
+        0,
+        12
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1478,
+        0,
+        9
+      ]
+    ],
+    "unmatched_truth": [
+      0,
+      0,
+      0
+    ],
+    "accuracy": 0.8799742226518447,
+    "macro_f1": 0.31601422866875045,
+    "damaged_macro_f1": 0.005968169761273209,
+    "balanced_accuracy": 0.33498475249340215,
+    "classes": {
+      "no_damage": {
+        "precision": 0.8807391269264908,
+        "recall": 0.9989018028736159,
+        "f1": 0.9361063464837049,
+        "support": 10927,
+        "predicted": 12393
+      },
+      "minor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0,
+        "predicted": 0
+      },
+      "major_or_destroyed": {
+        "precision": 0.42857142857142855,
+        "recall": 0.00605245460659045,
+        "f1": 0.011936339522546418,
+        "support": 1487,
+        "predicted": 21
+      }
+    }
+  }
+}

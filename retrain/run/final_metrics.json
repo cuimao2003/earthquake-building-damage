@@ -1,0 +1,249 @@
+{
+  "mexico_validation": {
+    "baseline_old_model": "0.2296 (see mexico_large_selection/automatic_thresholds.json)",
+    "mix_palu_pooled": {
+      "macro_f1": 0.2137,
+      "damaged_macro_f1": 0.0471,
+      "minor_f1": 0.0656,
+      "minor_tp": 2,
+      "minor_predicted": 24,
+      "major_f1": 0.0286,
+      "major_tp": 1,
+      "major_predicted": 60,
+      "box_f1": 0.5522
+    },
+    "mix_palu_attention": {
+      "macro_f1": 0.2193,
+      "damaged_macro_f1": 0.064,
+      "minor_f1": 0.1111,
+      "minor_tp": 3,
+      "minor_predicted": 17,
+      "major_f1": 0.0168,
+      "major_tp": 1,
+      "major_predicted": 109,
+      "box_f1": 0.5368
+    },
+    "mix_palu_rank": {
+      "macro_f1": 0.2081,
+      "damaged_macro_f1": 0.0387,
+      "minor_f1": 0.0476,
+      "minor_tp": 2,
+      "minor_predicted": 47,
+      "major_f1": 0.0299,
+      "major_tp": 1,
+      "major_predicted": 57,
+      "box_f1": 0.5523
+    },
+    "mix_palu_kate": {
+      "macro_f1": 0.2102,
+      "damaged_macro_f1": 0.0441,
+      "minor_f1": 0.0678,
+      "minor_tp": 2,
+      "minor_predicted": 22,
+      "major_f1": 0.0203,
+      "major_tp": 3,
+      "major_predicted": 285,
+      "box_f1": 0.5525
+    },
+    "proposal_attention_floor24": {
+      "macro_f1": 0.2087,
+      "damaged_macro_f1": 0.0504,
+      "minor_f1": 0.0899,
+      "minor_tp": 4,
+      "minor_predicted": 52,
+      "major_f1": 0.011,
+      "major_tp": 1,
+      "major_predicted": 172,
+      "box_f1": 0.5305
+    }
+  },
+  "mexico_fusion_validation": {
+    "mix_fusion": {
+      "weight": [
+        0.8,
+        0.0
+      ],
+      "macro_f1": 0.2388,
+      "damaged_macro_f1": 0.0835
+    },
+    "floor24_fusion": {
+      "weight": [
+        1.0,
+        0.2
+      ],
+      "macro_f1": 0.2359,
+      "damaged_macro_f1": 0.0909
+    }
+  },
+  "mexico_history_holdout": {
+    "old_model": 0.1557,
+    "mix_palu_pooled": {
+      "macro_f1": 0.1561,
+      "damaged_macro_f1": 0.0,
+      "accuracy": 0.4696,
+      "box_f1": 0.4732,
+      "major_f1": 0.0,
+      "major_tp": 0,
+      "major_predicted": 76,
+      "given_box_accuracy": null,
+      "given_box_major_f1": null
+    },
+    "mix_fusion": {
+      "macro_f1": 0.1566,
+      "damaged_macro_f1": 0.0,
+      "accuracy": 0.4737,
+      "box_f1": 0.4731,
+      "major_f1": 0.0,
+      "major_tp": 0,
+      "major_predicted": 18,
+      "given_box_accuracy": null,
+      "given_box_major_f1": null
+    },
+    "floor24_fusion": {
+      "macro_f1": 0.1535,
+      "damaged_macro_f1": 0.0,
+      "accuracy": 0.5728,
+      "box_f1": 0.4633,
+      "major_f1": 0.0,
+      "major_tp": 0,
+      "major_predicted": 77,
+      "given_box_accuracy": null,
+      "given_box_major_f1": null
+    }
+  },
+  "palu_cross_event": {
+    "old_model": {
+      "macro_f1": 0.1713,
+      "damaged_macro_f1": 0.002,
+      "accuracy": 0.3954,
+      "box_f1": 0.5441,
+      "major_f1": 0.004,
+      "major_tp": 3,
+      "major_predicted": 6,
+      "given_box_accuracy": 0.88,
+      "given_box_major_f1": 0.0093
+    },
+    "floor24_fusion": {
+      "macro_f1": 0.1799,
+      "damaged_macro_f1": 0.0066,
+      "accuracy": 0.479,
+      "box_f1": 0.5668,
+      "major_f1": 0.0132,
+      "major_tp": 10,
+      "major_predicted": 27,
+      "given_box_accuracy": 0.881,
+      "given_box_major_f1": 0.0365
+    },
+    "mix_palu_pooled": {
+      "macro_f1": 0.3283,
+      "damaged_macro_f1": 0.2322,
+      "accuracy": 0.429,
+      "box_f1": 0.5441,
+      "major_f1": 0.4643,
+      "major_tp": 625,
+      "major_predicted": 1205,
+      "given_box_accuracy": 0.9072,
+      "given_box_major_f1": 0.6828
+    },
+    "mix_palu_attention": {
+      "macro_f1": 0.289,
+      "damaged_macro_f1": 0.1904,
+      "accuracy": 0.3909,
+      "box_f1": 0.5437,
+      "major_f1": 0.3808,
+      "major_tp": 678,
+      "major_predicted": 2074,
+      "given_box_accuracy": 0.8048,
+      "given_box_major_f1": 0.5263
+    },
+    "mix_palu_rank": {
+      "macro_f1": 0.2949,
+      "damaged_macro_f1": 0.1976,
+      "accuracy": 0.3928,
+      "box_f1": 0.546,
+      "major_f1": 0.3952,
+      "major_tp": 690,
+      "major_predicted": 2005,
+      "given_box_accuracy": 0.8159,
+      "given_box_major_f1": 0.5453
+    },
+    "mix_palu_kate": {
+      "macro_f1": 0.1474,
+      "damaged_macro_f1": 0.1018,
+      "accuracy": 0.1878,
+      "box_f1": 0.5454,
+      "major_f1": 0.2037,
+      "major_tp": 734,
+      "major_predicted": 5720,
+      "given_box_accuracy": 0.3401,
+      "given_box_major_f1": 0.2637
+    },
+    "mix_fusion": {
+      "macro_f1": 0.1712,
+      "damaged_macro_f1": 0.002,
+      "accuracy": 0.3955,
+      "box_f1": 0.5441,
+      "major_f1": 0.004,
+      "major_tp": 3,
+      "major_predicted": 6,
+      "given_box_accuracy": 0.88,
+      "given_box_major_f1": 0.0119
+    }
+  },
+  "kate_cd_turkey2023": {
+    "old_model": {
+      "pixel_damage_precision": 0.103,
+      "pixel_damage_recall": 0.1911,
+      "pixel_damage_f1": 0.1339,
+      "iou": 0.0717
+    },
+    "mix_palu_pooled": {
+      "pixel_damage_precision": 0.1485,
+      "pixel_damage_recall": 0.4233,
+      "pixel_damage_f1": 0.2198,
+      "iou": 0.1235
+    },
+    "mix_palu_kate": {
+      "pixel_damage_precision": 0.0853,
+      "pixel_damage_recall": 0.6118,
+      "pixel_damage_f1": 0.1497,
+      "iou": 0.0809
+    }
+  },
+  "bootstrap_validation": {
+    "mix_palu_pooled": {
+      "point": {
+        "macro_f1": 0.2136,
+        "damaged_macro_f1": 0.0469,
+        "accuracy": 0.5681
+      },
+      "macro_f1": {
+        "mean": 0.2091,
+        "low95": 0.1755,
+        "high95": 0.2463
+      },
+      "damaged_macro_f1": {
+        "mean": 0.0402,
+        "low95": 0.0,
+        "high95": 0.1015
+      }
+    },
+    "mix_palu_kate": {
+      "point": {
+        "macro_f1": 0.2124,
+        "damaged_macro_f1": 0.0474,
+        "accuracy": 0.5495
+      },
+      "macro_f1": {
+        "mean": 0.2127,
+        "low95": 0.1818,
+        "high95": 0.2489
+      },
+      "damaged_macro_f1": {
+        "mean": 0.0477,
+        "low95": 0.0062,
+        "high95": 0.0984
+      }
+    }
+  }
+}

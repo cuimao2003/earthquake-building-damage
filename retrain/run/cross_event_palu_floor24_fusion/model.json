@@ -1,0 +1,5 @@
+{
+  "head": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\proposal_attention_floor24\\head.pt",
+  "fusion": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\floor24_fusion\\fusion.json",
+  "evaluated_pairs": 42
+}

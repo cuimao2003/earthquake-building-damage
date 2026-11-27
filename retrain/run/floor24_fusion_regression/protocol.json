@@ -1,0 +1,7 @@
+{
+  "evaluation": "regression",
+  "training_run": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\proposal_attention_floor24",
+  "scenes": 34,
+  "checkpoint_sha256": "0235c0db4ca6ad5b5d7d983fcde41d3b79310f924efc08fd7fba75c20d164e0a",
+  "fusion_sha256": "642c2af59dc6d16bd1980643420d5c2c8a9e3b1a5d3219ba5a42e5587c0b6781"
+}

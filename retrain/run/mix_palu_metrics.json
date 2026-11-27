@@ -1,0 +1,68 @@
+{
+  "mix_palu_pooled": {
+    "validation": {
+      "macro": 0.2137,
+      "damaged": 0.0471,
+      "minor_f1": 0.0656,
+      "major_f1": 0.0286,
+      "minor_pred": 24,
+      "major_pred": 60,
+      "box_f1": 0.5522
+    },
+    "palu": {
+      "e2e_macro": 0.3283,
+      "e2e_damaged": 0.2322,
+      "major_f1": 0.4643,
+      "major_tp": 625,
+      "major_pred": 1205,
+      "box_f1": 0.5441,
+      "given_acc": 0.9072,
+      "given_macro": 0.5428,
+      "given_major_f1": 0.6828
+    }
+  },
+  "mix_palu_attention": {
+    "validation": {
+      "macro": 0.2193,
+      "damaged": 0.064,
+      "minor_f1": 0.1111,
+      "major_f1": 0.0168,
+      "minor_pred": 17,
+      "major_pred": 109,
+      "box_f1": 0.5368
+    },
+    "palu": {
+      "e2e_macro": 0.289,
+      "e2e_damaged": 0.1904,
+      "major_f1": 0.3808,
+      "major_tp": 678,
+      "major_pred": 2074,
+      "box_f1": 0.5437,
+      "given_acc": 0.8048,
+      "given_macro": 0.4678,
+      "given_major_f1": 0.5263
+    }
+  },
+  "mix_palu_rank": {
+    "validation": {
+      "macro": 0.2081,
+      "damaged": 0.0387,
+      "minor_f1": 0.0476,
+      "major_f1": 0.0299,
+      "minor_pred": 47,
+      "major_pred": 57,
+      "box_f1": 0.5523
+    },
+    "palu": {
+      "e2e_macro": 0.2949,
+      "e2e_damaged": 0.1976,
+      "major_f1": 0.3952,
+      "major_tp": 690,
+      "major_pred": 2005,
+      "box_f1": 0.546,
+      "given_acc": 0.8159,
+      "given_macro": 0.4766,
+      "given_major_f1": 0.5453
+    }
+  }
+}

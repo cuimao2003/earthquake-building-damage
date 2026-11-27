@@ -190,7 +190,7 @@ python evaluate.py
 ## 说明
 
 - `docs/` 与 `retrain/` 中的历史实验记录保留了作者本机路径（如 `D:\土坑论文\...`、`F:\transformer\...`），仅作为实验环境记录，复现时请替换为相对路径或本机路径。
-- 仓库体积约 55 MB：包含第一代与第三代模型权重（分级头）、精选指标 / 对照图与典型结果图；数据集、缓存、Swin 检测器与 DINOv2 骨架等大权重未包含，避免仓库膨胀。
+- 仓库体积约 65 MB：包含第一代与第三代模型权重（分级头）、精选指标 / 对照图与典型结果图；数据集、缓存、Swin 检测器与 DINOv2 骨架等大权重未包含，避免仓库膨胀。
 - 代码与实验结果由本项目作者整理，欢迎交流。
 
 ## 2026-11-27 更新：候选框 Transformer（第三代）
@@ -277,3 +277,37 @@ python retrain/train_proposal_transformer.py test --out retrain/run/ds_attention
 
 - 分级头权重已包含：`retrain/run/*/head.pt`（0.7–1.5 MB/个），融合配置 `fusion.json` 与参考模型选择记录也已包含。
 - 体积过大的文件未包含：Swin 检测器 `run/*/detector.pt`（约 114 MB）、DINOv2 骨架 `retrain/weights/*.pth`（84–1161 MB）、旧流水线编码器 `run/mexico_vitl112/mexico_vit.pt` 等；推理前需按 `retrain/README.md` 与训练方案自行准备。
+
+
+## 2026-11-27 更新（二）：跨震区混合训练与独立验证
+
+针对「墨西哥 27 个验证场景上调参不泛化」的问题，本轮把本地 xBD 中此前未使用的**帕卢 2018 地震 + 海啸**数据加入训练，并用土耳其 2023 的 KATE-CD 做独立验证。
+
+### 数据
+
+- 帕卢训练：113 对影像（25,455 栋未受损 / 571 重损 / 4,966 毁坏 / 1 轻损 / 401 未分级）；帕卢官方测试：42 对（10,927 / 250 / 1,237，无轻损），作为跨地震独立测试。
+- 混合清单 `retrain/data/manifest_plus_palu.json`：train = 墨西哥 130 + 帕卢 113 = 243 对，val = 墨西哥 27 对，test = 墨西哥 34 对；缓存 `retrain/data/proposal_palu_mix`（5.3 GB）。
+- 外部数据：KATE-CD 土耳其 2023（486 对 512px 震前/后影像 + 二值损伤掩膜，HF 免账号下载），用于独立像素级验证与辅助训练。
+
+### 结果
+
+| 模型 | 墨西哥验证 宏F1 / 损伤档F1 | 墨西哥34对留出 宏F1 / 框F1 | 帕卢42对端到端 宏F1 / 损伤档 / 重损F1 | 帕卢给人工框 准确率 / 重损F1 | KATE-CD 像素损伤F1 |
+|---|---:|---:|---:|---:|---:|
+| 旧模型 | 0.2296 / 0.0708 | 0.1557 / 0.4731 | 0.1713 / 0.0020 / 0.0040 | 0.880 / 0.009 | 0.134 |
+| 混合 pooled（基础损失） | 0.2137 / 0.0471 | 0.1561 / 0.4732 | **0.3283 / 0.2322 / 0.4643** | **0.907 / 0.683** | **0.220** |
+| 混合 attention | **0.2193 / 0.0640** | — | 0.2890 / 0.1904 / 0.3808 | 0.805 / 0.526 | — |
+| 混合 pooled + ranking/focal + 重损采样 40 | 0.2081 / 0.0387 | — | 0.2949 / 0.1976 / 0.3952 | 0.816 / 0.545 | — |
+| 混合 pooled + KATE 辅助 | 0.2102 / 0.0441 | — | 0.1474 / 0.1018 / 0.2037（损伤严重过报） | 0.340 / 0.264 | 0.150 |
+| 混合 pooled + 旧模型融合 [0.8, 0.0] | **0.2388 / 0.0835** | 0.1566 / 0.4731 | 0.1712 / 0.0020 / 0.0040 | 0.880 / 0.012 | — |
+
+- **跨震区提升是实质性的**：帕卢端到端宏 F1 0.1713 → 0.3283，重损 F1 0 → 0.4643（TP 625）；给人工框时重损 F1 0.009 → 0.683（召回 83%、精确率 58%）。土耳其 2023（KATE-CD）独立像素损伤 F1 0.134 → 0.220。
+- **墨西哥没有退化**：34 对历史留出 0.1561（旧模型 0.1557）；墨西哥验证从 0.201~0.207 升到 0.214~0.219；融合配置验证 0.2388 为当前最高。
+- 27 场景 bootstrap（1000 次）显示墨西哥验证宏 F1 95% CI 约 [0.18, 0.25]，小样本差异仍不显著；跨事件提升的幅度（0.17→0.33）远超该区间。
+- 失败记录：ranking/focal 损失没有超过基础混合模型；KATE 辅助训练大幅提高损伤召回（0.42→0.61）但精确率降到 8.5%，导致帕卢出现严重过报（重损预测 5,720、TP 734），未采用；融合配置在帕卢上退化到 0.1712（旧模型不识别帕卢损伤），说明**融合只适用于墨西哥口径**，跨震区应使用混合模型本体。
+
+### 本轮新增文件
+
+- 脚本：`retrain/evaluate_cross_event.py`、`evaluate_kate.py`、`prepare_kate_aux.py`、`bootstrap_validation.py`、`run_fusion_grid.py`、`make_fusion_config.py`、`make_floor24_fusion.py`、`collect_final_metrics.py`；`roi_transformer.py` 损失支持可选 ranking/focal，训练入口新增 `--loss`、`--focal-gamma`、`--heavy-budget`、`--kate-aux`。
+- 记录：`retrain/run/mix_palu_summary.md`、`retrain/run/final_metrics.json`、`retrain/run/mix_palu_metrics.json`。
+- 运行目录：`run/mix_palu_pooled/`、`mix_palu_attention/`、`mix_palu_rank/`、`mix_palu_kate/`、`mix_fusion/`、`mix_fusion_regression/`、`cross_event_palu_*/`、`kate_eval_*/`、`bootstrap_*.json`。
+- 数据：`retrain/data/manifest_plus_palu.json`；帕卢测试子集由本地 xBD 硬链接生成，原始影像不随仓库发布。

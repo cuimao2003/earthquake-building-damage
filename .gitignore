@@ -38,3 +38,9 @@ retrain/data/turkey/labels/
 # 操作系统
 .DS_Store
 Thumbs.db
+
+# 2026-11-27 跨震区实验的大文件（不随仓库发布）
+retrain/data/proposal_palu_mix/
+retrain/data/external/
+retrain/data/kate_aux.npz
+*.parquet

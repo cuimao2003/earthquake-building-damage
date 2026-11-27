@@ -91,13 +91,24 @@ def probabilities(logits):
     return valid, grades
 
 
-def training_loss(logits, target, has_background):
+def training_loss(logits, target, has_background, ranking=False, focal_gamma=0.0):
     eligible = target >= 0
     damaged = target > 0
     def binary(channel, keep, labels):
-        return F.binary_cross_entropy_with_logits(logits[keep, channel], labels[keep].float(), reduction="sum") / keep.sum().clamp_min(1)
+        raw = F.binary_cross_entropy_with_logits(logits[keep, channel], labels[keep].float(), reduction="none")
+        if focal_gamma > 0:
+            probability = logits[keep, channel].sigmoid()
+            pt = torch.where(labels[keep] > .5, probability, 1. - probability)
+            raw = raw * (1. - pt).clamp_min(0.).pow(focal_gamma)
+        return raw.sum() / keep.sum().clamp_min(1)
     damage = binary(1, eligible, damaged)
     severe = binary(2, damaged, target == 2)
+    if ranking and (target == 0).any() and damaged.any():
+        # Any visible damage should outrank intact roofs on the heavy-vs-intact margin,
+        # which the plain positive-only severe BCE never sees as negatives.
+        negative = (logits[target == 0, 2] - logits[target == 0, 0]).mean()
+        positive = (logits[damaged, 2] - logits[damaged, 0]).mean()
+        severe = severe + .30 * F.softplus(negative - positive + .5)
     if not has_background:
         return damage + severe
     weight = torch.where(eligible, 1., .45)

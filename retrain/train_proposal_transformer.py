@@ -248,7 +248,7 @@ def fit(args, device):
     groups = {k: np.flatnonzero(data["target"] == k) for k in (-1, 0, 1, 2)}
     if any(not len(groups[k]) for k in (0, 1, 2)):
         raise ValueError("Training cache needs labeled intact, light and heavy damage buildings")
-    budget = {0: 28, 1: 14, 2: 10}
+    budget = {0: 28, 1: 14, 2: args.heavy_budget}
     has_background = bool(len(groups[-1]))
     if has_background:
         budget[-1] = 12
@@ -261,6 +261,11 @@ def fit(args, device):
     use_amp = device.type == "cuda"
     scaler = torch.cuda.amp.GradScaler(enabled=use_amp)
     auxiliary = auxiliary_identity = None
+    kate = None
+    if args.kate_aux:
+        with np.load(args.kate_aux, allow_pickle=False) as z:
+            kate = dict(z)
+        print(f"KATE auxiliary: {len(kate['target'])} patches", flush=True)
     if args.use_morocco:
         auxiliary_identity = json.loads((args.cache / "morocco_source.json").read_bytes())
         with np.load(args.cache / "morocco.npz", allow_pickle=False) as z:
@@ -279,11 +284,16 @@ def fit(args, device):
             optim.zero_grad(set_to_none=True)
             with torch.cuda.amp.autocast(enabled=use_amp):
                 logits = head(tensor(data["features"][ids], device), tensor(data["roi"][ids], device).float())
-                loss = training_loss(logits.float(), tensor(data["target"][ids], device), has_background)
+                loss = training_loss(logits.float(), tensor(data["target"][ids], device), has_background,
+                                     ranking=args.loss == "rank", focal_gamma=args.focal_gamma)
                 if auxiliary is not None:
                     ids = rng.integers(0, len(auxiliary["target"]), 16)
                     extra = head(tensor(auxiliary["features"][ids], device), tensor(auxiliary["roi"][ids], device).float())
-                    loss += .20 * F.binary_cross_entropy_with_logits(extra[:, 3].float(), tensor(auxiliary["target"][ids], device))
+                    loss += .20 * F.binary_cross_entropy_with_logits(extra[:, 2].float(), tensor(auxiliary["target"][ids], device))
+            if kate is not None:
+                ids = rng.integers(0, len(kate["target"]), 16)
+                extra = head(tensor(kate["features"][ids], device), tensor(kate["roi"][ids], device).float())
+                loss += .20 * F.binary_cross_entropy_with_logits(extra[:, 1].float(), tensor(kate["target"][ids], device))
             if not torch.isfinite(loss):
                 raise RuntimeError(f"Non-finite training loss on epoch {epoch}")
             scaler.scale(loss).backward()
@@ -564,6 +574,10 @@ def main():
     cli.add_argument("--steps", type=int, default=65)
     cli.add_argument("--seconds", type=int, default=1200)
     cli.add_argument("--seed", type=int, default=341561)
+    cli.add_argument("--loss", choices=("base", "rank"), default="base", help="base BCE or ranking-augmented loss")
+    cli.add_argument("--heavy-budget", type=int, default=10, help="heavy-damage samples per training step")
+    cli.add_argument("--focal-gamma", type=float, default=0.0, help="focal-loss gamma for the damage BCE")
+    cli.add_argument("--kate-aux", type=Path, help="cached KATE-CD Turkey 2023 auxiliary damage features")
     cli.add_argument("--result", type=Path)
     cli.add_argument("--test-folder", type=Path)
     cli.add_argument("--regression", action="store_true")
@@ -571,7 +585,7 @@ def main():
     cli.add_argument("--pre", type=Path)
     cli.add_argument("--post", type=Path)
     args = cli.parse_args()
-    if min(args.encode_batch, args.epochs, args.steps, args.seconds) < 1 or args.pilot_scenes < 0:
+    if min(args.encode_batch, args.epochs, args.steps, args.seconds, args.heavy_budget) < 1 or args.pilot_scenes < 0:
         cli.error("Batch, epochs, steps and time must be positive")
     if args.detector_floor is not None and (args.action != "prepare" or not .05 <= args.detector_floor <= 1):
         cli.error("--detector-floor is a preparation option in the range .05 to 1")

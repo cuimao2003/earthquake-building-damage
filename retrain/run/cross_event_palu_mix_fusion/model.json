@@ -1,0 +1,5 @@
+{
+  "head": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\mix_palu_pooled\\head.pt",
+  "fusion": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\mix_fusion\\fusion.json",
+  "evaluated_pairs": 42
+}

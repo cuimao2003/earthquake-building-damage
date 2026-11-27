@@ -1,0 +1,12 @@
+{
+  "folder": "D:\\土坑论文\\earthquake_transformer\\retrain\\data\\external\\palu_test",
+  "disaster": "palu-tsunami",
+  "mode": "proposal",
+  "pairs": 42,
+  "annotation_counts": {
+    "no-damage": 10927,
+    "major-damage": 250,
+    "un-classified": 146,
+    "destroyed": 1237
+  }
+}

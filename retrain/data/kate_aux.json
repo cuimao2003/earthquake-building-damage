@@ -1,0 +1,7 @@
+{
+  "split": "train",
+  "rows": 404,
+  "patches": 1614,
+  "positive": 808,
+  "source": "E:\\datasets\\kate-cd"
+}

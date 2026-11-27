@@ -1,0 +1,7 @@
+{
+  "evaluation": "regression",
+  "training_run": "D:\\土坑论文\\earthquake_transformer\\retrain\\run\\mix_palu_pooled",
+  "scenes": 34,
+  "checkpoint_sha256": "0dcc7d09a9be1e0990870be4976fdc6b1ffa5b2cb10b30a7776418c827194e70",
+  "fusion_sha256": "95ebd93d655a02dd29d5dc8456fd2b8fbf3f7c9e202ec08e6bb4cb60b6ea9e17"
+}
