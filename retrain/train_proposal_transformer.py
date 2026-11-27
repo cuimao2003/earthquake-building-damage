@@ -39,6 +39,14 @@ def digest(path):
     return fingerprint.hexdigest()
 
 
+def load_encoder(weights, device):
+    """Accept either a raw DINOv2 checkpoint or an old-pipeline fine-tuned checkpoint."""
+    from dino import dino_from_state, load_dino
+    state = torch.load(weights, map_location="cpu")
+    if isinstance(state, dict) and isinstance(state.get("encoder"), dict):
+        return dino_from_state(state["encoder"], device)
+    return load_dino(weights, device)
+
 def index(args):
     return json.loads(args.manifest.read_bytes())
 
@@ -98,7 +106,7 @@ def prepare(args, device):
     write_json(stamp, header)
     rows = index(args)
     detector, state = load_swin(args.detector, device)
-    encoder = load_dino(args.weights, device)
+    encoder = load_encoder(args.weights, device)
     for split in ("train", "val"):
         records = rows[split]
         if args.pilot_scenes:
@@ -354,7 +362,7 @@ class ProposalGrader:
         self.detector_floor = state["cache"].get("detector_floor")
         if state["cache"]["encoder_sha256"] != digest(args.weights) or state["cache"]["detector_sha256"] != digest(args.detector):
             raise ValueError("Encoder or detector differs from the locked training inputs")
-        self.encoder = load_dino(args.weights, device)
+        self.encoder = load_encoder(args.weights, device)
         self.detector, self.detector_state = load_swin(args.detector, device)
         self.head = RoofTransformer(state["width"], state["variant"]).to(device)
         self.head.load_state_dict(state["head"])

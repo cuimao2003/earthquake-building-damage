@@ -311,3 +311,18 @@ python retrain/train_proposal_transformer.py test --out retrain/run/ds_attention
 - 记录：`retrain/run/mix_palu_summary.md`、`retrain/run/final_metrics.json`、`retrain/run/mix_palu_metrics.json`。
 - 运行目录：`run/mix_palu_pooled/`、`mix_palu_attention/`、`mix_palu_rank/`、`mix_palu_kate/`、`mix_fusion/`、`mix_fusion_regression/`、`cross_event_palu_*/`、`kate_eval_*/`、`bootstrap_*.json`。
 - 数据：`retrain/data/manifest_plus_palu.json`；帕卢测试子集由本地 xBD 硬链接生成，原始影像不随仓库发布。
+
+
+### 附加实验：复用旧流水线微调过的 DINOv2 编码器（评审建议 E2）
+
+从旧模型 `run/mexico_vitb168/mexico_vit.pt` 中取出微调后的 ViT-B/168 编码器，用同一候选框流程重建缓存 `data/proposal_vitb168_ft`（墨西哥 130 + 27 场景），训练 pooled / attention 分级头：
+
+| 配置 | 墨西哥验证宏 F1 / 损伤档 F1 | 融合（权重） | 帕卢端到端宏 F1 / 损伤档 | KATE-CD 像素损伤 F1 |
+|---|---:|---|---:|---:|
+| 微调编码器 pooled | **0.2211** / 0.0571 | 0.2359（[0.0, 1.0]） | 0.1704 / 0.0013 | 0.024 |
+| 微调编码器 attention | 0.2126 / 0.0455 | — | — | — |
+| 对照：混合 pooled（raw 编码器） | 0.2137 / 0.0471 | 0.2388（[0.8, 0.0]） | **0.3283 / 0.2322** | **0.220** |
+
+- 微调编码器把墨西哥验证单头推到 0.2211（单头最高），但轻损预测数被 validity 阈值压到 0、重损 F1 仅 0.1143，且融合后 0.2359 仍低于混合融合的 0.2388。
+- 跨震区严重退化（帕卢 0.1704、KATE 0.024）：旧编码器是在墨西哥旧任务上微调的，领域偏移被放大。
+- 结论：不采用。最终推荐仍是「墨西哥口径用 mix_fusion（0.2388 / 留出 0.1566），未知震区用 mix_palu_pooled（帕卢 0.3283 / KATE 0.220）」。

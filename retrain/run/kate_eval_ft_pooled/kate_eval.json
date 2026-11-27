@@ -1,0 +1,322 @@
+{
+  "split": "validation",
+  "mode": "proposal",
+  "chips": 44,
+  "pixel_damage_precision": 0.05369765424579665,
+  "pixel_damage_recall": 0.015745964741378144,
+  "pixel_damage_f1": 0.024351304922780124,
+  "iou": 0.012325726220181231,
+  "true_positive_pixels": 5819,
+  "false_positive_pixels": 102547,
+  "false_negative_pixels": 363736,
+  "per_chip": [
+    {
+      "chip": 1,
+      "boxes": 63,
+      "damaged_boxes": 2,
+      "label_pixels": 10123,
+      "predicted_pixels": 3108
+    },
+    {
+      "chip": 2,
+      "boxes": 66,
+      "damaged_boxes": 5,
+      "label_pixels": 957,
+      "predicted_pixels": 3628
+    },
+    {
+      "chip": 3,
+      "boxes": 106,
+      "damaged_boxes": 2,
+      "label_pixels": 1196,
+      "predicted_pixels": 2770
+    },
+    {
+      "chip": 4,
+      "boxes": 60,
+      "damaged_boxes": 4,
+      "label_pixels": 23256,
+      "predicted_pixels": 6477
+    },
+    {
+      "chip": 5,
+      "boxes": 92,
+      "damaged_boxes": 3,
+      "label_pixels": 34423,
+      "predicted_pixels": 17408
+    },
+    {
+      "chip": 6,
+      "boxes": 77,
+      "damaged_boxes": 3,
+      "label_pixels": 48332,
+      "predicted_pixels": 4588
+    },
+    {
+      "chip": 7,
+      "boxes": 88,
+      "damaged_boxes": 3,
+      "label_pixels": 3441,
+      "predicted_pixels": 3421
+    },
+    {
+      "chip": 8,
+      "boxes": 78,
+      "damaged_boxes": 1,
+      "label_pixels": 6385,
+      "predicted_pixels": 888
+    },
+    {
+      "chip": 9,
+      "boxes": 35,
+      "damaged_boxes": 1,
+      "label_pixels": 11273,
+      "predicted_pixels": 2944
+    },
+    {
+      "chip": 10,
+      "boxes": 92,
+      "damaged_boxes": 1,
+      "label_pixels": 1567,
+      "predicted_pixels": 725
+    },
+    {
+      "chip": 11,
+      "boxes": 68,
+      "damaged_boxes": 1,
+      "label_pixels": 1461,
+      "predicted_pixels": 1800
+    },
+    {
+      "chip": 12,
+      "boxes": 11,
+      "damaged_boxes": 2,
+      "label_pixels": 1831,
+      "predicted_pixels": 3250
+    },
+    {
+      "chip": 13,
+      "boxes": 71,
+      "damaged_boxes": 0,
+      "label_pixels": 4736,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 14,
+      "boxes": 50,
+      "damaged_boxes": 2,
+      "label_pixels": 6065,
+      "predicted_pixels": 1452
+    },
+    {
+      "chip": 15,
+      "boxes": 49,
+      "damaged_boxes": 0,
+      "label_pixels": 5154,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 16,
+      "boxes": 88,
+      "damaged_boxes": 7,
+      "label_pixels": 3178,
+      "predicted_pixels": 7125
+    },
+    {
+      "chip": 17,
+      "boxes": 35,
+      "damaged_boxes": 0,
+      "label_pixels": 3676,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 18,
+      "boxes": 113,
+      "damaged_boxes": 5,
+      "label_pixels": 3180,
+      "predicted_pixels": 3808
+    },
+    {
+      "chip": 19,
+      "boxes": 54,
+      "damaged_boxes": 3,
+      "label_pixels": 9427,
+      "predicted_pixels": 2449
+    },
+    {
+      "chip": 20,
+      "boxes": 90,
+      "damaged_boxes": 1,
+      "label_pixels": 5256,
+      "predicted_pixels": 10622
+    },
+    {
+      "chip": 21,
+      "boxes": 60,
+      "damaged_boxes": 0,
+      "label_pixels": 5844,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 22,
+      "boxes": 46,
+      "damaged_boxes": 0,
+      "label_pixels": 2946,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 23,
+      "boxes": 41,
+      "damaged_boxes": 0,
+      "label_pixels": 8664,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 24,
+      "boxes": 47,
+      "damaged_boxes": 0,
+      "label_pixels": 21495,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 25,
+      "boxes": 70,
+      "damaged_boxes": 3,
+      "label_pixels": 5238,
+      "predicted_pixels": 1739
+    },
+    {
+      "chip": 26,
+      "boxes": 85,
+      "damaged_boxes": 4,
+      "label_pixels": 4181,
+      "predicted_pixels": 5969
+    },
+    {
+      "chip": 27,
+      "boxes": 103,
+      "damaged_boxes": 2,
+      "label_pixels": 1461,
+      "predicted_pixels": 1484
+    },
+    {
+      "chip": 28,
+      "boxes": 15,
+      "damaged_boxes": 0,
+      "label_pixels": 13966,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 29,
+      "boxes": 53,
+      "damaged_boxes": 0,
+      "label_pixels": 10664,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 30,
+      "boxes": 46,
+      "damaged_boxes": 1,
+      "label_pixels": 3697,
+      "predicted_pixels": 525
+    },
+    {
+      "chip": 31,
+      "boxes": 37,
+      "damaged_boxes": 0,
+      "label_pixels": 3361,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 32,
+      "boxes": 101,
+      "damaged_boxes": 0,
+      "label_pixels": 7493,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 33,
+      "boxes": 99,
+      "damaged_boxes": 5,
+      "label_pixels": 9722,
+      "predicted_pixels": 4991
+    },
+    {
+      "chip": 34,
+      "boxes": 77,
+      "damaged_boxes": 1,
+      "label_pixels": 2501,
+      "predicted_pixels": 3422
+    },
+    {
+      "chip": 35,
+      "boxes": 31,
+      "damaged_boxes": 0,
+      "label_pixels": 1871,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 36,
+      "boxes": 73,
+      "damaged_boxes": 0,
+      "label_pixels": 1661,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 37,
+      "boxes": 23,
+      "damaged_boxes": 0,
+      "label_pixels": 8784,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 38,
+      "boxes": 55,
+      "damaged_boxes": 2,
+      "label_pixels": 31569,
+      "predicted_pixels": 3150
+    },
+    {
+      "chip": 39,
+      "boxes": 74,
+      "damaged_boxes": 0,
+      "label_pixels": 2278,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 40,
+      "boxes": 62,
+      "damaged_boxes": 0,
+      "label_pixels": 1510,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 41,
+      "boxes": 37,
+      "damaged_boxes": 0,
+      "label_pixels": 1531,
+      "predicted_pixels": 0
+    },
+    {
+      "chip": 42,
+      "boxes": 63,
+      "damaged_boxes": 1,
+      "label_pixels": 3437,
+      "predicted_pixels": 624
+    },
+    {
+      "chip": 43,
+      "boxes": 38,
+      "damaged_boxes": 1,
+      "label_pixels": 28275,
+      "predicted_pixels": 9999
+    },
+    {
+      "chip": 44,
+      "boxes": 53,
+      "damaged_boxes": 0,
+      "label_pixels": 2489,
+      "predicted_pixels": 0
+    }
+  ]
+}
